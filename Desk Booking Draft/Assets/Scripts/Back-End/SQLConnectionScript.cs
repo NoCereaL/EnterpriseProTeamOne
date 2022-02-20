@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SQLConnectionScript : MonoBehaviour
 {
-    private string secretKey = ""; // Edit this value and make sure it's the same as the one stored on the server
+    private string secretKey = "team"; // Edit this value and make sure it's the same as the one stored on the server
     public string addScoreURL = "http://localhost/unity_test/addscore.php?"; //be sure to add a ? to your url
     public string highscoreURL = "http://localhost/unity_test/display.php";
 
@@ -14,9 +14,11 @@ public class SQLConnectionScript : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(GetScores());
-        //StartCoroutine(PostScores("Simonnn", 2));
+        //StartCoroutine(GetScores());
+        StartCoroutine(PostScores("Moya", 1));
     }
+
+
 
     // remember to use StartCoroutine when calling this function!
     IEnumerator PostScores(string name, int score)
@@ -30,10 +32,12 @@ public class SQLConnectionScript : MonoBehaviour
         // Post the URL to the site and create a download object to get the result.
         WWW hs_post = new WWW(post_url);
         yield return hs_post; // Wait until the download is done
+        statusText.text = hs_post.text;
         Debug.Log("Success");
+        Debug.Log(hs_post.text);    //Print Php result
         if (hs_post.error != null)
         {
-            print("There was an error posting the high score: " + hs_post.error);
+            Debug.Log("There was an error posting the high score: " + hs_post.error);
         }
     }
 

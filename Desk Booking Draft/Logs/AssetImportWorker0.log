@@ -1,0 +1,1237 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.29f1 (2ff179115da0) revision 3142009'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/smoya/Documents/GitHub/EnterpriseProTeamOne/Desk Booking Draft
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61164
+Successfully changed project path to: C:/Users/smoya/Documents/GitHub/EnterpriseProTeamOne/Desk Booking Draft
+C:/Users/smoya/Documents/GitHub/EnterpriseProTeamOne/Desk Booking Draft
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/smoya/Documents/GitHub/EnterpriseProTeamOne/Desk Booking Draft/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   
+    VRAM:     12143 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001188 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.416 seconds
+Domain Reload Profiling:
+	ReloadAssembly (416ms)
+		BeginReloadAssembly (40ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (331ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (652ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3312 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.8 MB.
+System memory in use after: 140.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3748.
+Total: 3.070400 ms (FindLiveObjects: 0.229300 ms CreateObjectMapping: 0.127600 ms MarkObjects: 2.648900 ms  DeleteObjects: 0.063900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Brown.prefab
+  artifactKey: Guid(a1692c2952e71924b95e2ad2f2daeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Brown.prefab using Guid(a1692c2952e71924b95e2ad2f2daeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9b10eb7a1d18aab73f2892e12ccadc') in 0.098565 seconds 
+  Import took 0.102656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Brown.prefab
+  artifactKey: Guid(95b2b860062ddac4fb8402b97e9f9d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Brown.prefab using Guid(95b2b860062ddac4fb8402b97e9f9d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cb3909cebbe8bafd6831c6f9ccf144') in 0.026322 seconds 
+  Import took 0.030225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Brown.prefab
+  artifactKey: Guid(a947ad2d00d861746845017ccf8d3520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Brown.prefab using Guid(a947ad2d00d861746845017ccf8d3520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedfe2eb9bb0b5767d49539f5095d53f') in 0.027819 seconds 
+  Import took 0.031586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Blue.prefab
+  artifactKey: Guid(fb2712c1642cadd44a3e145d0977f4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Blue.prefab using Guid(fb2712c1642cadd44a3e145d0977f4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef638de3282682a91d05d080f9a62b77') in 0.022286 seconds 
+  Import took 0.026183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Gray.prefab
+  artifactKey: Guid(8e9321a0f814e6247a6ae6de3ec12324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Gray.prefab using Guid(8e9321a0f814e6247a6ae6de3ec12324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d99f0403b273a58631e487df9e7089e') in 0.023212 seconds 
+  Import took 0.027338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Green.prefab
+  artifactKey: Guid(8f795a167c68bda4380e7f1f0b56b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Green.prefab using Guid(8f795a167c68bda4380e7f1f0b56b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736358f67b1232c7120150e7a10ab0c8') in 0.023624 seconds 
+  Import took 0.028070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Red.prefab
+  artifactKey: Guid(287dba96d1fe6df469c3f9f71959457c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Red.prefab using Guid(287dba96d1fe6df469c3f9f71959457c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0cfcde4ace8c7ff9603b0323d1cef1') in 0.021836 seconds 
+  Import took 0.025588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Green.prefab
+  artifactKey: Guid(138d89dffcee5ac4d96f33c47dfbaa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Green.prefab using Guid(138d89dffcee5ac4d96f33c47dfbaa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2f4c9b5d2e43080fa25fcdb2b00c80') in 0.022555 seconds 
+  Import took 0.026314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Blue.prefab
+  artifactKey: Guid(2da25ea217bc6ae429fd301f830d7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Blue.prefab using Guid(2da25ea217bc6ae429fd301f830d7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3bf38c7e6bb2bc326029485113d7e9') in 0.022222 seconds 
+  Import took 0.026290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Brown.prefab
+  artifactKey: Guid(913a65ec51cedf449956e2e6217bc8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Brown.prefab using Guid(913a65ec51cedf449956e2e6217bc8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f289e0ae15f717262726413ebb02dc') in 0.022377 seconds 
+  Import took 0.026360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Gray.prefab
+  artifactKey: Guid(4b5853009cb35a24db1d2fa3ae73d495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Gray.prefab using Guid(4b5853009cb35a24db1d2fa3ae73d495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761119c3184c21663ddd45a20576a41d') in 0.033645 seconds 
+  Import took 0.037395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Brown.prefab
+  artifactKey: Guid(9d46a253c259d8748823689dd9ccb0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Brown.prefab using Guid(9d46a253c259d8748823689dd9ccb0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1635727f5979babfe483460cabe440') in 0.023297 seconds 
+  Import took 0.027039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Gray.prefab
+  artifactKey: Guid(b60d212c3c19e45458b0b3159d7889e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Gray.prefab using Guid(b60d212c3c19e45458b0b3159d7889e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8c27d256f381ce3c16afa16c7edf83') in 0.022885 seconds 
+  Import took 0.026648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Brown.prefab
+  artifactKey: Guid(36ccd9cf28ccb3047ab2a3c668c4c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Brown.prefab using Guid(36ccd9cf28ccb3047ab2a3c668c4c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3084d98fb2146da6b8036232be9bb42') in 0.023206 seconds 
+  Import took 0.027557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Brown.prefab
+  artifactKey: Guid(10768e9548d02a24c84583180a359d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Brown.prefab using Guid(10768e9548d02a24c84583180a359d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca23a238153248912d439a911a3a25e') in 0.023125 seconds 
+  Import took 0.027061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Gray.prefab
+  artifactKey: Guid(9b14e2af28100b04e9d1af79a19a8866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Gray.prefab using Guid(9b14e2af28100b04e9d1af79a19a8866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e10c8c2654761a5377792e5742a45e') in 0.023416 seconds 
+  Import took 0.027306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Gray.prefab
+  artifactKey: Guid(d1e0ee66080d13a4b9766bef3c2e10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Gray.prefab using Guid(d1e0ee66080d13a4b9766bef3c2e10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44dd9242a725af63c3305723c964418') in 0.021930 seconds 
+  Import took 0.026168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_Gray.prefab
+  artifactKey: Guid(8c4b60b0b98a3e940a01f65ffa9c7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_Gray.prefab using Guid(8c4b60b0b98a3e940a01f65ffa9c7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c67a67ec8da8e46f2e5a5b16d320272') in 0.023048 seconds 
+  Import took 0.026813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Gray.prefab
+  artifactKey: Guid(296da6be247fb924487bc85db7473c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Gray.prefab using Guid(296da6be247fb924487bc85db7473c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b5d862222071d64520c3efbd6cff8a') in 0.022655 seconds 
+  Import took 0.026645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Blue.prefab
+  artifactKey: Guid(0fc452142e3ba434fa720feb583036ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Blue.prefab using Guid(0fc452142e3ba434fa720feb583036ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ff33ad56ba6cca7fb4fa2e21245f5b') in 0.024364 seconds 
+  Import took 0.028407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Blue.prefab
+  artifactKey: Guid(93f4669d677a9d748a92b0346ca0868d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Blue.prefab using Guid(93f4669d677a9d748a92b0346ca0868d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0403d4e1acaf5187cb0934162a5795c5') in 0.023019 seconds 
+  Import took 0.027205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Brown.prefab
+  artifactKey: Guid(979a36ebce26300479ba8edf6824a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Brown.prefab using Guid(979a36ebce26300479ba8edf6824a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd606e95fd87a536b9435175ffcdea046') in 0.023349 seconds 
+  Import took 0.027233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Blue.prefab
+  artifactKey: Guid(48f5425b9cdf4b54cbf2b692bfdadc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Blue.prefab using Guid(48f5425b9cdf4b54cbf2b692bfdadc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383959979cfd10434c2a99bcaf415aeb') in 0.022503 seconds 
+  Import took 0.026365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_WarmGray.prefab
+  artifactKey: Guid(aee6e1aa60779454aae22a8ee09f3432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_WarmGray.prefab using Guid(aee6e1aa60779454aae22a8ee09f3432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a36b006948b75da9bee7e0540cf4230') in 0.023044 seconds 
+  Import took 0.026935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Gray.prefab
+  artifactKey: Guid(faccd031c30aa8c4495f789a16ae775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Gray.prefab using Guid(faccd031c30aa8c4495f789a16ae775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f49471d6aaa82628d3b67a96f7fc74') in 0.022225 seconds 
+  Import took 0.026440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Blue.prefab
+  artifactKey: Guid(06205caad5c6b0741bb6460b67dc02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Blue.prefab using Guid(06205caad5c6b0741bb6460b67dc02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede679f0742bc578bcaaef0d268dd289') in 0.022974 seconds 
+  Import took 0.026808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_Brown.prefab
+  artifactKey: Guid(7898a6727326f8b4b872dbca9d790646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_Brown.prefab using Guid(7898a6727326f8b4b872dbca9d790646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f783d2500b7ca1375fac43d91ad06f9a') in 0.022234 seconds 
+  Import took 0.026146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Gray.prefab
+  artifactKey: Guid(fa21954fbbe7d37408bf8f084fa42a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Gray.prefab using Guid(fa21954fbbe7d37408bf8f084fa42a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c5690a685286672ca9b4ebd42e8b8e') in 0.022859 seconds 
+  Import took 0.026751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Blue.prefab
+  artifactKey: Guid(962fd06c48bba7248ba6b9732aaaff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Blue.prefab using Guid(962fd06c48bba7248ba6b9732aaaff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500f96ff7b04d9b86966e7ad6e5b968d') in 0.021863 seconds 
+  Import took 0.025764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Gray.prefab
+  artifactKey: Guid(052605470de71d1449d29ef81160fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Gray.prefab using Guid(052605470de71d1449d29ef81160fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500b4f394e4e7ad651a20ad14aa76acf') in 0.023164 seconds 
+  Import took 0.027441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Green.prefab
+  artifactKey: Guid(0ea49c2ce2fd59642a1fee05d921f663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Green.prefab using Guid(0ea49c2ce2fd59642a1fee05d921f663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4f75ead064fcabd72dfee10e4ca219') in 0.022957 seconds 
+  Import took 0.027010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Gray.prefab
+  artifactKey: Guid(26d966ec9757e164bb06706d189e73e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Gray.prefab using Guid(26d966ec9757e164bb06706d189e73e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7836f0a13aae60fe5f5ac3229a15f4f5') in 0.022583 seconds 
+  Import took 0.026806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Blue.prefab
+  artifactKey: Guid(63be5d074d7b8c0448dceb3fdb927d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Blue.prefab using Guid(63be5d074d7b8c0448dceb3fdb927d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f9130053a458bc6539f73eb34a77a2') in 0.022827 seconds 
+  Import took 0.026865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Blue.prefab
+  artifactKey: Guid(f3d838ea05816964eaa84db1553fc7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Blue.prefab using Guid(f3d838ea05816964eaa84db1553fc7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edfdef45a82e3f39c32148336064bd6') in 0.022909 seconds 
+  Import took 0.027137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Blue.prefab
+  artifactKey: Guid(3e2447ad11a26d74e98873faab1510b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Blue.prefab using Guid(3e2447ad11a26d74e98873faab1510b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04994882e569d9e04d5e9ef4ffbb5aa9') in 0.022457 seconds 
+  Import took 0.026420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Purple.prefab
+  artifactKey: Guid(7a68da82d11fc9441b80aee529479c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Purple.prefab using Guid(7a68da82d11fc9441b80aee529479c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2575b088092d1298a3e35853d552e167') in 0.022551 seconds 
+  Import took 0.026803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Green.prefab
+  artifactKey: Guid(4dd2fbadd9976cb4cb8b2636e6ecd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Green.prefab using Guid(4dd2fbadd9976cb4cb8b2636e6ecd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5dc25d4d3d778893665fc33bcd09ff') in 0.022508 seconds 
+  Import took 0.026477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Brown.prefab
+  artifactKey: Guid(a34800e545e51d14a9ff9744858beea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Brown.prefab using Guid(a34800e545e51d14a9ff9744858beea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffdff1fb8ca630e87a8f5d0729bb32f') in 0.022496 seconds 
+  Import took 0.026402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Blue.prefab
+  artifactKey: Guid(0c1960312e51ed649852c03b2117cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Blue.prefab using Guid(0c1960312e51ed649852c03b2117cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45faae828d36d5e3817039dcb9e2a7b1') in 0.023446 seconds 
+  Import took 0.027233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Brown.prefab
+  artifactKey: Guid(fdd587809aa52924596e5c4babdd3cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Brown.prefab using Guid(fdd587809aa52924596e5c4babdd3cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d095460cf105744b355be7b420644bd') in 0.023363 seconds 
+  Import took 0.027427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Gray.prefab
+  artifactKey: Guid(1bca4a441dcd1d64e98cec0697c9952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Gray.prefab using Guid(1bca4a441dcd1d64e98cec0697c9952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d64b7ce20eca7476007aff8058b120d') in 0.023317 seconds 
+  Import took 0.027206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.404667 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Green.prefab
+  artifactKey: Guid(2891b88709f3e7445bda864d0ea3c416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Green.prefab using Guid(2891b88709f3e7445bda864d0ea3c416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ddc2fc3c64020dd5ba4295e97d97a8') in 0.022700 seconds 
+  Import took 0.026953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_O_Blue.prefab
+  artifactKey: Guid(f05ebd3fe31f7584a9d91d7c5ce32949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_O_Blue.prefab using Guid(f05ebd3fe31f7584a9d91d7c5ce32949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dd92dc880a2f2147a423670e6d79c7') in 0.035167 seconds 
+  Import took 0.039754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_Q_Brown.prefab
+  artifactKey: Guid(a3a08632e57da0642981ec0b79c49d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_Q_Brown.prefab using Guid(a3a08632e57da0642981ec0b79c49d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b48e71a33baddd03928393f76f94e8e') in 0.029129 seconds 
+  Import took 0.033882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_S_Brown.prefab
+  artifactKey: Guid(51ed517717174154da1a328c06520037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_S_Brown.prefab using Guid(51ed517717174154da1a328c06520037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76afbe01f8ecd054af5011176c72c77d') in 0.024075 seconds 
+  Import took 0.028526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_S_Gray.prefab
+  artifactKey: Guid(dc260656ff2e53f4496a38c5e46aef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_S_Gray.prefab using Guid(dc260656ff2e53f4496a38c5e46aef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bbb757dcddd03abe8898ef79b48f4b') in 0.025132 seconds 
+  Import took 0.029124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_T_Brown.prefab
+  artifactKey: Guid(de853ae9cbe6d074b984989b36763507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_T_Brown.prefab using Guid(de853ae9cbe6d074b984989b36763507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0661576ff683e1a9d9d13efc9193e3d6') in 0.022832 seconds 
+  Import took 0.027033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_T_Blue.prefab
+  artifactKey: Guid(693740df1fecec547a5e64932395423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_T_Blue.prefab using Guid(693740df1fecec547a5e64932395423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc3d96e24060a0df013b4a767d065e9') in 0.024340 seconds 
+  Import took 0.028428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_Q_Gray.prefab
+  artifactKey: Guid(203840743c5253945adfcf84a9bc87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_Q_Gray.prefab using Guid(203840743c5253945adfcf84a9bc87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a00878cca387a587f91cbeb0bde7f85') in 0.023891 seconds 
+  Import took 0.027809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_S_Blue.prefab
+  artifactKey: Guid(7487d8ba5b92509498862b0c59eb0c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_S_Blue.prefab using Guid(7487d8ba5b92509498862b0c59eb0c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133c0956d9318e2b8188fc68b99922cd') in 0.023434 seconds 
+  Import took 0.027486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_Q_Blue.prefab
+  artifactKey: Guid(80b9962abcc197544b15bf9c5468fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_Q_Blue.prefab using Guid(80b9962abcc197544b15bf9c5468fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0657e2dcdc3aad76667e286adec3c36a') in 0.023804 seconds 
+  Import took 0.028060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_P_Green.prefab
+  artifactKey: Guid(bd0673772f6ea124da0a943b04467ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_P_Green.prefab using Guid(bd0673772f6ea124da0a943b04467ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d953eaa48cdd595c892984e888ed7b0') in 0.023345 seconds 
+  Import took 0.027493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_T_Green.prefab
+  artifactKey: Guid(274d60b8ae3387c41aedba68f92040fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_T_Green.prefab using Guid(274d60b8ae3387c41aedba68f92040fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b794da6497c61a55fce861e6d85742') in 0.022460 seconds 
+  Import took 0.026273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_P_Gray.prefab
+  artifactKey: Guid(9cdf06b7d987d2b45a29d99ac1293bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_P_Gray.prefab using Guid(9cdf06b7d987d2b45a29d99ac1293bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ab669cfe55621e7247d2eff80a08df') in 0.022100 seconds 
+  Import took 0.026323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_O_Brown.prefab
+  artifactKey: Guid(22e7b1e8ae5aa014cb7d5089315e3f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_O_Brown.prefab using Guid(22e7b1e8ae5aa014cb7d5089315e3f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc941c34e862d04849059ca42de5386e') in 0.022946 seconds 
+  Import took 0.027162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_R_Green.prefab
+  artifactKey: Guid(983ab48413c8b6247bcdff142329ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_R_Green.prefab using Guid(983ab48413c8b6247bcdff142329ca5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c930b65a73c3e494bcc829adf7e44b') in 0.024776 seconds 
+  Import took 0.028855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_R_Gray.prefab
+  artifactKey: Guid(148226534a02d26469ce4d30892975aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_R_Gray.prefab using Guid(148226534a02d26469ce4d30892975aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b6317aecdaa082ec5e3912a3000352') in 0.023880 seconds 
+  Import took 0.027996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_P_Brown.prefab
+  artifactKey: Guid(684cafc3e2fceff4da8db6d4d3ad5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_P_Brown.prefab using Guid(684cafc3e2fceff4da8db6d4d3ad5c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb9ba98a7c3820bb316c1cae76a7c2c') in 0.024515 seconds 
+  Import took 0.028450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_O_Gray.prefab
+  artifactKey: Guid(9b685ed9a9d784944a18c3bc725e7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_O_Gray.prefab using Guid(9b685ed9a9d784944a18c3bc725e7a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45f938fc4da46c2091578d24dc5706b') in 0.023038 seconds 
+  Import took 0.026968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_R_Blue.prefab
+  artifactKey: Guid(936ddc2986c414845b81bc357b5247f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_R_Blue.prefab using Guid(936ddc2986c414845b81bc357b5247f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2fb1c6b6604ddd09b90d8fc51aa0d1') in 0.024488 seconds 
+  Import took 0.028562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.602860 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Blue.prefab
+  artifactKey: Guid(962fd06c48bba7248ba6b9732aaaff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Blue.prefab using Guid(962fd06c48bba7248ba6b9732aaaff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fb6a09d0d6d27899d5633ee874bedc') in 0.026242 seconds 
+  Import took 0.033371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Brown.prefab
+  artifactKey: Guid(a1692c2952e71924b95e2ad2f2daeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Brown.prefab using Guid(a1692c2952e71924b95e2ad2f2daeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81c184c4cc84a317e7869a6b49eb29a') in 0.027456 seconds 
+  Import took 0.031996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Brown.prefab
+  artifactKey: Guid(95b2b860062ddac4fb8402b97e9f9d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Brown.prefab using Guid(95b2b860062ddac4fb8402b97e9f9d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56987610865aafeecff2a9e482a19158') in 0.027468 seconds 
+  Import took 0.031537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Brown.prefab
+  artifactKey: Guid(a947ad2d00d861746845017ccf8d3520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Brown.prefab using Guid(a947ad2d00d861746845017ccf8d3520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0652e5222c7997ef72b34777b8af48') in 0.025454 seconds 
+  Import took 0.029490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Blue.prefab
+  artifactKey: Guid(fb2712c1642cadd44a3e145d0977f4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Blue.prefab using Guid(fb2712c1642cadd44a3e145d0977f4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7837b3d01bf4802a87b2e5f85cb06c76') in 0.023910 seconds 
+  Import took 0.028080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Gray.prefab
+  artifactKey: Guid(8e9321a0f814e6247a6ae6de3ec12324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Gray.prefab using Guid(8e9321a0f814e6247a6ae6de3ec12324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19224a2f52e6a2167f04a03fcff9b50a') in 0.025606 seconds 
+  Import took 0.030509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Green.prefab
+  artifactKey: Guid(8f795a167c68bda4380e7f1f0b56b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Green.prefab using Guid(8f795a167c68bda4380e7f1f0b56b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31767561db9baefd4c51b7134afa99f') in 0.025401 seconds 
+  Import took 0.029746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Red.prefab
+  artifactKey: Guid(287dba96d1fe6df469c3f9f71959457c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Red.prefab using Guid(287dba96d1fe6df469c3f9f71959457c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7575a25118bedbbd909d1d1697e5de') in 0.021865 seconds 
+  Import took 0.026211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Green.prefab
+  artifactKey: Guid(138d89dffcee5ac4d96f33c47dfbaa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Green.prefab using Guid(138d89dffcee5ac4d96f33c47dfbaa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d866ba259d171a237415f8ca29b0bbe') in 0.021745 seconds 
+  Import took 0.025969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Blue.prefab
+  artifactKey: Guid(2da25ea217bc6ae429fd301f830d7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Blue.prefab using Guid(2da25ea217bc6ae429fd301f830d7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc857ad62c565574f895e27b761f731') in 0.021690 seconds 
+  Import took 0.025738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Brown.prefab
+  artifactKey: Guid(913a65ec51cedf449956e2e6217bc8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Brown.prefab using Guid(913a65ec51cedf449956e2e6217bc8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bf8584592bee2730e7c3404bd4abfb') in 0.021101 seconds 
+  Import took 0.025128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Gray.prefab
+  artifactKey: Guid(4b5853009cb35a24db1d2fa3ae73d495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Gray.prefab using Guid(4b5853009cb35a24db1d2fa3ae73d495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91cfefaaafa5c081ca4f403db21059d') in 0.021980 seconds 
+  Import took 0.026006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Brown.prefab
+  artifactKey: Guid(9d46a253c259d8748823689dd9ccb0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Brown.prefab using Guid(9d46a253c259d8748823689dd9ccb0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d21a4202dd410a4a9c6d8c6553f57d') in 0.022467 seconds 
+  Import took 0.026983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Gray.prefab
+  artifactKey: Guid(b60d212c3c19e45458b0b3159d7889e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Gray.prefab using Guid(b60d212c3c19e45458b0b3159d7889e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dbef4c6acec84d01bea27b7fd53340') in 0.022394 seconds 
+  Import took 0.026360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Brown.prefab
+  artifactKey: Guid(36ccd9cf28ccb3047ab2a3c668c4c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Brown.prefab using Guid(36ccd9cf28ccb3047ab2a3c668c4c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb7ea15229d8174aea687ed90b4edea') in 0.022155 seconds 
+  Import took 0.026385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Brown.prefab
+  artifactKey: Guid(10768e9548d02a24c84583180a359d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Brown.prefab using Guid(10768e9548d02a24c84583180a359d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3e1e59b7918927a14000c83b69bbf6') in 0.021479 seconds 
+  Import took 0.025673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Gray.prefab
+  artifactKey: Guid(9b14e2af28100b04e9d1af79a19a8866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Gray.prefab using Guid(9b14e2af28100b04e9d1af79a19a8866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac5c2aed434c77b5e6499880bbe39ee') in 0.021459 seconds 
+  Import took 0.025453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Gray.prefab
+  artifactKey: Guid(d1e0ee66080d13a4b9766bef3c2e10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Gray.prefab using Guid(d1e0ee66080d13a4b9766bef3c2e10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f395d06064a1e246adc44753711da0') in 0.021337 seconds 
+  Import took 0.025181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_Gray.prefab
+  artifactKey: Guid(8c4b60b0b98a3e940a01f65ffa9c7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_Gray.prefab using Guid(8c4b60b0b98a3e940a01f65ffa9c7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d112e8ae20a5fc72f0616011fd721b') in 0.026278 seconds 
+  Import took 0.030602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Gray.prefab
+  artifactKey: Guid(296da6be247fb924487bc85db7473c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Gray.prefab using Guid(296da6be247fb924487bc85db7473c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a72917c2cf1b0f35016c32aae37c987') in 0.021747 seconds 
+  Import took 0.025705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Blue.prefab
+  artifactKey: Guid(0fc452142e3ba434fa720feb583036ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Blue.prefab using Guid(0fc452142e3ba434fa720feb583036ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6ec17d829b593bb5cd388f95b42ee8') in 0.022321 seconds 
+  Import took 0.026578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Blue.prefab
+  artifactKey: Guid(93f4669d677a9d748a92b0346ca0868d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_N_Blue.prefab using Guid(93f4669d677a9d748a92b0346ca0868d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b92b3a4c2c5daa916308e1527564533') in 0.022085 seconds 
+  Import took 0.026622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Brown.prefab
+  artifactKey: Guid(979a36ebce26300479ba8edf6824a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_E_Brown.prefab using Guid(979a36ebce26300479ba8edf6824a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9aa0afa865bb7231dfdfd3194bc87bb') in 0.021090 seconds 
+  Import took 0.025195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Blue.prefab
+  artifactKey: Guid(48f5425b9cdf4b54cbf2b692bfdadc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Blue.prefab using Guid(48f5425b9cdf4b54cbf2b692bfdadc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f140c9f484a2e5c7ea692b97124f29f5') in 0.021113 seconds 
+  Import took 0.025882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_WarmGray.prefab
+  artifactKey: Guid(aee6e1aa60779454aae22a8ee09f3432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_WarmGray.prefab using Guid(aee6e1aa60779454aae22a8ee09f3432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23afdcdb19a289540e9c5863c2ff90f5') in 0.022192 seconds 
+  Import took 0.026677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Gray.prefab
+  artifactKey: Guid(faccd031c30aa8c4495f789a16ae775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_D_Gray.prefab using Guid(faccd031c30aa8c4495f789a16ae775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cc3abe4e681acb6dfd027c8e7b0531') in 0.022551 seconds 
+  Import took 0.026602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Blue.prefab
+  artifactKey: Guid(06205caad5c6b0741bb6460b67dc02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_H_Blue.prefab using Guid(06205caad5c6b0741bb6460b67dc02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16c05e75f2838954d96674e2ea640d6') in 0.022145 seconds 
+  Import took 0.026601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_Brown.prefab
+  artifactKey: Guid(7898a6727326f8b4b872dbca9d790646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_K_Brown.prefab using Guid(7898a6727326f8b4b872dbca9d790646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b2528ba11f097e7b2a09a16fb2d19c') in 0.021186 seconds 
+  Import took 0.025425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Gray.prefab
+  artifactKey: Guid(fa21954fbbe7d37408bf8f084fa42a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_L_Gray.prefab using Guid(fa21954fbbe7d37408bf8f084fa42a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369d2d07bd54541db207484eca590544') in 0.022273 seconds 
+  Import took 0.026158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Gray.prefab
+  artifactKey: Guid(052605470de71d1449d29ef81160fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Gray.prefab using Guid(052605470de71d1449d29ef81160fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc72660ad48e27a27c85131f3fa7279') in 0.021699 seconds 
+  Import took 0.025784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Green.prefab
+  artifactKey: Guid(0ea49c2ce2fd59642a1fee05d921f663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_G_Green.prefab using Guid(0ea49c2ce2fd59642a1fee05d921f663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e43557928b72c4aa43c08b505d0773') in 0.021732 seconds 
+  Import took 0.025745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Gray.prefab
+  artifactKey: Guid(26d966ec9757e164bb06706d189e73e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_A_Gray.prefab using Guid(26d966ec9757e164bb06706d189e73e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8655b242e2a2482a8c8f6bb54bcf68') in 0.021731 seconds 
+  Import took 0.025718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Blue.prefab
+  artifactKey: Guid(63be5d074d7b8c0448dceb3fdb927d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Blue.prefab using Guid(63be5d074d7b8c0448dceb3fdb927d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc04e391a00ef794ee3b9f4077c2b0cb') in 0.021793 seconds 
+  Import took 0.025764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Blue.prefab
+  artifactKey: Guid(f3d838ea05816964eaa84db1553fc7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Blue.prefab using Guid(f3d838ea05816964eaa84db1553fc7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d1019c01d87b5531fba525c9eb5b75') in 0.021587 seconds 
+  Import took 0.025684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Blue.prefab
+  artifactKey: Guid(3e2447ad11a26d74e98873faab1510b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_F_Blue.prefab using Guid(3e2447ad11a26d74e98873faab1510b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca8aa54fd765ff1db74cd8722fb0998') in 0.020865 seconds 
+  Import took 0.025049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Purple.prefab
+  artifactKey: Guid(7a68da82d11fc9441b80aee529479c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_M_Purple.prefab using Guid(7a68da82d11fc9441b80aee529479c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5ae9683ce35b828f6c1b3c3ffed8f6') in 0.021730 seconds 
+  Import took 0.025810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Green.prefab
+  artifactKey: Guid(4dd2fbadd9976cb4cb8b2636e6ecd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_C_Green.prefab using Guid(4dd2fbadd9976cb4cb8b2636e6ecd7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d3d24debe7c8cf283b59c17421db4a') in 0.022147 seconds 
+  Import took 0.026032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Brown.prefab
+  artifactKey: Guid(a34800e545e51d14a9ff9744858beea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_B_Brown.prefab using Guid(a34800e545e51d14a9ff9744858beea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cdb0d6f8b2916f94edaf0e10a3b26b') in 0.023432 seconds 
+  Import took 0.028044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Blue.prefab
+  artifactKey: Guid(0c1960312e51ed649852c03b2117cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Blue.prefab using Guid(0c1960312e51ed649852c03b2117cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167adead8056fc9758e3169816039563') in 0.021680 seconds 
+  Import took 0.025847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Brown.prefab
+  artifactKey: Guid(fdd587809aa52924596e5c4babdd3cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_J_Brown.prefab using Guid(fdd587809aa52924596e5c4babdd3cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b53bfc70f2a6c802fcf2162a65cc4e') in 0.022284 seconds 
+  Import took 0.026413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Gray.prefab
+  artifactKey: Guid(1bca4a441dcd1d64e98cec0697c9952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Pre-Made/TB_CITY_Skysc_I_Gray.prefab using Guid(1bca4a441dcd1d64e98cec0697c9952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ce8bef5c8daa4eb1083fd8865f0da2') in 0.021592 seconds 
+  Import took 0.025698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.174296 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J
+  artifactKey: Guid(412957a2b0a8de3498025c7371f5a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J using Guid(412957a2b0a8de3498025c7371f5a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6463a332c683f5daa6edf636552e841') in 0.005938 seconds 
+  Import took 0.010110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059074 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Bottom_Blue.prefab
+  artifactKey: Guid(56a60badd1903694cb3b7710ebfa252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Bottom_Blue.prefab using Guid(56a60badd1903694cb3b7710ebfa252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517317827c10096296ae2b81aeed15c1') in 0.020786 seconds 
+  Import took 0.025232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyB_Gray.prefab
+  artifactKey: Guid(59dc209f3f010504bbf89f868470ecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyB_Gray.prefab using Guid(59dc209f3f010504bbf89f868470ecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b226be89d756c4b90aa0568cf3d917') in 0.022234 seconds 
+  Import took 0.025940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyB_Brown.prefab
+  artifactKey: Guid(5a338cf56130aeb4989d093c0e0077bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyB_Brown.prefab using Guid(5a338cf56130aeb4989d093c0e0077bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe11b97d09e3f440365ebc1090523e2') in 0.023384 seconds 
+  Import took 0.027284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyA_Blue.prefab
+  artifactKey: Guid(9b7fc2e0887b04048879a481fb8c778f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyA_Blue.prefab using Guid(9b7fc2e0887b04048879a481fb8c778f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b439b99dcc1f0bc6b4fc8fb78f591ca0') in 0.021647 seconds 
+  Import took 0.025757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Lower_Top_Brown.prefab
+  artifactKey: Guid(f0ba922a4303b3d42bcb4ee33eb8b990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Lower_Top_Brown.prefab using Guid(f0ba922a4303b3d42bcb4ee33eb8b990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0091a9c2f0b219e8ecb411021741673a') in 0.021753 seconds 
+  Import took 0.025521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyA_Brown.prefab
+  artifactKey: Guid(5fc4c8a96be14f44f92f9f186d2b374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyA_Brown.prefab using Guid(5fc4c8a96be14f44f92f9f186d2b374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c52bca83c92809bfc12a944ee30294a') in 0.021623 seconds 
+  Import took 0.025747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyB_Blue.prefab
+  artifactKey: Guid(b5cda99de56a8a340a27ffc4b50d881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyB_Blue.prefab using Guid(b5cda99de56a8a340a27ffc4b50d881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188f55cd59128ac1f1b25d64bddbe16e') in 0.020810 seconds 
+  Import took 0.024626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Bottom_Brown.prefab
+  artifactKey: Guid(5a05fad5d2b968148826c9042004de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Bottom_Brown.prefab using Guid(5a05fad5d2b968148826c9042004de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b5a10cd5f0575e34f73e5ed082963c') in 0.021687 seconds 
+  Import took 0.025892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyA_Gray.prefab
+  artifactKey: Guid(5193e5cb17940b54c864dc8aad7d44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyA_Gray.prefab using Guid(5193e5cb17940b54c864dc8aad7d44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67b9f6012779bd2cce457bff5427592') in 0.021232 seconds 
+  Import took 0.025122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Lower_Top_Gray.prefab
+  artifactKey: Guid(6ac7423178060504484fe9bc318eaf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Lower_Top_Gray.prefab using Guid(6ac7423178060504484fe9bc318eaf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52723600380b131fe522f41185aeb746') in 0.021680 seconds 
+  Import took 0.025850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyB_Gray.prefab
+  artifactKey: Guid(2fcb49279c85873408aada1cb98c0a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyB_Gray.prefab using Guid(2fcb49279c85873408aada1cb98c0a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb5eff8dd4ad72265ffb95588367a18') in 0.021914 seconds 
+  Import took 0.025668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Bottom_Gray.prefab
+  artifactKey: Guid(bac6d64fefd641e44b2c662b1c050ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Bottom_Gray.prefab using Guid(bac6d64fefd641e44b2c662b1c050ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7188080df63672a7bd6de2a59fc9e153') in 0.022095 seconds 
+  Import took 0.026099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyA_Blue.prefab
+  artifactKey: Guid(77c18d70bccdb5447bc3fd9951b7df90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyA_Blue.prefab using Guid(77c18d70bccdb5447bc3fd9951b7df90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9804d82c40e5b00cfbb0b49749acde') in 0.022151 seconds 
+  Import took 0.026002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyA_Brown.prefab
+  artifactKey: Guid(b158a84bbdd64e34eae0e61d962fe113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyA_Brown.prefab using Guid(b158a84bbdd64e34eae0e61d962fe113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b073d6b44231f8adfa5ce58237dc77') in 0.022298 seconds 
+  Import took 0.026204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyB_Brown.prefab
+  artifactKey: Guid(d01621b2f67b8c64ab76fbdcf6a946b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_LowerBodyB_Brown.prefab using Guid(d01621b2f67b8c64ab76fbdcf6a946b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e493783199c84e36a928f57c445a4a') in 0.021558 seconds 
+  Import took 0.025459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyB_Blue.prefab
+  artifactKey: Guid(f65e3096417fef34095a752e86f3a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyB_Blue.prefab using Guid(f65e3096417fef34095a752e86f3a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37aac7df19beb3f9e8705afe8895380e') in 0.020819 seconds 
+  Import took 0.024629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Top_Blue.prefab
+  artifactKey: Guid(c34e4c3550165ff40a6515f830c25512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Top_Blue.prefab using Guid(c34e4c3550165ff40a6515f830c25512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3800acc39af8224b868aa074e2d020') in 0.021633 seconds 
+  Import took 0.025535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Lower_Top_Blue.prefab
+  artifactKey: Guid(a61a33ecb217bc24b8b65671ce7d818b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Lower_Top_Blue.prefab using Guid(a61a33ecb217bc24b8b65671ce7d818b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38571b38c21de5ff26cbe2891b7f1e26') in 0.021276 seconds 
+  Import took 0.025190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Top_Gray.prefab
+  artifactKey: Guid(11fc683be2e933d4eb7907ec152cd454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Top_Gray.prefab using Guid(11fc683be2e933d4eb7907ec152cd454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615d4835a94d781226e249f4d541746a') in 0.021895 seconds 
+  Import took 0.025726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Top_Brown.prefab
+  artifactKey: Guid(8d44c23870e55264ab443ec953f0b23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_Top_Brown.prefab using Guid(8d44c23870e55264ab443ec953f0b23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d1cdf81a18404398d79b025074d459') in 0.021618 seconds 
+  Import took 0.025378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyA_Gray.prefab
+  artifactKey: Guid(331bf60d182e88647aaccf29e684946b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Prefabs/Skyscrapers/Modules/J/TB_CITY_Skysc_J_UpperBodyA_Gray.prefab using Guid(331bf60d182e88647aaccf29e684946b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1c98c37731b9df437b7f197d06c06') in 0.027890 seconds 
+  Import took 0.031611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.148897 seconds.
+  path: Assets/Tarbo-CITY/URP/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(98f9353e342e4ba428d090c4ccfec21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/URP/UniversalRenderPipelineAsset.asset using Guid(98f9353e342e4ba428d090c4ccfec21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef61aadff8ed97f0f451c7b7ce257e78') in 0.029775 seconds 
+  Import took 0.034454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tarbo-CITY/URP/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(51a2e26eb66b60845b5a30b925961b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/URP/UniversalRenderPipelineAsset_Renderer.asset using Guid(51a2e26eb66b60845b5a30b925961b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05f4207de2de1906fc13e7211e60499') in 0.019745 seconds 
+  Import took 0.024044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.294604 seconds.
+  path: Assets/Tarbo-CITY/Textures/emit.png
+  artifactKey: Guid(05ed55b688cd72c48b70ce4da34be109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Textures/emit.png using Guid(05ed55b688cd72c48b70ce4da34be109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f545b5aa53b0a8397806d04c5bb96e') in 0.027157 seconds 
+  Import took 0.031636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Tarbo-CITY/Textures/Tarbo_CITY_Texture.png
+  artifactKey: Guid(7eb2aeea14f45b241a2d6330ab7b0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Textures/Tarbo_CITY_Texture.png using Guid(7eb2aeea14f45b241a2d6330ab7b0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f650e28442d955084275d247b898073a') in 0.020876 seconds 
+  Import took 0.024729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.055501 seconds.
+  path: Assets/Tarbo-CITY/Materials/Floor.mat
+  artifactKey: Guid(472952e9b46bbcb4b9e0ef5572cd894f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Materials/Floor.mat using Guid(472952e9b46bbcb4b9e0ef5572cd894f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa6244ac765a8c65a3cf0fdbafcc127') in 0.023800 seconds 
+  Import took 0.028380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Fonts/Montserrat/Montserrat-Regular SDF.asset
+  artifactKey: Guid(94372b37536c348c69ca263f84cda3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Fonts/Montserrat/Montserrat-Regular SDF.asset using Guid(94372b37536c348c69ca263f84cda3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a6007372bcb1b441a6ff3ed629f992') in 0.026734 seconds 
+  Import took 0.030606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Tarbo-CITY/Materials/Floor-URP.mat
+  artifactKey: Guid(1e8569fcfee08844c87b2e28c15c7b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Materials/Floor-URP.mat using Guid(1e8569fcfee08844c87b2e28c15c7b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df27f562b36ad4b17a7dc24d84a9b4db') in 0.010627 seconds 
+  Import took 0.014827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.376130 seconds.
+  path: Assets/Tarbo-CITY/Materials/Tarbo_CITY.mat
+  artifactKey: Guid(46cfeb936ce25aa4db02e389a7913ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Materials/Tarbo_CITY.mat using Guid(46cfeb936ce25aa4db02e389a7913ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff6dfbbc0765b969744564baeadefd6') in 0.021310 seconds 
+  Import took 0.025570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Tarbo-CITY/Materials/Tarbo_CITY-URP.mat
+  artifactKey: Guid(a22f2b04cbf0c8a428edd7de978e357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Materials/Tarbo_CITY-URP.mat using Guid(a22f2b04cbf0c8a428edd7de978e357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b011ae720acd755938f205c45ae91b') in 0.022400 seconds 
+  Import took 0.026291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307942 seconds.
+  path: Assets/Tarbo-CITY/Materials/Tarbo_CITY_Night.mat
+  artifactKey: Guid(a85e58ff4673ef34eb7fad5babf0946f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Materials/Tarbo_CITY_Night.mat using Guid(a85e58ff4673ef34eb7fad5babf0946f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fa0b420f7d483c968bcad3394a49cb') in 0.033176 seconds 
+  Import took 0.038213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Tarbo-CITY/Materials/Tarbo_CITY_Night-URP.mat
+  artifactKey: Guid(454d1917cd2c91547b7100dcc45fd4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Materials/Tarbo_CITY_Night-URP.mat using Guid(454d1917cd2c91547b7100dcc45fd4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c6adcacded34bf553bd18fd97900a3') in 0.043741 seconds 
+  Import took 0.047677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/Materials/Tarbo_CITY_Texture.mat
+  artifactKey: Guid(74b71d6a03ce10f4cb7555626e6fccce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/Materials/Tarbo_CITY_Texture.mat using Guid(74b71d6a03ce10f4cb7555626e6fccce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f996161e13767777d2f5f131b406cc4') in 0.017445 seconds 
+  Import took 0.020941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.936806 seconds.
+  path: Assets/New Lighting Settings.lighting
+  artifactKey: Guid(8153a9ddff6af6c4b8f4a5758de1f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Lighting Settings.lighting using Guid(8153a9ddff6af6c4b8f4a5758de1f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76c36f59ab048d7fe522cf741932b79') in 0.007547 seconds 
+  Import took 0.012264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.442033 seconds.
+  path: Assets/NewSurfaceShader.shader
+  artifactKey: Guid(57fef78fda0bbf746a85b1375d3597a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSurfaceShader.shader using Guid(57fef78fda0bbf746a85b1375d3597a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42186113972cb1213438972c6f80c96c') in 0.010447 seconds 
+  Import took 0.015612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.457459 seconds.
+  path: Assets/Scenes/Login.unity
+  artifactKey: Guid(faf7a46ff68b748a5964400f4521c250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Login.unity using Guid(faf7a46ff68b748a5964400f4521c250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af08a6ee1ed16d4a55e444e065ce483') in 0.006594 seconds 
+  Import took 0.011425 seconds .
+
