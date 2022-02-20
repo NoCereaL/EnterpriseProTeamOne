@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SQLHandler : MonoBehaviour
 {
-    public string loginURL = "http://localhost/unity_test/display.php";
+    public string loginURL = "http://localhost/unity_test/login.php";
     public Text statusText;
     // Start is called before the first frame update
     void Start()
