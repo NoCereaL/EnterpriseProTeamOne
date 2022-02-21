@@ -490,7 +490,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501500422}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3aee85eed7473ac49abdd24c408c7ac9, type: 3}
   m_Name: 
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501500422}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b77c84001208574409f8ee5547795006, type: 3}
   m_Name: 
@@ -515,6 +515,8 @@ MonoBehaviour:
   sendURL: http://localhost/unity_test/send.php
   statusText: {fileID: 1360889780}
   usernameText: {fileID: 714248420}
+  usernameField: {fileID: 1962340059}
+  passwordField: {fileID: 1402868862}
 --- !u!1 &558599795
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,6 +682,18 @@ MonoBehaviour:
       - m_Target: {fileID: 501500427}
         m_TargetAssemblyTypeName: ButtonActionsScript, Assembly-CSharp
         m_MethodName: Login
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 501500429}
+        m_TargetAssemblyTypeName: SQLHandler, Assembly-CSharp
+        m_MethodName: CallRegisterUser
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1201,12 +1215,12 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1402868863}
   m_TextComponent: {fileID: 1371215238}
   m_Placeholder: {fileID: 1973901186}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
-  m_HideMobileInput: 0
+  m_HideMobileInput: 1
   m_CharacterValidation: 0
   m_CharacterLimit: 0
   m_OnEndEdit:
