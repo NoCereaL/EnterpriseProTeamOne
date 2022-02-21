@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Richmond.unity
     guid: 69da2b18f09a5ef4996d98c49daa6a56
+  - enabled: 1
+    path: Assets/Scenes/Horton.unity
+    guid: f868fc56668105f418a98d7c0fa8fe92
+  - enabled: 1
+    path: Assets/Scenes/Norcroft.unity
+    guid: 7f68c2109c6544743ad4a8ac74cd7c6c
   m_configObjects: {}
