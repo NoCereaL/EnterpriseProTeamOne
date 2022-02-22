@@ -15,6 +15,7 @@ public class SQLHandler : MonoBehaviour
     private string loginURL = "https://moyanask.com/EPTeam1/login.php";
     private string registerURL = "https://moyanask.com/EPTeam1/register.php";
     [SerializeField] GameObject incorrectText;
+    [SerializeField] GameObject statusText;
 
     public InputField usernameField;
     public InputField passwordField;
@@ -57,6 +58,7 @@ public class SQLHandler : MonoBehaviour
         form.AddField("user", usernameField.text);
         form.AddField("pass", passwordField.text);
         WWW www = new WWW(loginURL, form);
+        statusText.SetActive(true);
         yield return www;
         if (www.text.Contains("Approved"))      //Checks weather login.php script ran successfully
         {
@@ -71,5 +73,6 @@ public class SQLHandler : MonoBehaviour
             incorrectText.SetActive(true);
             UserScript.StoreUsername("");
         }
+        statusText.SetActive(false);
     }
 }
