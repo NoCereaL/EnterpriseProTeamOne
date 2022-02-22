@@ -731,6 +731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Richmond
       objectReference: {fileID: 0}
+    - target: {fileID: 1705441109664710, guid: 63be5d074d7b8c0448dceb3fdb927d7f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4596365848835014, guid: 63be5d074d7b8c0448dceb3fdb927d7f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -923,9 +927,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7281889976423551972}
-        m_TargetAssemblyTypeName: ButtonActionsScript, Assembly-CSharp
-        m_MethodName: LogOut
+      - m_Target: {fileID: 7281889976423551971}
+        m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
+        m_MethodName: Logout
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1082,8 +1086,8 @@ GameObject:
   - component: {fileID: 7281889976423551974}
   - component: {fileID: 7281889976423551975}
   - component: {fileID: 7281889976423551968}
-  - component: {fileID: 7281889976423551972}
   - component: {fileID: 7281889976423551970}
+  - component: {fileID: 7281889976423551971}
   m_Layer: 5
   m_Name: MapCanvas
   m_TagString: Untagged
@@ -1103,7 +1107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb1508c5bef644349967a285711c6d08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7281889976423551972
+--- !u!114 &7281889976423551971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1112,10 +1116,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7281889976423551969}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1caf86e343b504912ab4cf2244e08b6a, type: 3}
+  m_Script: {fileID: 11500000, guid: d754bca00a5534f94badd4083c68e777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 0}
 --- !u!224 &7281889976423551973
 RectTransform:
   m_ObjectHideFlags: 0
