@@ -369,8 +369,8 @@ GameObject:
   - component: {fileID: 501500424}
   - component: {fileID: 501500423}
   - component: {fileID: 501500427}
-  - component: {fileID: 501500428}
   - component: {fileID: 501500429}
+  - component: {fileID: 501500428}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -478,6 +478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1caf86e343b504912ab4cf2244e08b6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadingScreen: {fileID: 0}
 --- !u!114 &501500428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,15 +486,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501500422}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aee85eed7473ac49abdd24c408c7ac9, type: 3}
+  m_Script: {fileID: 11500000, guid: 69236cb4b47fabc499d63cd43bf75caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secretKey: team
-  addScoreURL: http://localhost/unity_test/addscore.php?
-  highscoreURL: http://localhost/unity_test/display.php
-  statusText: {fileID: 0}
+  usernameField: {fileID: 1962340059}
+  username: {fileID: 0}
 --- !u!114 &501500429
 MonoBehaviour:
   m_ObjectHideFlags: 0
