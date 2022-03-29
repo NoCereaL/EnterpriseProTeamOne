@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class InteractScript : MonoBehaviour
 {
+    [SerializeField] GameObject camera;
+    void Start() { }
+
     // Update is called once per frame    
     void Update()
     {
@@ -21,12 +24,24 @@ public class InteractScript : MonoBehaviour
                 {
                     case "Richmond":
                         SceneManager.LoadScene("Richmond");
+                        PlayerPrefs.SetString("CurrentBuilding", "Richmond");
+                        PlayerPrefs.SetFloat("CameraPosX", camera.transform.position.x);
+                        PlayerPrefs.SetFloat("CameraPosY", camera.transform.position.y);
+                        PlayerPrefs.SetFloat("CameraPosZ", camera.transform.position.z);
                         break;
                     case "Horton":
                         SceneManager.LoadScene("Horton");
+                        PlayerPrefs.SetString("CurrentBuilding", "Horton");
+                        PlayerPrefs.SetFloat("CameraPosX", camera.transform.position.x);
+                        PlayerPrefs.SetFloat("CameraPosY", camera.transform.position.y);
+                        PlayerPrefs.SetFloat("CameraPosZ", camera.transform.position.z);
                         break;
                     case "Norcroft":
                         SceneManager.LoadScene("Norcroft");
+                        PlayerPrefs.SetString("CurrentBuilding", "Norcroft");
+                        PlayerPrefs.SetFloat("CameraPosX", camera.transform.position.x);
+                        PlayerPrefs.SetFloat("CameraPosY", camera.transform.position.y);
+                        PlayerPrefs.SetFloat("CameraPosZ", camera.transform.position.z);
                         break;
                 }
             }
