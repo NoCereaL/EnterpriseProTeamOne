@@ -106,6 +106,7 @@ public class BookingSQLHandler : MonoBehaviour
     public void FillDateDropdown()
     {
         currentDate = DateTime.Now;
+        currentDate = currentDate.AddDays(1);
         dateDropdown.ClearOptions();
         //DateTime _30Days = new DateTime(0000,0,30);
         List<String> list = new List<String>();

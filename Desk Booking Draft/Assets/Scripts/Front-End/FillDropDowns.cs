@@ -32,7 +32,7 @@ public class FillDropDowns : MonoBehaviour
         TimeSpan _30mins = new TimeSpan(00, 30, 00);
         List<String> list = new List<String>();
         Dropdown.OptionData dropdownObjects = new Dropdown.OptionData();
-        for (int i = 0; i < 25; i++)
+        for (int i = 0; i < 24; i++)
         {
             defaultStart = defaultStart.Add(_30mins);
             dropdownObjects.text = defaultStart.ToString();
