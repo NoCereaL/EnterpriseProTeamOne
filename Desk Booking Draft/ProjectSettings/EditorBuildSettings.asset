@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Booking.unity
     guid: d3c237364484f4723a6d2d349045d212
+  - enabled: 1
+    path: Assets/Scenes/BookingAlt.unity
+    guid: 91219cfbb45254ed2a25b3a45ef85daf
   m_configObjects: {}

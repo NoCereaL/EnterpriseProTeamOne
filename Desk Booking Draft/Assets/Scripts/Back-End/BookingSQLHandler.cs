@@ -88,21 +88,6 @@ public class BookingSQLHandler : MonoBehaviour
         Debug.Log(PlayerPrefs.GetString("CurrentDate"));
     }
 
-    public void FillStartDropdown()
-    {
-        TimeSpan defaultStart = new TimeSpan(07, 00, 00);
-        TimeSpan _30mins = new TimeSpan(00, 30, 00);
-        List<String> list = new List<String>();
-        Dropdown.OptionData dropdownObjects = new Dropdown.OptionData();
-        for (int i = 0; i < 24; i++)
-        {
-            defaultStart = defaultStart.Add(_30mins);
-            dropdownObjects.text = defaultStart.ToString();
-            list.Add(dropdownObjects.text);
-        }
-        startDropdown.AddOptions(list);
-    }
-
     public void FillDateDropdown()
     {
         currentDate = DateTime.Now;

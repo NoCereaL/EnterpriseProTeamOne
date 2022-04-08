@@ -9,13 +9,12 @@ using System;
 public class SQLHandler : MonoBehaviour
 {
     //Localhost Server URL's
-    private string localLoginURL = "http://localhost/unity_test/login.php";
-    private string localRegisterURL = "http://localhost/unity_test/register.php";
 
     //Dedicated Server URL's
     private string loginURL = "https://moyanask.com/EPTeam1/login.php";
     private string registerURL = "https://moyanask.com/EPTeam1/register.php";
-    private string bookingURL = "https://moyanask.com/EPTeam1/booking.php";
+    private string conURL = "https://moyanask.com/EPTeam1/con.php";
+
     [SerializeField] GameObject incorrectText;
     [SerializeField] GameObject statusText;
 
@@ -25,22 +24,11 @@ public class SQLHandler : MonoBehaviour
     public InputField passwordField;
 
     //Booking
-    private DateTime date;
-    private TimeSpan startTime;
-    private TimeSpan endTime;
     [SerializeField] Dropdown startDropdown;
     [SerializeField] Dropdown endDropdown;
     [SerializeField] Text confirmText;
     public DateTime currentDate;
 
-    string startHoursString;
-    string startMinutesString;
-    int startHours;
-    int startMinutes;
-    string endHoursString;
-    string endMinutesString;
-    int endHours;
-    int endMinutes;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +42,7 @@ public class SQLHandler : MonoBehaviour
 
     public void CallLoginUser()
     {
+        statusText.SetActive(true);
         StartCoroutine(LoginUser());
     }
 
@@ -76,11 +65,11 @@ public class SQLHandler : MonoBehaviour
 
     IEnumerator LoginUser()
     {
+        StartCoroutine(WaitForResponse());
         WWWForm form = new WWWForm();
         form.AddField("user", usernameField.text);
         form.AddField("pass", passwordField.text);
         WWW www = new WWW(loginURL, form);
-        statusText.SetActive(true);
         yield return www;
         if (www.text.Contains("Approved"))      //Checks weather login.php script ran successfully
         {
@@ -88,14 +77,28 @@ public class SQLHandler : MonoBehaviour
             incorrectText.SetActive(false);
             UserScript.StoreUsername(usernameField.text);
             SceneManager.LoadScene(1);          //Signs you into the system by loading the index scene
+            statusText.SetActive(false);
         }
-        else
+        if (www.text.Contains("-1"))             //Failed login response
         {
             Debug.Log("Unsuccessfull Result: " + www.text);
             incorrectText.SetActive(true);
             UserScript.StoreUsername("");
+            statusText.SetActive(false);
         }
+    }
+
+    IEnumerator WaitForResponse()
+    {
+        yield return new WaitForSecondsRealtime(5);
+        StopCoroutine(LoginUser());
+        statusText.SetActive(true);
+        statusText.gameObject.GetComponent<Text>().text = "Check Connection...";
+        statusText.gameObject.GetComponent<Text>().color = Color.red;
+        yield return new WaitForSecondsRealtime(5);
         statusText.SetActive(false);
+        statusText.gameObject.GetComponent<Text>().text = "Logging in...";
+        statusText.gameObject.GetComponent<Text>().color = Color.black;
     }
 
 }

@@ -13,6 +13,7 @@ public class BookingSceneScipt : MonoBehaviour
     private Dropdown dateDropdown;
     private Dropdown startDropdown;
     private Dropdown endDropdown;
+    [SerializeField] Dropdown durationDropdown;
 
     [SerializeField] Text userText;
     [SerializeField] Text buildingText;
@@ -42,7 +43,8 @@ public class BookingSceneScipt : MonoBehaviour
     {
         date.text = "Date Selected: " + dateDropdown.captionText.text;
         startTime.text = "Start Time: " + startDropdown.captionText.text;
-        endTime.text = "End Time: " + endDropdown.captionText.text;
+        //endTime.text = "End Time: " + endDropdown.captionText.text;
+        endTime.text = "Duration: " + durationDropdown.captionText.text;
     }
 
     public void SetBuildingName()

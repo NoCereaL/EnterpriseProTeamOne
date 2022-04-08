@@ -8,6 +8,7 @@ public class FillDropDowns : MonoBehaviour
 {
     [SerializeField] Dropdown startDropdown;
     [SerializeField] Dropdown endDropdown;
+    [SerializeField] Dropdown durationDropdown;
     TimeSpan startTime;
     TimeSpan endTime;
     TimeSpan lastTime;
@@ -73,4 +74,37 @@ public class FillDropDowns : MonoBehaviour
         }
         try { endDropdown.AddOptions(list); } catch { };
     }
+
+    public void FillDurationDropdown()
+    {
+        string[] durationTimes = { "00:30", "01:00", "01:30", "02:00" };
+        int index;
+        startTime = new TimeSpan(Int32.Parse(startDropdown.captionText.text.Substring(0, 2)), Int32.Parse(startDropdown.captionText.text.Substring(3, 2)), 00);
+        List<String> list = new List<String>();
+        Dropdown.OptionData dropdownObjects = new Dropdown.OptionData();
+        switch (startTime.ToString())
+        {
+            case "17:30:00":
+                index = 3;
+                break;
+            case "18:00:00":
+                index = 2;
+                break;
+            case "18:30:00":
+                index = 1;
+                break;
+            default:
+                index = 4;
+                break;
+        }
+        for (int i = 0; i < index; i++)
+        {
+            dropdownObjects.text = durationTimes[i];
+            list.Add(dropdownObjects.text);
+            Debug.Log(startTime);
+        }
+        durationDropdown.ClearOptions();
+        durationDropdown.AddOptions(list); 
+    }
+
 }
