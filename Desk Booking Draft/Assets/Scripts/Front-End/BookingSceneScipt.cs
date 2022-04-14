@@ -23,7 +23,7 @@ public class BookingSceneScipt : MonoBehaviour
         deskName.text = "Desk Selected: " + PlayerPrefs.GetString("DeskName");
         dateDropdown = GameObject.Find("DateDropdown").GetComponent<Dropdown>();
         startDropdown = GameObject.Find("StartTimeDropdown").GetComponent<Dropdown>();
-        endDropdown = GameObject.Find("EndTimeDropdown").GetComponent<Dropdown>();
+       // endDropdown = GameObject.Find("EndTimeDropdown").GetComponent<Dropdown>();
     }
 
     void Update()

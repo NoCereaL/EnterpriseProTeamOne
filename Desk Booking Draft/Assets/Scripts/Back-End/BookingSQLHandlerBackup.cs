@@ -8,6 +8,9 @@ public class BookingSQLHandlerBackup : MonoBehaviour
 {
     private string bookingURL = "https://moyanask.com/EPTeam1/booking.php";
     private string bookingAltURL = "https://moyanask.com/EPTeam1/booking_alt.php";
+    private string managerURL = "https://moyanask.com/EPTeam1/managerBooking.php";
+    private string fillUsersURL = "https://moyanask.com/EPTeam1/fillUsers.php";
+
     [SerializeField] Dropdown dateDropdown;
 
     //Booking
@@ -16,6 +19,7 @@ public class BookingSQLHandlerBackup : MonoBehaviour
     [SerializeField] Dropdown startDropdown;
     [SerializeField] Dropdown endDropdown;
     [SerializeField] Dropdown durationDropdown;
+    [SerializeField] Dropdown userDropdown;
     [SerializeField] Text confirmText;
     public DateTime currentDate;
     public Text debugText;
@@ -36,16 +40,25 @@ public class BookingSQLHandlerBackup : MonoBehaviour
     {
         dateDropdown.captionText.text = DateTime.Now.ToString();
         FillDateDropdown();
+        StartCoroutine(FillAvaTimes());
+        StartCoroutine(UserSelected());
     }
 
+
+    //Call Methods
     public void CallBooking()
     {
         StartCoroutine(Booking());
     }
 
-    public void CallBookingAlt()
+    public void CallFillAvaTimes()
     {
-        StartCoroutine(BookingAlt());
+        StartCoroutine(FillAvaTimes());
+    }
+
+    public void CallUserSelected()
+    {
+        StartCoroutine(UserSelected());
     }
 
     IEnumerator Booking()
@@ -83,7 +96,7 @@ public class BookingSQLHandlerBackup : MonoBehaviour
         }
     }
 
-    IEnumerator BookingAlt()
+    IEnumerator FillAvaTimes()
     {
         WWWForm form = new WWWForm();
         form.AddField("date", dateDropdown.captionText.text);
@@ -191,9 +204,27 @@ public class BookingSQLHandlerBackup : MonoBehaviour
         Debug.Log("List Filled");
     }
 
-    public void RemoveTimes()
+    IEnumerator UserSelected()
     {
-        
+        WWWForm form = new WWWForm();
+        form.AddField("user", PlayerPrefs.GetString("Username"));
+
+        WWW www = new WWW(fillUsersURL, form);
+
+        yield return www;
+        List<String> list = new List<String>();
+        Dropdown.OptionData dropdownObjects = new Dropdown.OptionData();
+        list.Add(PlayerPrefs.GetString("Username"));
+        string staff = www.text;
+        string[] staffArray = staff.Split('|');
+        Debug.Log(www.text);
+        debugText.text = www.text;
+        for (int i = 0; i < staffArray.Length - 1; i++)
+        {
+            list.Add(staffArray[i]);
+            Debug.Log(staffArray[i]);
+        }
+        userDropdown.AddOptions(list) ;
     }
 
     IEnumerator DestroyAnim()
