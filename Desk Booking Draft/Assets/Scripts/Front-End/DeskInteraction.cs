@@ -28,7 +28,18 @@ public class DeskInteraction : MonoBehaviour
                 //Select stage    
                 if (hit.transform.name == transform.name)
                 {
-                    SceneManager.LoadScene("Booking");
+                    if (PlayerPrefs.GetString("Username").Substring(0, 3) == "MAN")   //Checks if user logged in is Manager
+                    {   
+                        SceneManager.LoadScene("Manager");
+                    }
+                    else if (PlayerPrefs.GetString("Username").Substring(0, 3) == "ADM")   //Checks if user logged in is Manager
+                    {
+                        SceneManager.LoadScene("AdminBooking");
+                    }
+                    else
+                    {
+                        SceneManager.LoadScene("Booking");
+                    }
                     PlayerPrefs.SetString("DeskName", hit.transform.name);
                     Debug.Log("Desk Name Set To: " + hit.transform.name);
                 }
