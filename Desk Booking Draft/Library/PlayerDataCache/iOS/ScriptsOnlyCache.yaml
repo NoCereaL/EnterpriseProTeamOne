@@ -2,7 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BookingSQLHandler
-    - BookingSQLHandlerBackup
     - BookingSceneScipt
     - BuildingNameScript
     - ButtonActionsScript
@@ -20,8 +19,11 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -98,7 +100,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/Booking.unity:
+    Assets/Scenes/AdminBooking.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -126,11 +128,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1622}
     - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
       Script: {instanceID: 2696}
     - Class: 114
       Script: {instanceID: 3164}
-    - Class: 114
-      Script: {instanceID: 3232}
     - Class: 114
       Script: {instanceID: 3646}
     - Class: 114
@@ -140,11 +142,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5840}
     - Class: 114
-      Script: {instanceID: 5846}
-    - Class: 114
       Script: {instanceID: 6308}
     - Class: 114
       Script: {instanceID: 6318}
+    - Class: 114
+      Script: {instanceID: 6728}
     - Class: 114
       Script: {instanceID: 7020}
     - Class: 114
@@ -169,7 +171,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/BookingAlt.unity:
+    Assets/Scenes/Booking.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -212,8 +214,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4000}
     - Class: 114
       Script: {instanceID: 5840}
-    - Class: 114
-      Script: {instanceID: 5846}
     - Class: 114
       Script: {instanceID: 6308}
     - Class: 114
@@ -551,6 +551,77 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/Manager.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1614}
+    - Class: 114
+      Script: {instanceID: 1616}
+    - Class: 114
+      Script: {instanceID: 1618}
+    - Class: 114
+      Script: {instanceID: 1620}
+    - Class: 114
+      Script: {instanceID: 1622}
+    - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 2696}
+    - Class: 114
+      Script: {instanceID: 3164}
+    - Class: 114
+      Script: {instanceID: 3646}
+    - Class: 114
+      Script: {instanceID: 3730}
+    - Class: 114
+      Script: {instanceID: 4000}
+    - Class: 114
+      Script: {instanceID: 5840}
+    - Class: 114
+      Script: {instanceID: 6308}
+    - Class: 114
+      Script: {instanceID: 6318}
+    - Class: 114
+      Script: {instanceID: 6728}
+    - Class: 114
+      Script: {instanceID: 7020}
+    - Class: 114
+      Script: {instanceID: 7070}
+    - Class: 114
+      Script: {instanceID: 7358}
+    - Class: 114
+      Script: {instanceID: 7982}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Norcroft.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -742,10 +813,10 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: d675cecc41e9caaddf164f423a64d957
+      Hash: c10ea38504bbb1be5628c0f3a9123d7a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: BookingSQLHandlerBackup
+    className: BookingSQLHandler
   - hash:
       serializedVersion: 2
       Hash: db3136ecb2c834e30c10e8cbbd98f503
@@ -1366,12 +1437,6 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 157d122a9e43400379825e5c52d4d120
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BookingSQLHandler
-  - hash:
-      serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1750,5 +1815,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Horton.unity
   - Assets/Scenes/Norcroft.unity
   - Assets/Scenes/Booking.unity
-  - Assets/Scenes/BookingAlt.unity
+  - Assets/Scenes/Manager.unity
+  - Assets/Scenes/AdminBooking.unity
   playerPath: /Users/simonkm/Documents/Unity Builds 2022/EPTeam1iOS

@@ -136,8 +136,6 @@ struct AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B;
 struct Bloom_t29BCC640226782A89B406BEEB1247DF988977E16;
 // BookingSQLHandler
 struct BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488;
-// BookingSQLHandlerBackup
-struct BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19;
 // UnityEngine.Camera
 struct Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C;
 // UnityEngine.Rendering.Universal.ChromaticAberration
@@ -961,21 +959,21 @@ public:
 };
 
 
-// BookingSQLHandler/<Booking>d__18
-struct U3CBookingU3Ed__18_t78A1777E93B72706AC080249A746E4EE7B848384  : public RuntimeObject
+// BookingSQLHandler/<AdminBooking>d__31
+struct U3CAdminBookingU3Ed__31_tDC292D3FA76FF477FB8A2AB54F50BCB5EC043FD9  : public RuntimeObject
 {
 public:
-	// System.Int32 BookingSQLHandler/<Booking>d__18::<>1__state
+	// System.Int32 BookingSQLHandler/<AdminBooking>d__31::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object BookingSQLHandler/<Booking>d__18::<>2__current
+	// System.Object BookingSQLHandler/<AdminBooking>d__31::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// BookingSQLHandler BookingSQLHandler/<Booking>d__18::<>4__this
+	// BookingSQLHandler BookingSQLHandler/<AdminBooking>d__31::<>4__this
 	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * ___U3CU3E4__this_2;
-	// UnityEngine.WWW BookingSQLHandler/<Booking>d__18::<www>5__2
+	// UnityEngine.WWW BookingSQLHandler/<AdminBooking>d__31::<www>5__2
 	WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * ___U3CwwwU3E5__2_3;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__18_t78A1777E93B72706AC080249A746E4EE7B848384, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CAdminBookingU3Ed__31_tDC292D3FA76FF477FB8A2AB54F50BCB5EC043FD9, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -983,7 +981,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__18_t78A1777E93B72706AC080249A746E4EE7B848384, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CAdminBookingU3Ed__31_tDC292D3FA76FF477FB8A2AB54F50BCB5EC043FD9, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -992,7 +990,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__18_t78A1777E93B72706AC080249A746E4EE7B848384, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CAdminBookingU3Ed__31_tDC292D3FA76FF477FB8A2AB54F50BCB5EC043FD9, ___U3CU3E4__this_2)); }
 	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * value)
@@ -1001,7 +999,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CwwwU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__18_t78A1777E93B72706AC080249A746E4EE7B848384, ___U3CwwwU3E5__2_3)); }
+	inline static int32_t get_offset_of_U3CwwwU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CAdminBookingU3Ed__31_tDC292D3FA76FF477FB8A2AB54F50BCB5EC043FD9, ___U3CwwwU3E5__2_3)); }
 	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * get_U3CwwwU3E5__2_3() const { return ___U3CwwwU3E5__2_3; }
 	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 ** get_address_of_U3CwwwU3E5__2_3() { return &___U3CwwwU3E5__2_3; }
 	inline void set_U3CwwwU3E5__2_3(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * value)
@@ -1012,19 +1010,21 @@ public:
 };
 
 
-// BookingSQLHandler/<DestroyAnim>d__21
-struct U3CDestroyAnimU3Ed__21_t89A39DBCDA3C84F41D13772F2AFD93A01D70B7EE  : public RuntimeObject
+// BookingSQLHandler/<Booking>d__29
+struct U3CBookingU3Ed__29_t1350AAA281B0740C6E6F1F6CE0733A7A4B8ABE41  : public RuntimeObject
 {
 public:
-	// System.Int32 BookingSQLHandler/<DestroyAnim>d__21::<>1__state
+	// System.Int32 BookingSQLHandler/<Booking>d__29::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object BookingSQLHandler/<DestroyAnim>d__21::<>2__current
+	// System.Object BookingSQLHandler/<Booking>d__29::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// BookingSQLHandler BookingSQLHandler/<DestroyAnim>d__21::<>4__this
+	// BookingSQLHandler BookingSQLHandler/<Booking>d__29::<>4__this
 	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * ___U3CU3E4__this_2;
+	// UnityEngine.WWW BookingSQLHandler/<Booking>d__29::<www>5__2
+	WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * ___U3CwwwU3E5__2_3;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDestroyAnimU3Ed__21_t89A39DBCDA3C84F41D13772F2AFD93A01D70B7EE, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__29_t1350AAA281B0740C6E6F1F6CE0733A7A4B8ABE41, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -1032,7 +1032,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDestroyAnimU3Ed__21_t89A39DBCDA3C84F41D13772F2AFD93A01D70B7EE, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__29_t1350AAA281B0740C6E6F1F6CE0733A7A4B8ABE41, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -1041,7 +1041,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDestroyAnimU3Ed__21_t89A39DBCDA3C84F41D13772F2AFD93A01D70B7EE, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__29_t1350AAA281B0740C6E6F1F6CE0733A7A4B8ABE41, ___U3CU3E4__this_2)); }
 	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * value)
@@ -1049,50 +1049,8 @@ public:
 		___U3CU3E4__this_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
 	}
-};
 
-
-// BookingSQLHandlerBackup/<Booking>d__24
-struct U3CBookingU3Ed__24_tC651C311A58BA1B8574E00E4596914633FA94752  : public RuntimeObject
-{
-public:
-	// System.Int32 BookingSQLHandlerBackup/<Booking>d__24::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object BookingSQLHandlerBackup/<Booking>d__24::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-	// BookingSQLHandlerBackup BookingSQLHandlerBackup/<Booking>d__24::<>4__this
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 * ___U3CU3E4__this_2;
-	// UnityEngine.WWW BookingSQLHandlerBackup/<Booking>d__24::<www>5__2
-	WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * ___U3CwwwU3E5__2_3;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__24_tC651C311A58BA1B8574E00E4596914633FA94752, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__24_tC651C311A58BA1B8574E00E4596914633FA94752, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__24_tC651C311A58BA1B8574E00E4596914633FA94752, ___U3CU3E4__this_2)); }
-	inline BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 * value)
-	{
-		___U3CU3E4__this_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_U3CwwwU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__24_tC651C311A58BA1B8574E00E4596914633FA94752, ___U3CwwwU3E5__2_3)); }
+	inline static int32_t get_offset_of_U3CwwwU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CBookingU3Ed__29_t1350AAA281B0740C6E6F1F6CE0733A7A4B8ABE41, ___U3CwwwU3E5__2_3)); }
 	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * get_U3CwwwU3E5__2_3() const { return ___U3CwwwU3E5__2_3; }
 	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 ** get_address_of_U3CwwwU3E5__2_3() { return &___U3CwwwU3E5__2_3; }
 	inline void set_U3CwwwU3E5__2_3(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * value)
@@ -1103,19 +1061,19 @@ public:
 };
 
 
-// BookingSQLHandlerBackup/<BookingAlt>d__25
-struct U3CBookingAltU3Ed__25_t50BFCDBFC698E1AED06E26AF8547F4D18AB7102F  : public RuntimeObject
+// BookingSQLHandler/<DestroyAnim>d__39
+struct U3CDestroyAnimU3Ed__39_tBA6DF0F79DCF884C80D157DDE9EB1EB2E593ED73  : public RuntimeObject
 {
 public:
-	// System.Int32 BookingSQLHandlerBackup/<BookingAlt>d__25::<>1__state
+	// System.Int32 BookingSQLHandler/<DestroyAnim>d__39::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object BookingSQLHandlerBackup/<BookingAlt>d__25::<>2__current
+	// System.Object BookingSQLHandler/<DestroyAnim>d__39::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// BookingSQLHandlerBackup BookingSQLHandlerBackup/<BookingAlt>d__25::<>4__this
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 * ___U3CU3E4__this_2;
+	// BookingSQLHandler BookingSQLHandler/<DestroyAnim>d__39::<>4__this
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * ___U3CU3E4__this_2;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CBookingAltU3Ed__25_t50BFCDBFC698E1AED06E26AF8547F4D18AB7102F, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDestroyAnimU3Ed__39_tBA6DF0F79DCF884C80D157DDE9EB1EB2E593ED73, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -1123,7 +1081,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CBookingAltU3Ed__25_t50BFCDBFC698E1AED06E26AF8547F4D18AB7102F, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDestroyAnimU3Ed__39_tBA6DF0F79DCF884C80D157DDE9EB1EB2E593ED73, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -1132,10 +1090,10 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CBookingAltU3Ed__25_t50BFCDBFC698E1AED06E26AF8547F4D18AB7102F, ___U3CU3E4__this_2)); }
-	inline BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 * value)
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDestroyAnimU3Ed__39_tBA6DF0F79DCF884C80D157DDE9EB1EB2E593ED73, ___U3CU3E4__this_2)); }
+	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
+	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
+	inline void set_U3CU3E4__this_2(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * value)
 	{
 		___U3CU3E4__this_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
@@ -1143,19 +1101,19 @@ public:
 };
 
 
-// BookingSQLHandlerBackup/<DestroyAnim>d__32
-struct U3CDestroyAnimU3Ed__32_tA96ADBB620169E9C6FE6D6331867104EE6118012  : public RuntimeObject
+// BookingSQLHandler/<FillAvaTimes>d__32
+struct U3CFillAvaTimesU3Ed__32_tD8750CD035BDEF42F27D000BB51E77E584B389AD  : public RuntimeObject
 {
 public:
-	// System.Int32 BookingSQLHandlerBackup/<DestroyAnim>d__32::<>1__state
+	// System.Int32 BookingSQLHandler/<FillAvaTimes>d__32::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object BookingSQLHandlerBackup/<DestroyAnim>d__32::<>2__current
+	// System.Object BookingSQLHandler/<FillAvaTimes>d__32::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// BookingSQLHandlerBackup BookingSQLHandlerBackup/<DestroyAnim>d__32::<>4__this
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 * ___U3CU3E4__this_2;
+	// BookingSQLHandler BookingSQLHandler/<FillAvaTimes>d__32::<>4__this
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * ___U3CU3E4__this_2;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDestroyAnimU3Ed__32_tA96ADBB620169E9C6FE6D6331867104EE6118012, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CFillAvaTimesU3Ed__32_tD8750CD035BDEF42F27D000BB51E77E584B389AD, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -1163,7 +1121,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDestroyAnimU3Ed__32_tA96ADBB620169E9C6FE6D6331867104EE6118012, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CFillAvaTimesU3Ed__32_tD8750CD035BDEF42F27D000BB51E77E584B389AD, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -1172,13 +1130,115 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDestroyAnimU3Ed__32_tA96ADBB620169E9C6FE6D6331867104EE6118012, ___U3CU3E4__this_2)); }
-	inline BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19 * value)
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CFillAvaTimesU3Ed__32_tD8750CD035BDEF42F27D000BB51E77E584B389AD, ___U3CU3E4__this_2)); }
+	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
+	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
+	inline void set_U3CU3E4__this_2(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * value)
 	{
 		___U3CU3E4__this_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
+	}
+};
+
+
+// BookingSQLHandler/<ManagerBooking>d__30
+struct U3CManagerBookingU3Ed__30_t31E69E441BA04536D9167A9F18D98474300D0E63  : public RuntimeObject
+{
+public:
+	// System.Int32 BookingSQLHandler/<ManagerBooking>d__30::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object BookingSQLHandler/<ManagerBooking>d__30::<>2__current
+	RuntimeObject * ___U3CU3E2__current_1;
+	// BookingSQLHandler BookingSQLHandler/<ManagerBooking>d__30::<>4__this
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * ___U3CU3E4__this_2;
+	// UnityEngine.WWW BookingSQLHandler/<ManagerBooking>d__30::<www>5__2
+	WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * ___U3CwwwU3E5__2_3;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CManagerBookingU3Ed__30_t31E69E441BA04536D9167A9F18D98474300D0E63, ___U3CU3E1__state_0)); }
+	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
+	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
+	inline void set_U3CU3E1__state_0(int32_t value)
+	{
+		___U3CU3E1__state_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CManagerBookingU3Ed__30_t31E69E441BA04536D9167A9F18D98474300D0E63, ___U3CU3E2__current_1)); }
+	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
+	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
+	inline void set_U3CU3E2__current_1(RuntimeObject * value)
+	{
+		___U3CU3E2__current_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CManagerBookingU3Ed__30_t31E69E441BA04536D9167A9F18D98474300D0E63, ___U3CU3E4__this_2)); }
+	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
+	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
+	inline void set_U3CU3E4__this_2(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * value)
+	{
+		___U3CU3E4__this_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CwwwU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CManagerBookingU3Ed__30_t31E69E441BA04536D9167A9F18D98474300D0E63, ___U3CwwwU3E5__2_3)); }
+	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * get_U3CwwwU3E5__2_3() const { return ___U3CwwwU3E5__2_3; }
+	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 ** get_address_of_U3CwwwU3E5__2_3() { return &___U3CwwwU3E5__2_3; }
+	inline void set_U3CwwwU3E5__2_3(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * value)
+	{
+		___U3CwwwU3E5__2_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CwwwU3E5__2_3), (void*)value);
+	}
+};
+
+
+// BookingSQLHandler/<UserSelected>d__38
+struct U3CUserSelectedU3Ed__38_tC0D6FA9B993465210ACAAEC205F02E581D7F4F36  : public RuntimeObject
+{
+public:
+	// System.Int32 BookingSQLHandler/<UserSelected>d__38::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object BookingSQLHandler/<UserSelected>d__38::<>2__current
+	RuntimeObject * ___U3CU3E2__current_1;
+	// BookingSQLHandler BookingSQLHandler/<UserSelected>d__38::<>4__this
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * ___U3CU3E4__this_2;
+	// UnityEngine.WWW BookingSQLHandler/<UserSelected>d__38::<www>5__2
+	WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * ___U3CwwwU3E5__2_3;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CUserSelectedU3Ed__38_tC0D6FA9B993465210ACAAEC205F02E581D7F4F36, ___U3CU3E1__state_0)); }
+	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
+	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
+	inline void set_U3CU3E1__state_0(int32_t value)
+	{
+		___U3CU3E1__state_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CUserSelectedU3Ed__38_tC0D6FA9B993465210ACAAEC205F02E581D7F4F36, ___U3CU3E2__current_1)); }
+	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
+	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
+	inline void set_U3CU3E2__current_1(RuntimeObject * value)
+	{
+		___U3CU3E2__current_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CUserSelectedU3Ed__38_tC0D6FA9B993465210ACAAEC205F02E581D7F4F36, ___U3CU3E4__this_2)); }
+	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
+	inline BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
+	inline void set_U3CU3E4__this_2(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * value)
+	{
+		___U3CU3E4__this_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CwwwU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CUserSelectedU3Ed__38_tC0D6FA9B993465210ACAAEC205F02E581D7F4F36, ___U3CwwwU3E5__2_3)); }
+	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * get_U3CwwwU3E5__2_3() const { return ___U3CwwwU3E5__2_3; }
+	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 ** get_address_of_U3CwwwU3E5__2_3() { return &___U3CwwwU3E5__2_3; }
+	inline void set_U3CwwwU3E5__2_3(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * value)
+	{
+		___U3CwwwU3E5__2_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CwwwU3E5__2_3), (void*)value);
 	}
 };
 
@@ -13869,36 +13929,50 @@ struct BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488  : public Mon
 public:
 	// System.String BookingSQLHandler::bookingURL
 	String_t* ___bookingURL_4;
+	// System.String BookingSQLHandler::bookingAltURL
+	String_t* ___bookingAltURL_5;
+	// System.String BookingSQLHandler::managerURL
+	String_t* ___managerURL_6;
+	// System.String BookingSQLHandler::fillUsersURL
+	String_t* ___fillUsersURL_7;
 	// UnityEngine.UI.Dropdown BookingSQLHandler::dateDropdown
-	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___dateDropdown_5;
+	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___dateDropdown_8;
 	// System.TimeSpan BookingSQLHandler::startTime
-	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___startTime_6;
+	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___startTime_9;
 	// System.TimeSpan BookingSQLHandler::endTime
-	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___endTime_7;
+	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___endTime_10;
 	// UnityEngine.UI.Dropdown BookingSQLHandler::startDropdown
-	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___startDropdown_8;
-	// UnityEngine.UI.Dropdown BookingSQLHandler::endDropdown
-	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___endDropdown_9;
+	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___startDropdown_11;
+	// UnityEngine.UI.Dropdown BookingSQLHandler::durationDropdown
+	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___durationDropdown_12;
+	// UnityEngine.UI.Dropdown BookingSQLHandler::userDropdown
+	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___userDropdown_13;
 	// UnityEngine.UI.Text BookingSQLHandler::confirmText
-	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___confirmText_10;
+	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___confirmText_14;
 	// System.DateTime BookingSQLHandler::currentDate
-	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___currentDate_11;
+	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___currentDate_15;
+	// UnityEngine.UI.Text BookingSQLHandler::debugText
+	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___debugText_16;
+	// UnityEngine.UI.Text BookingSQLHandler::debugText2
+	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___debugText2_17;
+	// UnityEngine.WWW BookingSQLHandler::wwwBooking
+	WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * ___wwwBooking_18;
 	// System.String BookingSQLHandler::startHoursString
-	String_t* ___startHoursString_12;
+	String_t* ___startHoursString_19;
 	// System.String BookingSQLHandler::startMinutesString
-	String_t* ___startMinutesString_13;
+	String_t* ___startMinutesString_20;
 	// System.Int32 BookingSQLHandler::startHours
-	int32_t ___startHours_14;
+	int32_t ___startHours_21;
 	// System.Int32 BookingSQLHandler::startMinutes
-	int32_t ___startMinutes_15;
+	int32_t ___startMinutes_22;
 	// System.String BookingSQLHandler::endHoursString
-	String_t* ___endHoursString_16;
+	String_t* ___endHoursString_23;
 	// System.String BookingSQLHandler::endMinutesString
-	String_t* ___endMinutesString_17;
+	String_t* ___endMinutesString_24;
 	// System.Int32 BookingSQLHandler::endHours
-	int32_t ___endHours_18;
+	int32_t ___endHours_25;
 	// System.Int32 BookingSQLHandler::endMinutes
-	int32_t ___endMinutes_19;
+	int32_t ___endMinutes_26;
 
 public:
 	inline static int32_t get_offset_of_bookingURL_4() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___bookingURL_4)); }
@@ -13910,194 +13984,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___bookingURL_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_dateDropdown_5() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___dateDropdown_5)); }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_dateDropdown_5() const { return ___dateDropdown_5; }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_dateDropdown_5() { return &___dateDropdown_5; }
-	inline void set_dateDropdown_5(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
-	{
-		___dateDropdown_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___dateDropdown_5), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_startTime_6() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startTime_6)); }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_startTime_6() const { return ___startTime_6; }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_startTime_6() { return &___startTime_6; }
-	inline void set_startTime_6(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
-	{
-		___startTime_6 = value;
-	}
-
-	inline static int32_t get_offset_of_endTime_7() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endTime_7)); }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_endTime_7() const { return ___endTime_7; }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_endTime_7() { return &___endTime_7; }
-	inline void set_endTime_7(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
-	{
-		___endTime_7 = value;
-	}
-
-	inline static int32_t get_offset_of_startDropdown_8() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startDropdown_8)); }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_startDropdown_8() const { return ___startDropdown_8; }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_startDropdown_8() { return &___startDropdown_8; }
-	inline void set_startDropdown_8(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
-	{
-		___startDropdown_8 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___startDropdown_8), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_endDropdown_9() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endDropdown_9)); }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_endDropdown_9() const { return ___endDropdown_9; }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_endDropdown_9() { return &___endDropdown_9; }
-	inline void set_endDropdown_9(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
-	{
-		___endDropdown_9 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___endDropdown_9), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_confirmText_10() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___confirmText_10)); }
-	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_confirmText_10() const { return ___confirmText_10; }
-	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_confirmText_10() { return &___confirmText_10; }
-	inline void set_confirmText_10(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
-	{
-		___confirmText_10 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___confirmText_10), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_currentDate_11() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___currentDate_11)); }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_currentDate_11() const { return ___currentDate_11; }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_currentDate_11() { return &___currentDate_11; }
-	inline void set_currentDate_11(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
-	{
-		___currentDate_11 = value;
-	}
-
-	inline static int32_t get_offset_of_startHoursString_12() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startHoursString_12)); }
-	inline String_t* get_startHoursString_12() const { return ___startHoursString_12; }
-	inline String_t** get_address_of_startHoursString_12() { return &___startHoursString_12; }
-	inline void set_startHoursString_12(String_t* value)
-	{
-		___startHoursString_12 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___startHoursString_12), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_startMinutesString_13() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startMinutesString_13)); }
-	inline String_t* get_startMinutesString_13() const { return ___startMinutesString_13; }
-	inline String_t** get_address_of_startMinutesString_13() { return &___startMinutesString_13; }
-	inline void set_startMinutesString_13(String_t* value)
-	{
-		___startMinutesString_13 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___startMinutesString_13), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_startHours_14() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startHours_14)); }
-	inline int32_t get_startHours_14() const { return ___startHours_14; }
-	inline int32_t* get_address_of_startHours_14() { return &___startHours_14; }
-	inline void set_startHours_14(int32_t value)
-	{
-		___startHours_14 = value;
-	}
-
-	inline static int32_t get_offset_of_startMinutes_15() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startMinutes_15)); }
-	inline int32_t get_startMinutes_15() const { return ___startMinutes_15; }
-	inline int32_t* get_address_of_startMinutes_15() { return &___startMinutes_15; }
-	inline void set_startMinutes_15(int32_t value)
-	{
-		___startMinutes_15 = value;
-	}
-
-	inline static int32_t get_offset_of_endHoursString_16() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endHoursString_16)); }
-	inline String_t* get_endHoursString_16() const { return ___endHoursString_16; }
-	inline String_t** get_address_of_endHoursString_16() { return &___endHoursString_16; }
-	inline void set_endHoursString_16(String_t* value)
-	{
-		___endHoursString_16 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___endHoursString_16), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_endMinutesString_17() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endMinutesString_17)); }
-	inline String_t* get_endMinutesString_17() const { return ___endMinutesString_17; }
-	inline String_t** get_address_of_endMinutesString_17() { return &___endMinutesString_17; }
-	inline void set_endMinutesString_17(String_t* value)
-	{
-		___endMinutesString_17 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___endMinutesString_17), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_endHours_18() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endHours_18)); }
-	inline int32_t get_endHours_18() const { return ___endHours_18; }
-	inline int32_t* get_address_of_endHours_18() { return &___endHours_18; }
-	inline void set_endHours_18(int32_t value)
-	{
-		___endHours_18 = value;
-	}
-
-	inline static int32_t get_offset_of_endMinutes_19() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endMinutes_19)); }
-	inline int32_t get_endMinutes_19() const { return ___endMinutes_19; }
-	inline int32_t* get_address_of_endMinutes_19() { return &___endMinutes_19; }
-	inline void set_endMinutes_19(int32_t value)
-	{
-		___endMinutes_19 = value;
-	}
-};
-
-
-// BookingSQLHandlerBackup
-struct BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
-{
-public:
-	// System.String BookingSQLHandlerBackup::bookingURL
-	String_t* ___bookingURL_4;
-	// System.String BookingSQLHandlerBackup::bookingAltURL
-	String_t* ___bookingAltURL_5;
-	// UnityEngine.UI.Dropdown BookingSQLHandlerBackup::dateDropdown
-	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___dateDropdown_6;
-	// System.TimeSpan BookingSQLHandlerBackup::startTime
-	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___startTime_7;
-	// System.TimeSpan BookingSQLHandlerBackup::endTime
-	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___endTime_8;
-	// UnityEngine.UI.Dropdown BookingSQLHandlerBackup::startDropdown
-	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___startDropdown_9;
-	// UnityEngine.UI.Dropdown BookingSQLHandlerBackup::endDropdown
-	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___endDropdown_10;
-	// UnityEngine.UI.Dropdown BookingSQLHandlerBackup::durationDropdown
-	Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * ___durationDropdown_11;
-	// UnityEngine.UI.Text BookingSQLHandlerBackup::confirmText
-	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___confirmText_12;
-	// System.DateTime BookingSQLHandlerBackup::currentDate
-	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___currentDate_13;
-	// UnityEngine.UI.Text BookingSQLHandlerBackup::debugText
-	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___debugText_14;
-	// UnityEngine.UI.Text BookingSQLHandlerBackup::debugText2
-	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___debugText2_15;
-	// UnityEngine.WWW BookingSQLHandlerBackup::wwwBooking
-	WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * ___wwwBooking_16;
-	// System.String BookingSQLHandlerBackup::startHoursString
-	String_t* ___startHoursString_17;
-	// System.String BookingSQLHandlerBackup::startMinutesString
-	String_t* ___startMinutesString_18;
-	// System.Int32 BookingSQLHandlerBackup::startHours
-	int32_t ___startHours_19;
-	// System.Int32 BookingSQLHandlerBackup::startMinutes
-	int32_t ___startMinutes_20;
-	// System.String BookingSQLHandlerBackup::endHoursString
-	String_t* ___endHoursString_21;
-	// System.String BookingSQLHandlerBackup::endMinutesString
-	String_t* ___endMinutesString_22;
-	// System.Int32 BookingSQLHandlerBackup::endHours
-	int32_t ___endHours_23;
-	// System.Int32 BookingSQLHandlerBackup::endMinutes
-	int32_t ___endMinutes_24;
-
-public:
-	inline static int32_t get_offset_of_bookingURL_4() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___bookingURL_4)); }
-	inline String_t* get_bookingURL_4() const { return ___bookingURL_4; }
-	inline String_t** get_address_of_bookingURL_4() { return &___bookingURL_4; }
-	inline void set_bookingURL_4(String_t* value)
-	{
-		___bookingURL_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___bookingURL_4), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_bookingAltURL_5() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___bookingAltURL_5)); }
+	inline static int32_t get_offset_of_bookingAltURL_5() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___bookingAltURL_5)); }
 	inline String_t* get_bookingAltURL_5() const { return ___bookingAltURL_5; }
 	inline String_t** get_address_of_bookingAltURL_5() { return &___bookingAltURL_5; }
 	inline void set_bookingAltURL_5(String_t* value)
@@ -14106,168 +13993,186 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___bookingAltURL_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_dateDropdown_6() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___dateDropdown_6)); }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_dateDropdown_6() const { return ___dateDropdown_6; }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_dateDropdown_6() { return &___dateDropdown_6; }
-	inline void set_dateDropdown_6(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
+	inline static int32_t get_offset_of_managerURL_6() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___managerURL_6)); }
+	inline String_t* get_managerURL_6() const { return ___managerURL_6; }
+	inline String_t** get_address_of_managerURL_6() { return &___managerURL_6; }
+	inline void set_managerURL_6(String_t* value)
 	{
-		___dateDropdown_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___dateDropdown_6), (void*)value);
+		___managerURL_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___managerURL_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_startTime_7() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___startTime_7)); }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_startTime_7() const { return ___startTime_7; }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_startTime_7() { return &___startTime_7; }
-	inline void set_startTime_7(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
+	inline static int32_t get_offset_of_fillUsersURL_7() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___fillUsersURL_7)); }
+	inline String_t* get_fillUsersURL_7() const { return ___fillUsersURL_7; }
+	inline String_t** get_address_of_fillUsersURL_7() { return &___fillUsersURL_7; }
+	inline void set_fillUsersURL_7(String_t* value)
 	{
-		___startTime_7 = value;
+		___fillUsersURL_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___fillUsersURL_7), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_endTime_8() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___endTime_8)); }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_endTime_8() const { return ___endTime_8; }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_endTime_8() { return &___endTime_8; }
-	inline void set_endTime_8(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
+	inline static int32_t get_offset_of_dateDropdown_8() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___dateDropdown_8)); }
+	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_dateDropdown_8() const { return ___dateDropdown_8; }
+	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_dateDropdown_8() { return &___dateDropdown_8; }
+	inline void set_dateDropdown_8(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
 	{
-		___endTime_8 = value;
+		___dateDropdown_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___dateDropdown_8), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_startDropdown_9() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___startDropdown_9)); }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_startDropdown_9() const { return ___startDropdown_9; }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_startDropdown_9() { return &___startDropdown_9; }
-	inline void set_startDropdown_9(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
+	inline static int32_t get_offset_of_startTime_9() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startTime_9)); }
+	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_startTime_9() const { return ___startTime_9; }
+	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_startTime_9() { return &___startTime_9; }
+	inline void set_startTime_9(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
 	{
-		___startDropdown_9 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___startDropdown_9), (void*)value);
+		___startTime_9 = value;
 	}
 
-	inline static int32_t get_offset_of_endDropdown_10() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___endDropdown_10)); }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_endDropdown_10() const { return ___endDropdown_10; }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_endDropdown_10() { return &___endDropdown_10; }
-	inline void set_endDropdown_10(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
+	inline static int32_t get_offset_of_endTime_10() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endTime_10)); }
+	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_endTime_10() const { return ___endTime_10; }
+	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_endTime_10() { return &___endTime_10; }
+	inline void set_endTime_10(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
 	{
-		___endDropdown_10 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___endDropdown_10), (void*)value);
+		___endTime_10 = value;
 	}
 
-	inline static int32_t get_offset_of_durationDropdown_11() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___durationDropdown_11)); }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_durationDropdown_11() const { return ___durationDropdown_11; }
-	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_durationDropdown_11() { return &___durationDropdown_11; }
-	inline void set_durationDropdown_11(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
+	inline static int32_t get_offset_of_startDropdown_11() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startDropdown_11)); }
+	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_startDropdown_11() const { return ___startDropdown_11; }
+	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_startDropdown_11() { return &___startDropdown_11; }
+	inline void set_startDropdown_11(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
 	{
-		___durationDropdown_11 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___durationDropdown_11), (void*)value);
+		___startDropdown_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___startDropdown_11), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_confirmText_12() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___confirmText_12)); }
-	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_confirmText_12() const { return ___confirmText_12; }
-	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_confirmText_12() { return &___confirmText_12; }
-	inline void set_confirmText_12(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
+	inline static int32_t get_offset_of_durationDropdown_12() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___durationDropdown_12)); }
+	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_durationDropdown_12() const { return ___durationDropdown_12; }
+	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_durationDropdown_12() { return &___durationDropdown_12; }
+	inline void set_durationDropdown_12(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
 	{
-		___confirmText_12 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___confirmText_12), (void*)value);
+		___durationDropdown_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___durationDropdown_12), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_currentDate_13() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___currentDate_13)); }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_currentDate_13() const { return ___currentDate_13; }
-	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_currentDate_13() { return &___currentDate_13; }
-	inline void set_currentDate_13(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
+	inline static int32_t get_offset_of_userDropdown_13() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___userDropdown_13)); }
+	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * get_userDropdown_13() const { return ___userDropdown_13; }
+	inline Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 ** get_address_of_userDropdown_13() { return &___userDropdown_13; }
+	inline void set_userDropdown_13(Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * value)
 	{
-		___currentDate_13 = value;
+		___userDropdown_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___userDropdown_13), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_debugText_14() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___debugText_14)); }
-	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_debugText_14() const { return ___debugText_14; }
-	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_debugText_14() { return &___debugText_14; }
-	inline void set_debugText_14(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
+	inline static int32_t get_offset_of_confirmText_14() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___confirmText_14)); }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_confirmText_14() const { return ___confirmText_14; }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_confirmText_14() { return &___confirmText_14; }
+	inline void set_confirmText_14(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
 	{
-		___debugText_14 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___debugText_14), (void*)value);
+		___confirmText_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___confirmText_14), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_debugText2_15() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___debugText2_15)); }
-	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_debugText2_15() const { return ___debugText2_15; }
-	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_debugText2_15() { return &___debugText2_15; }
-	inline void set_debugText2_15(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
+	inline static int32_t get_offset_of_currentDate_15() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___currentDate_15)); }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  get_currentDate_15() const { return ___currentDate_15; }
+	inline DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * get_address_of_currentDate_15() { return &___currentDate_15; }
+	inline void set_currentDate_15(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  value)
 	{
-		___debugText2_15 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___debugText2_15), (void*)value);
+		___currentDate_15 = value;
 	}
 
-	inline static int32_t get_offset_of_wwwBooking_16() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___wwwBooking_16)); }
-	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * get_wwwBooking_16() const { return ___wwwBooking_16; }
-	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 ** get_address_of_wwwBooking_16() { return &___wwwBooking_16; }
-	inline void set_wwwBooking_16(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * value)
+	inline static int32_t get_offset_of_debugText_16() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___debugText_16)); }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_debugText_16() const { return ___debugText_16; }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_debugText_16() { return &___debugText_16; }
+	inline void set_debugText_16(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
 	{
-		___wwwBooking_16 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___wwwBooking_16), (void*)value);
+		___debugText_16 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___debugText_16), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_startHoursString_17() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___startHoursString_17)); }
-	inline String_t* get_startHoursString_17() const { return ___startHoursString_17; }
-	inline String_t** get_address_of_startHoursString_17() { return &___startHoursString_17; }
-	inline void set_startHoursString_17(String_t* value)
+	inline static int32_t get_offset_of_debugText2_17() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___debugText2_17)); }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_debugText2_17() const { return ___debugText2_17; }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_debugText2_17() { return &___debugText2_17; }
+	inline void set_debugText2_17(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
 	{
-		___startHoursString_17 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___startHoursString_17), (void*)value);
+		___debugText2_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___debugText2_17), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_startMinutesString_18() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___startMinutesString_18)); }
-	inline String_t* get_startMinutesString_18() const { return ___startMinutesString_18; }
-	inline String_t** get_address_of_startMinutesString_18() { return &___startMinutesString_18; }
-	inline void set_startMinutesString_18(String_t* value)
+	inline static int32_t get_offset_of_wwwBooking_18() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___wwwBooking_18)); }
+	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * get_wwwBooking_18() const { return ___wwwBooking_18; }
+	inline WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 ** get_address_of_wwwBooking_18() { return &___wwwBooking_18; }
+	inline void set_wwwBooking_18(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * value)
 	{
-		___startMinutesString_18 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___startMinutesString_18), (void*)value);
+		___wwwBooking_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___wwwBooking_18), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_startHours_19() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___startHours_19)); }
-	inline int32_t get_startHours_19() const { return ___startHours_19; }
-	inline int32_t* get_address_of_startHours_19() { return &___startHours_19; }
-	inline void set_startHours_19(int32_t value)
+	inline static int32_t get_offset_of_startHoursString_19() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startHoursString_19)); }
+	inline String_t* get_startHoursString_19() const { return ___startHoursString_19; }
+	inline String_t** get_address_of_startHoursString_19() { return &___startHoursString_19; }
+	inline void set_startHoursString_19(String_t* value)
 	{
-		___startHours_19 = value;
+		___startHoursString_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___startHoursString_19), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_startMinutes_20() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___startMinutes_20)); }
-	inline int32_t get_startMinutes_20() const { return ___startMinutes_20; }
-	inline int32_t* get_address_of_startMinutes_20() { return &___startMinutes_20; }
-	inline void set_startMinutes_20(int32_t value)
+	inline static int32_t get_offset_of_startMinutesString_20() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startMinutesString_20)); }
+	inline String_t* get_startMinutesString_20() const { return ___startMinutesString_20; }
+	inline String_t** get_address_of_startMinutesString_20() { return &___startMinutesString_20; }
+	inline void set_startMinutesString_20(String_t* value)
 	{
-		___startMinutes_20 = value;
+		___startMinutesString_20 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___startMinutesString_20), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_endHoursString_21() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___endHoursString_21)); }
-	inline String_t* get_endHoursString_21() const { return ___endHoursString_21; }
-	inline String_t** get_address_of_endHoursString_21() { return &___endHoursString_21; }
-	inline void set_endHoursString_21(String_t* value)
+	inline static int32_t get_offset_of_startHours_21() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startHours_21)); }
+	inline int32_t get_startHours_21() const { return ___startHours_21; }
+	inline int32_t* get_address_of_startHours_21() { return &___startHours_21; }
+	inline void set_startHours_21(int32_t value)
 	{
-		___endHoursString_21 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___endHoursString_21), (void*)value);
+		___startHours_21 = value;
 	}
 
-	inline static int32_t get_offset_of_endMinutesString_22() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___endMinutesString_22)); }
-	inline String_t* get_endMinutesString_22() const { return ___endMinutesString_22; }
-	inline String_t** get_address_of_endMinutesString_22() { return &___endMinutesString_22; }
-	inline void set_endMinutesString_22(String_t* value)
+	inline static int32_t get_offset_of_startMinutes_22() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___startMinutes_22)); }
+	inline int32_t get_startMinutes_22() const { return ___startMinutes_22; }
+	inline int32_t* get_address_of_startMinutes_22() { return &___startMinutes_22; }
+	inline void set_startMinutes_22(int32_t value)
 	{
-		___endMinutesString_22 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___endMinutesString_22), (void*)value);
+		___startMinutes_22 = value;
 	}
 
-	inline static int32_t get_offset_of_endHours_23() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___endHours_23)); }
-	inline int32_t get_endHours_23() const { return ___endHours_23; }
-	inline int32_t* get_address_of_endHours_23() { return &___endHours_23; }
-	inline void set_endHours_23(int32_t value)
+	inline static int32_t get_offset_of_endHoursString_23() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endHoursString_23)); }
+	inline String_t* get_endHoursString_23() const { return ___endHoursString_23; }
+	inline String_t** get_address_of_endHoursString_23() { return &___endHoursString_23; }
+	inline void set_endHoursString_23(String_t* value)
 	{
-		___endHours_23 = value;
+		___endHoursString_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___endHoursString_23), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_endMinutes_24() { return static_cast<int32_t>(offsetof(BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19, ___endMinutes_24)); }
-	inline int32_t get_endMinutes_24() const { return ___endMinutes_24; }
-	inline int32_t* get_address_of_endMinutes_24() { return &___endMinutes_24; }
-	inline void set_endMinutes_24(int32_t value)
+	inline static int32_t get_offset_of_endMinutesString_24() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endMinutesString_24)); }
+	inline String_t* get_endMinutesString_24() const { return ___endMinutesString_24; }
+	inline String_t** get_address_of_endMinutesString_24() { return &___endMinutesString_24; }
+	inline void set_endMinutesString_24(String_t* value)
 	{
-		___endMinutes_24 = value;
+		___endMinutesString_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___endMinutesString_24), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_endHours_25() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endHours_25)); }
+	inline int32_t get_endHours_25() const { return ___endHours_25; }
+	inline int32_t* get_address_of_endHours_25() { return &___endHours_25; }
+	inline void set_endHours_25(int32_t value)
+	{
+		___endHours_25 = value;
+	}
+
+	inline static int32_t get_offset_of_endMinutes_26() { return static_cast<int32_t>(offsetof(BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488, ___endMinutes_26)); }
+	inline int32_t get_endMinutes_26() const { return ___endMinutes_26; }
+	inline int32_t* get_address_of_endMinutes_26() { return &___endMinutes_26; }
+	inline void set_endMinutes_26(int32_t value)
+	{
+		___endMinutes_26 = value;
 	}
 };
 
@@ -17361,78 +17266,69 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3273[4] =
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3276[4] = 
 {
-	U3CBookingU3Ed__18_t78A1777E93B72706AC080249A746E4EE7B848384::get_offset_of_U3CU3E1__state_0(),
-	U3CBookingU3Ed__18_t78A1777E93B72706AC080249A746E4EE7B848384::get_offset_of_U3CU3E2__current_1(),
-	U3CBookingU3Ed__18_t78A1777E93B72706AC080249A746E4EE7B848384::get_offset_of_U3CU3E4__this_2(),
-	U3CBookingU3Ed__18_t78A1777E93B72706AC080249A746E4EE7B848384::get_offset_of_U3CwwwU3E5__2_3(),
+	U3CBookingU3Ed__29_t1350AAA281B0740C6E6F1F6CE0733A7A4B8ABE41::get_offset_of_U3CU3E1__state_0(),
+	U3CBookingU3Ed__29_t1350AAA281B0740C6E6F1F6CE0733A7A4B8ABE41::get_offset_of_U3CU3E2__current_1(),
+	U3CBookingU3Ed__29_t1350AAA281B0740C6E6F1F6CE0733A7A4B8ABE41::get_offset_of_U3CU3E4__this_2(),
+	U3CBookingU3Ed__29_t1350AAA281B0740C6E6F1F6CE0733A7A4B8ABE41::get_offset_of_U3CwwwU3E5__2_3(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3277[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3277[4] = 
 {
-	U3CDestroyAnimU3Ed__21_t89A39DBCDA3C84F41D13772F2AFD93A01D70B7EE::get_offset_of_U3CU3E1__state_0(),
-	U3CDestroyAnimU3Ed__21_t89A39DBCDA3C84F41D13772F2AFD93A01D70B7EE::get_offset_of_U3CU3E2__current_1(),
-	U3CDestroyAnimU3Ed__21_t89A39DBCDA3C84F41D13772F2AFD93A01D70B7EE::get_offset_of_U3CU3E4__this_2(),
+	U3CManagerBookingU3Ed__30_t31E69E441BA04536D9167A9F18D98474300D0E63::get_offset_of_U3CU3E1__state_0(),
+	U3CManagerBookingU3Ed__30_t31E69E441BA04536D9167A9F18D98474300D0E63::get_offset_of_U3CU3E2__current_1(),
+	U3CManagerBookingU3Ed__30_t31E69E441BA04536D9167A9F18D98474300D0E63::get_offset_of_U3CU3E4__this_2(),
+	U3CManagerBookingU3Ed__30_t31E69E441BA04536D9167A9F18D98474300D0E63::get_offset_of_U3CwwwU3E5__2_3(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3278[16] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3278[4] = 
 {
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_bookingURL_4(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_dateDropdown_5(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startTime_6(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endTime_7(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startDropdown_8(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endDropdown_9(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_confirmText_10(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_currentDate_11(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startHoursString_12(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startMinutesString_13(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startHours_14(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startMinutes_15(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endHoursString_16(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endMinutesString_17(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endHours_18(),
-	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endMinutes_19(),
+	U3CAdminBookingU3Ed__31_tDC292D3FA76FF477FB8A2AB54F50BCB5EC043FD9::get_offset_of_U3CU3E1__state_0(),
+	U3CAdminBookingU3Ed__31_tDC292D3FA76FF477FB8A2AB54F50BCB5EC043FD9::get_offset_of_U3CU3E2__current_1(),
+	U3CAdminBookingU3Ed__31_tDC292D3FA76FF477FB8A2AB54F50BCB5EC043FD9::get_offset_of_U3CU3E4__this_2(),
+	U3CAdminBookingU3Ed__31_tDC292D3FA76FF477FB8A2AB54F50BCB5EC043FD9::get_offset_of_U3CwwwU3E5__2_3(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3279[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3279[3] = 
 {
-	U3CBookingU3Ed__24_tC651C311A58BA1B8574E00E4596914633FA94752::get_offset_of_U3CU3E1__state_0(),
-	U3CBookingU3Ed__24_tC651C311A58BA1B8574E00E4596914633FA94752::get_offset_of_U3CU3E2__current_1(),
-	U3CBookingU3Ed__24_tC651C311A58BA1B8574E00E4596914633FA94752::get_offset_of_U3CU3E4__this_2(),
-	U3CBookingU3Ed__24_tC651C311A58BA1B8574E00E4596914633FA94752::get_offset_of_U3CwwwU3E5__2_3(),
+	U3CFillAvaTimesU3Ed__32_tD8750CD035BDEF42F27D000BB51E77E584B389AD::get_offset_of_U3CU3E1__state_0(),
+	U3CFillAvaTimesU3Ed__32_tD8750CD035BDEF42F27D000BB51E77E584B389AD::get_offset_of_U3CU3E2__current_1(),
+	U3CFillAvaTimesU3Ed__32_tD8750CD035BDEF42F27D000BB51E77E584B389AD::get_offset_of_U3CU3E4__this_2(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3280[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3280[4] = 
 {
-	U3CBookingAltU3Ed__25_t50BFCDBFC698E1AED06E26AF8547F4D18AB7102F::get_offset_of_U3CU3E1__state_0(),
-	U3CBookingAltU3Ed__25_t50BFCDBFC698E1AED06E26AF8547F4D18AB7102F::get_offset_of_U3CU3E2__current_1(),
-	U3CBookingAltU3Ed__25_t50BFCDBFC698E1AED06E26AF8547F4D18AB7102F::get_offset_of_U3CU3E4__this_2(),
+	U3CUserSelectedU3Ed__38_tC0D6FA9B993465210ACAAEC205F02E581D7F4F36::get_offset_of_U3CU3E1__state_0(),
+	U3CUserSelectedU3Ed__38_tC0D6FA9B993465210ACAAEC205F02E581D7F4F36::get_offset_of_U3CU3E2__current_1(),
+	U3CUserSelectedU3Ed__38_tC0D6FA9B993465210ACAAEC205F02E581D7F4F36::get_offset_of_U3CU3E4__this_2(),
+	U3CUserSelectedU3Ed__38_tC0D6FA9B993465210ACAAEC205F02E581D7F4F36::get_offset_of_U3CwwwU3E5__2_3(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3281[3] = 
 {
-	U3CDestroyAnimU3Ed__32_tA96ADBB620169E9C6FE6D6331867104EE6118012::get_offset_of_U3CU3E1__state_0(),
-	U3CDestroyAnimU3Ed__32_tA96ADBB620169E9C6FE6D6331867104EE6118012::get_offset_of_U3CU3E2__current_1(),
-	U3CDestroyAnimU3Ed__32_tA96ADBB620169E9C6FE6D6331867104EE6118012::get_offset_of_U3CU3E4__this_2(),
+	U3CDestroyAnimU3Ed__39_tBA6DF0F79DCF884C80D157DDE9EB1EB2E593ED73::get_offset_of_U3CU3E1__state_0(),
+	U3CDestroyAnimU3Ed__39_tBA6DF0F79DCF884C80D157DDE9EB1EB2E593ED73::get_offset_of_U3CU3E2__current_1(),
+	U3CDestroyAnimU3Ed__39_tBA6DF0F79DCF884C80D157DDE9EB1EB2E593ED73::get_offset_of_U3CU3E4__this_2(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3282[21] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3282[23] = 
 {
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_bookingURL_4(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_bookingAltURL_5(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_dateDropdown_6(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_startTime_7(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_endTime_8(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_startDropdown_9(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_endDropdown_10(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_durationDropdown_11(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_confirmText_12(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_currentDate_13(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_debugText_14(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_debugText2_15(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_wwwBooking_16(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_startHoursString_17(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_startMinutesString_18(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_startHours_19(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_startMinutes_20(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_endHoursString_21(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_endMinutesString_22(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_endHours_23(),
-	BookingSQLHandlerBackup_t9AD7FA24B80AD6216D9C5A3F43E341C19875AD19::get_offset_of_endMinutes_24(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_bookingURL_4(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_bookingAltURL_5(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_managerURL_6(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_fillUsersURL_7(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_dateDropdown_8(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startTime_9(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endTime_10(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startDropdown_11(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_durationDropdown_12(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_userDropdown_13(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_confirmText_14(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_currentDate_15(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_debugText_16(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_debugText2_17(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_wwwBooking_18(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startHoursString_19(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startMinutesString_20(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startHours_21(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_startMinutes_22(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endHoursString_23(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endMinutesString_24(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endHours_25(),
+	BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488::get_offset_of_endMinutes_26(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3283[6] = 
 {

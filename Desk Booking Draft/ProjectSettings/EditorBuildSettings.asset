@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AdminBooking.unity
     guid: e635a882436bb4b8bbb82a0355aaa601
+  - enabled: 1
+    path: Assets/Scenes/Cancellation.unity
+    guid: bff30311b70ad4d2b8379f5f89c5fe46
   m_configObjects: {}
