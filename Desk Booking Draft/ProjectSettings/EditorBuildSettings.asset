@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cancellation.unity
     guid: bff30311b70ad4d2b8379f5f89c5fe46
+  - enabled: 1
+    path: Assets/Scenes/AdminRegistration.unity
+    guid: 5a3b07c2f3a824414808b53dec50cefe
   m_configObjects: {}
