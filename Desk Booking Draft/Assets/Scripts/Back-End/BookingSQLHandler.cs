@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
+using System.Linq;
 
 public class BookingSQLHandler : MonoBehaviour
 {
@@ -35,6 +36,9 @@ public class BookingSQLHandler : MonoBehaviour
     string endMinutesString;
     int endHours;
     int endMinutes;
+
+    public List<string> listOfUsers;
+    public string[] staffArray;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,7 +47,6 @@ public class BookingSQLHandler : MonoBehaviour
         StartCoroutine(FillAvaTimes());
         StartCoroutine(UserSelected());
     }
-
 
     //Call Methods
     public void CallBooking()
@@ -143,6 +146,7 @@ public class BookingSQLHandler : MonoBehaviour
             confirmText.color = Color.red;
             StartCoroutine(DestroyAnim());
         }
+        CallUserSelected();
     }
 
     IEnumerator AdminBooking()
@@ -180,6 +184,7 @@ public class BookingSQLHandler : MonoBehaviour
             confirmText.color = Color.red;
             StartCoroutine(DestroyAnim());
         }
+        CallUserSelected();
     }
 
     IEnumerator FillAvaTimes()
@@ -192,11 +197,8 @@ public class BookingSQLHandler : MonoBehaviour
 
         wwwBooking = new WWW(bookingAltURL, form);
 
-        Debug.Log("Request Sent");
-        Debug.Log(PlayerPrefs.GetString("DeskName"));
         yield return wwwBooking;
         debugText.text = wwwBooking.text;
-        Debug.Log(wwwBooking.text);
         TimesInArray();
     }
 
@@ -217,9 +219,6 @@ public class BookingSQLHandler : MonoBehaviour
         //endHours = Int32.Parse(endHoursString);
         //endMinutes = Int32.Parse(endMinutesString);
 
-        Debug.Log(startTime);
-        Debug.Log(startTime.Subtract(endTime));
-        Debug.Log(PlayerPrefs.GetString("CurrentDate"));
     }
 
     public void FillStartDropdown()
@@ -244,11 +243,10 @@ public class BookingSQLHandler : MonoBehaviour
         Dropdown.OptionData dropdownObjects = new Dropdown.OptionData();
         string availableTimes = wwwBooking.text;
         string[] availableTimesArray = availableTimes.Split('|');
-        Debug.Log("Length: " + availableTimesArray.Length);
         for (int i = 0; i < availableTimesArray.Length-1; i++)
         {
             list.Add(availableTimesArray[i]);
-            Debug.Log(availableTimesArray[i]);
+            //Debug.Log(availableTimesArray[i]);
         }
         startDropdown.AddOptions(list);
     }
@@ -285,36 +283,34 @@ public class BookingSQLHandler : MonoBehaviour
             currentDate = currentDate.AddDays(1).Date;
         }
         dateDropdown.AddOptions(list);
-        Debug.Log("List Filled");
     }
 
     IEnumerator UserSelected()
     {
+        userDropdown.ClearOptions();
         WWWForm form = new WWWForm();
         form.AddField("user", PlayerPrefs.GetString("Username"));
 
         WWW www = new WWW(fillUsersURL, form);
 
         yield return www;
-        List<String> list = new List<String>();
+        listOfUsers = new List<String>();
         Dropdown.OptionData dropdownObjects = new Dropdown.OptionData();
-        list.Add(PlayerPrefs.GetString("Username"));
         string staff = www.text;
-        string[] staffArray = staff.Split('|');
-        Debug.Log(www.text);
+        staffArray = staff.Split('|');
         debugText.text = www.text;
         for (int i = 0; i < staffArray.Length - 1; i++)
         {
-            list.Add(staffArray[i]);
+            listOfUsers.Add(staffArray[i]);
             Debug.Log(staffArray[i]);
         }
-        if(PlayerPrefs.GetString("Username").Substring(0,3) == "MAN")   //Checks if user logged in is Manager
+        if (PlayerPrefs.GetString("Username").Substring(0, 3) == "MAN")   //Checks if user logged in is Manager
         {
-            userDropdown.AddOptions(list);
+            userDropdown.AddOptions(listOfUsers);
         }
         else if (PlayerPrefs.GetString("Username").Substring(0, 3) == "ADM")   //Checks if user logged in is Manager
         {
-            userDropdown.AddOptions(list);
+            userDropdown.AddOptions(listOfUsers);
         }
     }
 

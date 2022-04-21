@@ -703,10 +703,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e650ede19fc7a4fdc9444be30a6cf2e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCanvas: {fileID: 0}
   verticalLayout: {fileID: 1163868697}
   debugText: {fileID: 543224083}
   bookingSelection: {fileID: 6216336622743376484, guid: 3c74e2b9bdad74110b124997f2e3d48e, type: 3}
   contentBox: {fileID: 1163868696}
+  cancelCanvas: {fileID: 0}
 --- !u!114 &289442748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1938,8 +1940,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 956914183}
   m_HandleRect: {fileID: 956914182}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.9999999
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2072,6 +2074,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718741775}
   m_CullTransparentMesh: 1
+--- !u!1 &734178372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734178374}
+  - component: {fileID: 734178373}
+  m_Layer: 0
+  m_Name: CancellationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &734178373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734178372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6222050069b7849c1b29a9e09ec5299b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCanvas: {fileID: 289442742}
+--- !u!4 &734178374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734178372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 714.009, y: 1898.4962, z: -388.06152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &773822493
 GameObject:
   m_ObjectHideFlags: 0
@@ -4257,10 +4303,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e650ede19fc7a4fdc9444be30a6cf2e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCanvas: {fileID: 2605294019566573916, guid: 69f0f2fe0893341588845dae8dbc6f9f, type: 3}
   verticalLayout: {fileID: 2043933633}
   debugText: {fileID: 1164084018}
   bookingSelection: {fileID: 6216336622743376484, guid: 3c74e2b9bdad74110b124997f2e3d48e, type: 3}
   contentBox: {fileID: 2043933631}
+  cancelCanvas: {fileID: 1365550065}
 --- !u!114 &1365550067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4706,6 +4754,7 @@ GameObject:
   - component: {fileID: 1414699618}
   - component: {fileID: 1414699617}
   - component: {fileID: 1414699616}
+  - component: {fileID: 1414699619}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -4777,9 +4826,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1365550066}
-        m_TargetAssemblyTypeName: CancellationSQLHandler, Assembly-CSharp
-        m_MethodName: BackButton
+      - m_Target: {fileID: 1414699619}
+        m_TargetAssemblyTypeName: BackButtonScript, Assembly-CSharp
+        m_MethodName: Back
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4827,6 +4876,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414699614}
   m_CullTransparentMesh: 1
+--- !u!114 &1414699619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414699614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc40221a4f2ca4078b3933e8103150e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1466221839
 GameObject:
   m_ObjectHideFlags: 0
@@ -5789,6 +5850,7 @@ GameObject:
   - component: {fileID: 1992796647}
   - component: {fileID: 1992796646}
   - component: {fileID: 1992796645}
+  - component: {fileID: 1992796648}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -5860,9 +5922,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 289442748}
-        m_TargetAssemblyTypeName: ButtonActionsScript, Assembly-CSharp
-        m_MethodName: BackToIndex
+      - m_Target: {fileID: 1992796648}
+        m_TargetAssemblyTypeName: BackButtonScript, Assembly-CSharp
+        m_MethodName: Back
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5910,6 +5972,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992796643}
   m_CullTransparentMesh: 1
+--- !u!114 &1992796648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992796643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc40221a4f2ca4078b3933e8103150e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2002888546
 GameObject:
   m_ObjectHideFlags: 0

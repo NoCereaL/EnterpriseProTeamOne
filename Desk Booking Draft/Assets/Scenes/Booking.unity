@@ -177,7 +177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &84296369
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1109,12 +1109,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dateDropdown: {fileID: 1062856936}
   startDropdown: {fileID: 2105092807}
-  endDropdown: {fileID: 2147107367}
   durationDropdown: {fileID: 348628547}
   userDropdown: {fileID: 0}
   confirmText: {fileID: 1199080183}
   debugText: {fileID: 1417021410}
   debugText2: {fileID: 0}
+  listOfUsers: []
+  staffArray: []
 --- !u!1 &303311253
 GameObject:
   m_ObjectHideFlags: 0

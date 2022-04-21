@@ -12,7 +12,7 @@ public class CancellationSQLHandler : MonoBehaviour
     [HideInInspector] GameObject adminBookedText;
     [HideInInspector] GameObject startTimeText;
     [HideInInspector] GameObject durationText;
-    [HideInInspector] GameObject mainCanvas;
+    [SerializeField] GameObject mainCanvas;
     [HideInInspector] GameObject statusText;
 
 
@@ -20,6 +20,8 @@ public class CancellationSQLHandler : MonoBehaviour
     [SerializeField] Text debugText;
     [SerializeField] GameObject bookingSelection;
     [SerializeField] Transform contentBox;
+
+    [SerializeField] GameObject cancelCanvas;
 
     private string bookingSelectionURL = "https://moyanask.com/EPTeam1/getuserbookings.php";
     private string cancellationURL = "https://moyanask.com/EPTeam1/cancellation.php";
@@ -33,7 +35,6 @@ public class CancellationSQLHandler : MonoBehaviour
         adminBookedText = GameObject.Find("AdminBookedText");
         startTimeText = GameObject.Find("StartTimeText");
         durationText = GameObject.Find("DurationText");
-        mainCanvas = GameObject.Find("MainCanvas");
         statusText = GameObject.Find("StatusText");
 
         CallBookingSelections();
@@ -103,8 +104,10 @@ public class CancellationSQLHandler : MonoBehaviour
             statusText.SetActive(true);
             statusText.GetComponent<Text>().text = "Booking Canceled Successfully!";
             statusText.GetComponent<Text>().color = Color.green;
-            yield return new WaitForSecondsRealtime(4);
+            yield return new WaitForSecondsRealtime(1);
             statusText.SetActive(false);
+            GameObject newMainCanvas = Instantiate(mainCanvas, null);
+            CancellationInstance.Instance.mainCanvas = newMainCanvas;
         }
         if(www.text == "-1")
         {

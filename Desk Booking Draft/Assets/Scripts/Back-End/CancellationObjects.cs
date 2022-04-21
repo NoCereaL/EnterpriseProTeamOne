@@ -29,8 +29,8 @@ public class CancellationObjects : MonoBehaviour
         durationText = GameObject.Find("DurationText");
         dateText = GameObject.Find("DateText");
 
-        mainCanvas = GameObject.Find("MainCanvas");
         cancelCanvas = GameObject.Find("CancelCanvas");
+        mainCanvas = CancellationInstance.Instance.mainCanvas;
     }
 
     // Update is called once per frame
@@ -46,7 +46,9 @@ public class CancellationObjects : MonoBehaviour
 
     public void SetSelection()
     {
-        mainCanvas.SetActive(false);
+        //mainCanvas.SetActive(false);
+        Destroy(mainCanvas);
+        Destroy(CancellationInstance.Instance.mainCanvas);
 
         string[] selectionArray = this.gameObject.GetComponent<Text>().text.Split('|');
         staffBookedText.GetComponent<Text>().text = this.gameObject.GetComponent<Text>().text;
