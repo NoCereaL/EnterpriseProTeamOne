@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,6 +18,9 @@ public class CancellationObjects : MonoBehaviour
     [HideInInspector] GameObject mainCanvas;
     [HideInInspector] GameObject cancelCanvas;
 
+    [HideInInspector] GameObject background;
+    string[] selectionArray;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +35,9 @@ public class CancellationObjects : MonoBehaviour
 
         cancelCanvas = GameObject.Find("CancelCanvas");
         mainCanvas = CancellationInstance.Instance.mainCanvas;
+
+        background = gameObject.GetComponentInParent<Image>().gameObject;
+        CheckPreviousBooking();
     }
 
     // Update is called once per frame
@@ -44,18 +51,23 @@ public class CancellationObjects : MonoBehaviour
         mainCanvas.SetActive(true);
     }
 
+    public void FillArray()
+    {
+        selectionArray = this.gameObject.GetComponent<Text>().text.Split('|');
+        staffBookedText.GetComponent<Text>().text = this.gameObject.GetComponent<Text>().text;
+        for (int i = 0; i <= selectionArray.Length - 1; i++)
+        {
+            Debug.Log(selectionArray[i]);
+        }
+    }
+
     public void SetSelection()
     {
         //mainCanvas.SetActive(false);
         Destroy(mainCanvas);
         Destroy(CancellationInstance.Instance.mainCanvas);
 
-        string[] selectionArray = this.gameObject.GetComponent<Text>().text.Split('|');
-        staffBookedText.GetComponent<Text>().text = this.gameObject.GetComponent<Text>().text;
-        for (int i = 0; i <= selectionArray.Length - 1; i++)
-        {
-            Debug.Log(selectionArray[i]);
-        }
+        FillArray();
 
         deskTextTwo.GetComponent<Text>().text = selectionArray[0];
         deskNameText.GetComponent<Text>().text = selectionArray[0];
@@ -66,5 +78,16 @@ public class CancellationObjects : MonoBehaviour
         durationText.GetComponent<Text>().text = "Duration: " + selectionArray[6];
         dateText.GetComponent<Text>().text = "Date: " + selectionArray[4];
         PlayerPrefs.SetString("BookingID", selectionArray[7]);
+    }
+
+    public void CheckPreviousBooking()
+    {
+        FillArray();
+        DateTime currentDate = DateTime.Now;
+        DateTime objectDate = DateTime.Parse(selectionArray[4]);
+        if (objectDate <= currentDate)
+        {
+            background.GetComponent<Image>().color = Color.red;
+        }
     }
 }

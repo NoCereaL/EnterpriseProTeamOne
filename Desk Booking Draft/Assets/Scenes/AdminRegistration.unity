@@ -1076,6 +1076,7 @@ GameObject:
   - component: {fileID: 289442750}
   - component: {fileID: 289442749}
   - component: {fileID: 289442743}
+  - component: {fileID: 289442744}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1106,6 +1107,18 @@ MonoBehaviour:
   staffManager: {fileID: 1872044513}
   staffConfirmPass: {fileID: 1988570519}
   managerConfirmPass: {fileID: 1512484719}
+--- !u!114 &289442744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289442742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc40221a4f2ca4078b3933e8103150e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &289442749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8687,9 +8700,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BookingSceneScipt, Assembly-CSharp
-        m_MethodName: backToRoom
+      - m_Target: {fileID: 289442744}
+        m_TargetAssemblyTypeName: BackButtonScript, Assembly-CSharp
+        m_MethodName: Back
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

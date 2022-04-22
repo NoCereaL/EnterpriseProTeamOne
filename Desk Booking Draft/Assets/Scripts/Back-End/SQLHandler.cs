@@ -76,7 +76,14 @@ public class SQLHandler : MonoBehaviour
             Debug.Log("Login Successfully");
             incorrectText.SetActive(false);
             UserScript.StoreUsername(usernameField.text);
-            SceneManager.LoadScene(1);          //Signs you into the system by loading the index scene
+            if (usernameField.text.Substring(0, 3) == "ADM")
+            {
+                SceneManager.LoadScene("AdminMenu");
+            }
+            else
+            {
+                SceneManager.LoadScene(1);          //Signs you into the system by loading the index scene
+            }
             statusText.SetActive(false);
         }
         if (www.text.Contains("-1"))             //Failed login response

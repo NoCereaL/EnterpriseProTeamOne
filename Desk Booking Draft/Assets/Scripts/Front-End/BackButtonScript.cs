@@ -13,4 +13,8 @@ public class BackButtonScript : MonoBehaviour
     {
         SceneManager.LoadScene(PlayerPrefs.GetString("PreviousScene"));
     }
+    public void Logout()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

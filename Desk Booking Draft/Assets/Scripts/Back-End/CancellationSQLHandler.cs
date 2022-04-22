@@ -61,8 +61,8 @@ public class CancellationSQLHandler : MonoBehaviour
     //On Click Methods
     public void BackButton()
     {
-        mainCanvas.SetActive(true);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameObject newMainCanvas = Instantiate(mainCanvas, null);
+        CancellationInstance.Instance.mainCanvas = newMainCanvas;
     }
 
     IEnumerator BookingSelections()

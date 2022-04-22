@@ -43,9 +43,9 @@ public class BookingSQLHandler : MonoBehaviour
     void Start()
     {
         dateDropdown.captionText.text = DateTime.Now.ToString();
-        FillDateDropdown();
+        if(PlayerPrefs.GetString("Username").Substring(0,3) == "STA") { FillDateDropdown(); }
         StartCoroutine(FillAvaTimes());
-        StartCoroutine(UserSelected());
+        if (PlayerPrefs.GetString("Username").Substring(0, 3) != "STA") { StartCoroutine(UserSelected()); }
     }
 
     //Call Methods
@@ -275,12 +275,36 @@ public class BookingSQLHandler : MonoBehaviour
         //DateTime _30Days = new DateTime(0000,0,30);
         List<String> list = new List<String>();
         Dropdown.OptionData dropdownObjects = new Dropdown.OptionData();
-        for (int i = 0; i < 30; i++)
+        if (PlayerPrefs.GetString("Username").Substring(0, 3) != "STA")
         {
+            if (userDropdown.captionText.text.Substring(0,3) == "MAN")
+            {
+                for (int i = 0; i < 30; i++)
+                {
+                    dropdownObjects.text = currentDate.ToString("yyyy-MM-dd").Substring(0, 10);
+                    list.Add(dropdownObjects.text);
+                    currentDate = currentDate.AddDays(1).Date;
+                }
+            }
+            else
+            {
+                for (int i = 0; i < 90; i++)
+                {
+                    dropdownObjects.text = currentDate.ToString("yyyy-MM-dd").Substring(0, 10);
+                    list.Add(dropdownObjects.text);
+                    currentDate = currentDate.AddDays(1).Date;
+                }
+            }
+        }
+        else
+        {
+            for (int i = 0; i < 30; i++)
+            {
 
-            dropdownObjects.text = currentDate.ToString("yyyy-MM-dd").Substring(0, 10);
-            list.Add(dropdownObjects.text);
-            currentDate = currentDate.AddDays(1).Date;
+                dropdownObjects.text = currentDate.ToString("yyyy-MM-dd").Substring(0, 10);
+                list.Add(dropdownObjects.text);
+                currentDate = currentDate.AddDays(1).Date;
+            }
         }
         dateDropdown.AddOptions(list);
     }
@@ -307,10 +331,28 @@ public class BookingSQLHandler : MonoBehaviour
         if (PlayerPrefs.GetString("Username").Substring(0, 3) == "MAN")   //Checks if user logged in is Manager
         {
             userDropdown.AddOptions(listOfUsers);
+            if (PlayerPrefs.GetString("Username").Substring(0, 3) != "STA")
+            {
+                if (staffArray.Length != 0)
+                {
+                    FillDateDropdown();
+                    StartCoroutine(FillAvaTimes());
+                }
+            }
+            //FillUserSpecifitDates();
         }
         else if (PlayerPrefs.GetString("Username").Substring(0, 3) == "ADM")   //Checks if user logged in is Manager
         {
             userDropdown.AddOptions(listOfUsers);
+            if (PlayerPrefs.GetString("Username").Substring(0, 3) != "STA")
+            {
+                if (staffArray.Length != 0)
+                {
+                    FillDateDropdown();
+                    StartCoroutine(FillAvaTimes());
+                }
+            }
+            //FillUserSpecifitDates();
         }
     }
 

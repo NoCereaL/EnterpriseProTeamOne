@@ -3844,6 +3844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 0}
+  logoutText: {fileID: 7281889975807658189}
 --- !u!224 &7281889976423551973
 RectTransform:
   m_ObjectHideFlags: 0

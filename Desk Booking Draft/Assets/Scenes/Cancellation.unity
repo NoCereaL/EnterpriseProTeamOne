@@ -722,6 +722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 0}
+  logoutText: {fileID: 0}
 --- !u!114 &289442749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4322,6 +4323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 0}
+  logoutText: {fileID: 0}
 --- !u!114 &1365550068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4826,9 +4828,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1414699619}
-        m_TargetAssemblyTypeName: BackButtonScript, Assembly-CSharp
-        m_MethodName: Back
+      - m_Target: {fileID: 1365550066}
+        m_TargetAssemblyTypeName: CancellationSQLHandler, Assembly-CSharp
+        m_MethodName: BackButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
