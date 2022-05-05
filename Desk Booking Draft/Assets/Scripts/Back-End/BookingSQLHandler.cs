@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class BookingSQLHandler : MonoBehaviour
 {
@@ -100,6 +101,8 @@ public class BookingSQLHandler : MonoBehaviour
             confirmText.text = "Booking Confirmed Successfully...";
             confirmText.color = Color.green;
             StartCoroutine(DestroyAnim());
+            yield return new WaitForSecondsRealtime(2);
+            SceneManager.LoadScene(PlayerPrefs.GetString("PreviousScene"));
         }
         else
         {
