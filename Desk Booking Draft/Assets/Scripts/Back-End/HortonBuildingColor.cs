@@ -5,6 +5,7 @@ using UnityEngine;
 public class HortonBuildingColor : MonoBehaviour
 {
     [SerializeField] MeshRenderer[] meshRenderers;
+    [SerializeField] Color32 highlightColor;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,8 @@ public class HortonBuildingColor : MonoBehaviour
     {
         foreach(MeshRenderer r in meshRenderers)
         {
-            r.material.color = new Color32(234,196,177,1);
+            //r.material.color = new Color32(234,196,177,1);
+            //r.material.color = highlightColor;
         }
     }
 }
