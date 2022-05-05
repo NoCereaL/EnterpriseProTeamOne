@@ -604,3 +604,1635 @@ Received Import Request.
 Start importing Assets/Scenes/Richmond.unity using Guid(69da2b18f09a5ef4996d98c49daa6a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c582ff3d236a523a50ee1b7bfdf55a0d') in 0.062932 seconds 
   Import took 0.092042 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 514.759659 seconds.
+  path: Assets/desk/prefab/Desk.prefab
+  artifactKey: Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk.prefab using Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ad0256bfcfb169f5389af100ad3729') in 1.850097 seconds 
+  Import took 1.882375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000933 seconds.
+  path: Assets/desk/prefab/Desk_simplified.prefab
+  artifactKey: Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk_simplified.prefab using Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2171bf107559cdb6e01c3a63cc2da2fb') in 0.038916 seconds 
+  Import took 0.051510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.860984 seconds.
+  path: Assets/desk/prefab/Desk.prefab
+  artifactKey: Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk.prefab using Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6e7845f5641e46dfcfc4cc30696142') in 0.064528 seconds 
+  Import took 0.090197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.899374 seconds.
+  path: Assets/desk/prefab/Desk.prefab
+  artifactKey: Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk.prefab using Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04476a4b708c9c126bcc2782141b1ce1') in 0.024714 seconds 
+  Import took 0.034933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.100735 seconds.
+  path: Assets/desk/prefab/Desk.prefab
+  artifactKey: Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk.prefab using Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6721585f91dee253e44358b3d1d10179') in 0.043972 seconds 
+  Import took 0.053143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.926293 seconds.
+  path: Assets/desk/prefab/Desk.prefab
+  artifactKey: Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk.prefab using Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd229c5d94f879d5daf8976b078613d6a') in 0.039877 seconds 
+  Import took 0.063417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.309752 seconds.
+  path: Assets/desk/prefab/Desk.prefab
+  artifactKey: Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk.prefab using Guid(92bb8833e982baf43b610796d83e278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc366f716d5a2830eb56dc23b5fd444d') in 0.020887 seconds 
+  Import took 0.030002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.617966 seconds.
+  path: Assets/desk/prefab/Desk_simplified.prefab
+  artifactKey: Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk_simplified.prefab using Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1f993f35cbe7f91a71c8258f06a60c') in 0.049294 seconds 
+  Import took 0.078098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480416 seconds.
+  path: Assets/desk/prefab/Desk_simplified.prefab
+  artifactKey: Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk_simplified.prefab using Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71e608d82d801362afe3955d95d0ab2') in 0.024443 seconds 
+  Import took 0.035007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.991355 seconds.
+  path: Assets/desk/prefab/Desk_simplified.prefab
+  artifactKey: Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk_simplified.prefab using Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91b7a5882b204fe38de0af853ad0372') in 0.016705 seconds 
+  Import took 0.025869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.038899 seconds.
+  path: Assets/desk/prefab/Desk_simplified.prefab
+  artifactKey: Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk_simplified.prefab using Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7f599789862748e2fb7f6f93900cd6') in 0.021119 seconds 
+  Import took 0.035292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.595498 seconds.
+  path: Assets/desk/prefab/Desk_simplified.prefab
+  artifactKey: Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk_simplified.prefab using Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4a6122ce93a69744a3981485b2f7f4') in 0.012972 seconds 
+  Import took 0.021221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.853516 seconds.
+  path: Assets/desk/prefab/Desk_simplified.prefab
+  artifactKey: Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/prefab/Desk_simplified.prefab using Guid(25af899008f1b6c4693683ce45344b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3069bdb955d71623bf32a30a2493b995') in 0.012571 seconds 
+  Import took 0.020315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.909070 seconds.
+  path: Assets/desk/mesh/Desk.FBX
+  artifactKey: Guid(e91712259b0cd7b47bcb0587dbffd5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/mesh/Desk.FBX using Guid(e91712259b0cd7b47bcb0587dbffd5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16af2fa47bdb1f4faefcb2419d2a8fde') in 0.286213 seconds 
+  Import took 0.296742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/desk/mesh/Desk_simplified.FBX
+  artifactKey: Guid(71e2164adedfa424d83ea617be760393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/mesh/Desk_simplified.FBX using Guid(71e2164adedfa424d83ea617be760393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336395e493df505ae77ff68ab245fff3') in 0.063340 seconds 
+  Import took 0.069997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.298004 seconds.
+  path: Assets/desk/textures/desk_diffuse.png
+  artifactKey: Guid(539823ce7bab794428f7c2c17002909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/textures/desk_diffuse.png using Guid(539823ce7bab794428f7c2c17002909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec35ba884f360330482da85549f9a24') in 0.699279 seconds 
+  Import took 0.711530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/desk/textures/desk_normal.png
+  artifactKey: Guid(cfd447c2cee4cf54f8ef6a63119e4f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/desk/textures/desk_normal.png using Guid(cfd447c2cee4cf54f8ef6a63119e4f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746fc9d371d812d0dc178d23d233959f') in 0.011941 seconds 
+  Import took 0.018850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.496788 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Top_Green.FBX
+  artifactKey: Guid(fa463a0b1fd97b549852f694dfea8323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Top_Green.FBX using Guid(fa463a0b1fd97b549852f694dfea8323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f33bd413ad858ee74da96fd67b0b47') in 0.063577 seconds 
+  Import took 0.093754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.307331 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Bottom_Brown.FBX
+  artifactKey: Guid(535697380e6fdf7449d2a45eb26fc204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Bottom_Brown.FBX using Guid(535697380e6fdf7449d2a45eb26fc204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa9cafab596e7f5d9b22d392ecfcc5f') in 0.029131 seconds 
+  Import took 0.039513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyC_Brown.FBX
+  artifactKey: Guid(fc00f3abf5d34dc4b86c3888b02cbf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyC_Brown.FBX using Guid(fc00f3abf5d34dc4b86c3888b02cbf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3d1843f57a55836c1e15b5806cc634') in 0.020432 seconds 
+  Import took 0.031387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyC_Green.FBX
+  artifactKey: Guid(4afa12f4646fef24c8d7d7470527dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyC_Green.FBX using Guid(4afa12f4646fef24c8d7d7470527dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14faae6784e3c10feee5aa6278a6de50') in 0.031790 seconds 
+  Import took 0.038603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyB_Brown.FBX
+  artifactKey: Guid(cb973ba275148834aa009fd0e9e2fc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyB_Brown.FBX using Guid(cb973ba275148834aa009fd0e9e2fc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c58a85dfa8fd15c6d494aecaa56de2') in 0.020669 seconds 
+  Import took 0.026744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyA_Brown.FBX
+  artifactKey: Guid(0060f1a2e0dbd8f4e92cd693c607080e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyA_Brown.FBX using Guid(0060f1a2e0dbd8f4e92cd693c607080e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9206c4f6e9c29db8136c0ff75fec59') in 0.019937 seconds 
+  Import took 0.024793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Bottom_Blue.FBX
+  artifactKey: Guid(f787654147af5334cb8bfe556d327524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Bottom_Blue.FBX using Guid(f787654147af5334cb8bfe556d327524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24a0a9b6369d38e1b38d8a67285d732') in 0.015504 seconds 
+  Import took 0.020234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyB_Gray.FBX
+  artifactKey: Guid(56c22d8e7f113db49bc3044f36c2ce41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyB_Gray.FBX using Guid(56c22d8e7f113db49bc3044f36c2ce41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92d6fcf6a1ba08fb3931a98f2db90ed') in 0.014903 seconds 
+  Import took 0.019601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Bottom_Green.FBX
+  artifactKey: Guid(de0e756b53584d845b394747dab2c476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Bottom_Green.FBX using Guid(de0e756b53584d845b394747dab2c476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4929e682b6fce0b111933ba8ba3e9597') in 0.013473 seconds 
+  Import took 0.018528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyC_Blue.FBX
+  artifactKey: Guid(e9a42acd844884f4799f2bf32b62b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyC_Blue.FBX using Guid(e9a42acd844884f4799f2bf32b62b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806efb66243b1df99e3a884fd2afe290') in 0.012760 seconds 
+  Import took 0.017299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyB_Blue.FBX
+  artifactKey: Guid(0d05cf0371a33f846a6d11d5746c539b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyB_Blue.FBX using Guid(0d05cf0371a33f846a6d11d5746c539b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97ede3ba2e3cbc68a71d38e5319bb1d') in 0.012681 seconds 
+  Import took 0.017813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyB_Green.FBX
+  artifactKey: Guid(5a8ba86845b8d544a86123e219b5f525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyB_Green.FBX using Guid(5a8ba86845b8d544a86123e219b5f525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f197baf0711b464ea62383875e4d237') in 0.015279 seconds 
+  Import took 0.019616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyA_Blue.FBX
+  artifactKey: Guid(82c00f5710bd77e41b4575089e112e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyA_Blue.FBX using Guid(82c00f5710bd77e41b4575089e112e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e646f9e5bcdfadb4ea2fb433a660d0') in 0.014503 seconds 
+  Import took 0.019485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Top_Brown.FBX
+  artifactKey: Guid(5d1edccb83516c84ca508199ff2660d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Top_Brown.FBX using Guid(5d1edccb83516c84ca508199ff2660d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04201a3a59e2e3f5ebdd1c12162a865') in 0.015690 seconds 
+  Import took 0.020996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyB_Brown.FBX
+  artifactKey: Guid(0595b49bab46843448956ad923e4acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyB_Brown.FBX using Guid(0595b49bab46843448956ad923e4acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccba745d90ed259c57aea69643477687') in 0.034597 seconds 
+  Import took 0.040713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Top_Blue.FBX
+  artifactKey: Guid(8e4a345e371c33b42844c8cc0a7b3d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_Top_Blue.FBX using Guid(8e4a345e371c33b42844c8cc0a7b3d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adf138baa57520816c794476821b6ad') in 0.014284 seconds 
+  Import took 0.018696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyA_Green.FBX
+  artifactKey: Guid(fa652e9f4bd6fe1469e8484355c29110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_T_BodyA_Green.FBX using Guid(fa652e9f4bd6fe1469e8484355c29110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed9cc5794aa9dcd01ccd88e848598e3') in 0.014630 seconds 
+  Import took 0.019842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.163638 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyA_Gray.FBX
+  artifactKey: Guid(fb309e5d3447ec544bfdfcad542f09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyA_Gray.FBX using Guid(fb309e5d3447ec544bfdfcad542f09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d1e7dc9a434588f95617f8b8269b3f') in 0.028578 seconds 
+  Import took 0.038911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyB_Blue.FBX
+  artifactKey: Guid(d2b7443570b9118489a68e99fc383a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyB_Blue.FBX using Guid(d2b7443570b9118489a68e99fc383a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd293bc04253cc294e4a460d419c16dc') in 0.023044 seconds 
+  Import took 0.030472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyA_Brown.FBX
+  artifactKey: Guid(1ba2825872e33774cacc81115aaf7e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyA_Brown.FBX using Guid(1ba2825872e33774cacc81115aaf7e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d57aaa9b28169476560703caecdb95') in 0.014794 seconds 
+  Import took 0.020698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyB_Blue.FBX
+  artifactKey: Guid(d3a8220f9e508304e966b03111da4fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyB_Blue.FBX using Guid(d3a8220f9e508304e966b03111da4fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81538d362d5b8af694e05cd0f57b6314') in 0.014451 seconds 
+  Import took 0.019952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyB_Brown.FBX
+  artifactKey: Guid(c26c7b530b2745c44a0359d850d925a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyB_Brown.FBX using Guid(c26c7b530b2745c44a0359d850d925a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35f0d9898f6adb1be3cf15e2cf43db0') in 0.013372 seconds 
+  Import took 0.018655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyB_Gray.FBX
+  artifactKey: Guid(294e0093958607f47a9b620b9411dfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyB_Gray.FBX using Guid(294e0093958607f47a9b620b9411dfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8d6b2296b5692089b9794231d078ca') in 0.013595 seconds 
+  Import took 0.023571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Top_Brown.FBX
+  artifactKey: Guid(44b546253c17bc349b6d065c33e18c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Top_Brown.FBX using Guid(44b546253c17bc349b6d065c33e18c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402e54ed9a3394bb96f76225b7175f42') in 0.013889 seconds 
+  Import took 0.018314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Mid_Top_Gray.FBX
+  artifactKey: Guid(d1400124dcdc66149b973e387536ad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Mid_Top_Gray.FBX using Guid(d1400124dcdc66149b973e387536ad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91892f996e636abc0d288278ec8bc61a') in 0.013186 seconds 
+  Import took 0.018022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyA_Brown.FBX
+  artifactKey: Guid(c0d35520bf48c374f94c112fd8d9b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyA_Brown.FBX using Guid(c0d35520bf48c374f94c112fd8d9b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679e1d63537d8bfcfbc8c1276d53e365') in 0.013829 seconds 
+  Import took 0.019623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyA_Blue.FBX
+  artifactKey: Guid(ecdd7307a42c2af41981b7bc5592da2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyA_Blue.FBX using Guid(ecdd7307a42c2af41981b7bc5592da2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94df7741fad7f9e52a5a2059ada79ca4') in 0.013598 seconds 
+  Import took 0.019036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyA_Blue.FBX
+  artifactKey: Guid(cf0899b2284745a459cca650ab81d118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_UpperBodyA_Blue.FBX using Guid(cf0899b2284745a459cca650ab81d118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53bd434e71480858764ae3c45198e68') in 0.013055 seconds 
+  Import took 0.018366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyA_Gray.FBX
+  artifactKey: Guid(8b79b55ee44236845a30f66a73ccf133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_MidBodyA_Gray.FBX using Guid(8b79b55ee44236845a30f66a73ccf133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0db2bbfa032f486d56dabac23884d9d') in 0.013885 seconds 
+  Import took 0.021472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Top_Blue.FBX
+  artifactKey: Guid(7506bb384c537944aaecaa99726df71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Top_Blue.FBX using Guid(7506bb384c537944aaecaa99726df71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc5ad4772426cb51c582f56e0d1c519') in 0.013328 seconds 
+  Import took 0.018666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Top_Gray.FBX
+  artifactKey: Guid(84f7e8ec1064f4f4ea11ce5be8ad8d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Top_Gray.FBX using Guid(84f7e8ec1064f4f4ea11ce5be8ad8d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848b30762d3001553a80942fb0a54f0d') in 0.019866 seconds 
+  Import took 0.026557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.207090 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyB_Brown.FBX
+  artifactKey: Guid(ccecb6de99c377445b3c9763491bf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyB_Brown.FBX using Guid(ccecb6de99c377445b3c9763491bf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b05b0f61ba18b18846a8ab180cb2d1') in 0.018060 seconds 
+  Import took 0.024821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Mid_Top_Brown.FBX
+  artifactKey: Guid(e45d2ddbb5391404e90008623b969473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Mid_Top_Brown.FBX using Guid(e45d2ddbb5391404e90008623b969473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad4cf80afd250f3b9123275a6e53b6c') in 0.015288 seconds 
+  Import took 0.021606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Mid_Top_Blue.FBX
+  artifactKey: Guid(c693b96027f9ce1479f865d98174e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Mid_Top_Blue.FBX using Guid(c693b96027f9ce1479f865d98174e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f250ed47e9ba2ac166840481901bbb1a') in 0.014028 seconds 
+  Import took 0.019458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001063 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyB_Gray.FBX
+  artifactKey: Guid(0ea44cd9071bc2041b34f6e4bdf3d7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyB_Gray.FBX using Guid(0ea44cd9071bc2041b34f6e4bdf3d7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16fded553c05b7cb5413a984a0d6592') in 0.012911 seconds 
+  Import took 0.018704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204025 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Bottom_Blue.FBX
+  artifactKey: Guid(4e25253ae876eed439754baa1b138308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Bottom_Blue.FBX using Guid(4e25253ae876eed439754baa1b138308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd386f0695ec733d96790fe39bf6dbe3') in 0.017918 seconds 
+  Import took 0.025411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyA_Brown.FBX
+  artifactKey: Guid(0f7db4ff186241f4b86a8612cf7340eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyA_Brown.FBX using Guid(0f7db4ff186241f4b86a8612cf7340eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa61e88e9e6cdd1008fcb44705f05b0f') in 0.019241 seconds 
+  Import took 0.025880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Bottom_Brown.FBX
+  artifactKey: Guid(5aa2e14f6557855428f8419c830a6c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Bottom_Brown.FBX using Guid(5aa2e14f6557855428f8419c830a6c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab55404da6cc8f7c6ecf56693c3d1ba6') in 0.014981 seconds 
+  Import took 0.020169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Bottom_Gray.FBX
+  artifactKey: Guid(9160c92dd5b1be148b70f1c64e4399ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Bottom_Gray.FBX using Guid(9160c92dd5b1be148b70f1c64e4399ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7728b9e85d1934154045658c05517e52') in 0.013977 seconds 
+  Import took 0.019458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Lower_Top_Brown.FBX
+  artifactKey: Guid(44a43bd9b97c7be4fbfd6802409fb247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Lower_Top_Brown.FBX using Guid(44a43bd9b97c7be4fbfd6802409fb247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad04683ca14b3f956d34cc573c55d6d') in 0.017719 seconds 
+  Import took 0.024376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyA_Gray.FBX
+  artifactKey: Guid(a8331f1c60700d04787ade4e1a89e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyA_Gray.FBX using Guid(a8331f1c60700d04787ade4e1a89e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e325f09e9522ae6f1568734c4a82fb') in 0.019395 seconds 
+  Import took 0.025866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyA_Blue.FBX
+  artifactKey: Guid(51a8262c5352024418ffe547a555aa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_LowerBodyA_Blue.FBX using Guid(51a8262c5352024418ffe547a555aa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddab162116371daf782c9c96a8e2faf4') in 0.014270 seconds 
+  Import took 0.020200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Lower_Top_Blue.FBX
+  artifactKey: Guid(b96ea13a69b6d1b4ca25d3acdaf8f55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Lower_Top_Blue.FBX using Guid(b96ea13a69b6d1b4ca25d3acdaf8f55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea1428a857d0a6f4451d3652489ef92') in 0.013594 seconds 
+  Import took 0.019125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Lower_Top_Gray.FBX
+  artifactKey: Guid(388facaf20da91c4eab870fccfd50704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_S_Lower_Top_Gray.FBX using Guid(388facaf20da91c4eab870fccfd50704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d989530b3f674c363020ee20f9941d5') in 0.013349 seconds 
+  Import took 0.018738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyA_Blue.FBX
+  artifactKey: Guid(40188c4dfb415334e82cdc3c16e835f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyA_Blue.FBX using Guid(40188c4dfb415334e82cdc3c16e835f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5f21f87acac7c7d354f165254f0e3a') in 0.014633 seconds 
+  Import took 0.019090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Top_Green.FBX
+  artifactKey: Guid(06e250edb604bb54893ec42dba5d7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Top_Green.FBX using Guid(06e250edb604bb54893ec42dba5d7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8c0da33618409f1b3dcd658ef7e334') in 0.013840 seconds 
+  Import took 0.018589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Top_Gray.FBX
+  artifactKey: Guid(70ec4e3e8a33c0c448fdc63fd00fc383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Top_Gray.FBX using Guid(70ec4e3e8a33c0c448fdc63fd00fc383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cde3b035ddd50b9de58388e5d9f7d0') in 0.016179 seconds 
+  Import took 0.021466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyA_Green.FBX
+  artifactKey: Guid(7e7c67d7e292ff640a37f15abded11d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyA_Green.FBX using Guid(7e7c67d7e292ff640a37f15abded11d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbfe3ee9ddff614d1065145c7ba289d') in 0.013359 seconds 
+  Import took 0.019084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyB_Blue.FBX
+  artifactKey: Guid(8b119566606d1ad438c7ae301e5b1c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyB_Blue.FBX using Guid(8b119566606d1ad438c7ae301e5b1c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adb512b8c79d393b01fceb1d9e2c705') in 0.018096 seconds 
+  Import took 0.023527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyB_Green.FBX
+  artifactKey: Guid(5a0db5aeb3e3bc844aa5b75e1591796b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyB_Green.FBX using Guid(5a0db5aeb3e3bc844aa5b75e1591796b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ae3022006337c2f7d8eb5c50ea7ec2') in 0.015678 seconds 
+  Import took 0.021275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyB_Gray.FBX
+  artifactKey: Guid(962f28b169cd93846850450829ba2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyB_Gray.FBX using Guid(962f28b169cd93846850450829ba2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080a7b766f312b4e90bef7588d252957') in 0.015466 seconds 
+  Import took 0.021214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyA_Gray.FBX
+  artifactKey: Guid(8a2da43bdb01826439de048fdda9760f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_UpperBodyA_Gray.FBX using Guid(8a2da43bdb01826439de048fdda9760f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050904c684d1bbe2f4c98428b67d28e5') in 0.014789 seconds 
+  Import took 0.019822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031526 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyB_Blue.FBX
+  artifactKey: Guid(54f304bf02ba0b84499ee2d160dba772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyB_Blue.FBX using Guid(54f304bf02ba0b84499ee2d160dba772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214853b0fafb156f56666c55ceb5b58a') in 0.020059 seconds 
+  Import took 0.026888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyB_Green.FBX
+  artifactKey: Guid(83ba1d1411646a14ebe1b85ff1ce8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyB_Green.FBX using Guid(83ba1d1411646a14ebe1b85ff1ce8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4526869848aa470cd8133e621b9edd') in 0.014623 seconds 
+  Import took 0.019972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyB_Gray.FBX
+  artifactKey: Guid(9051979b18c371f469c9021c54b2c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyB_Gray.FBX using Guid(9051979b18c371f469c9021c54b2c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685b5391bc6ac1b7f2c5593970df5e22') in 0.012886 seconds 
+  Import took 0.017872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Top_Blue.FBX
+  artifactKey: Guid(b075e07c6b2ca8d4da92ad6ff3069dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Top_Blue.FBX using Guid(b075e07c6b2ca8d4da92ad6ff3069dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2446690ef88e60be40413c21df1d1778') in 0.013586 seconds 
+  Import took 0.018706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Mid_Top_Blue.FBX
+  artifactKey: Guid(22ab701ea7f63a44e9d543016bddd65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Mid_Top_Blue.FBX using Guid(22ab701ea7f63a44e9d543016bddd65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7c48cea435911d6c2127ec047d422f') in 0.013554 seconds 
+  Import took 0.019399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyA_Blue.FBX
+  artifactKey: Guid(e334b82b21393e84b96099486aca9c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyA_Blue.FBX using Guid(e334b82b21393e84b96099486aca9c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd018337391e735ab9393a279c2c9fd19') in 0.012995 seconds 
+  Import took 0.017651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Mid_Top_Gray.FBX
+  artifactKey: Guid(e592fb8a692b5604a90fbe7956e89194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Mid_Top_Gray.FBX using Guid(e592fb8a692b5604a90fbe7956e89194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10dc4ab22b88ace2bfc50f5a5fc49ec') in 0.013533 seconds 
+  Import took 0.018350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyB_Gray.FBX
+  artifactKey: Guid(66fbde36cf2bc7a4c85486278a596b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyB_Gray.FBX using Guid(66fbde36cf2bc7a4c85486278a596b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ef6b842ed5073dedab1cdc95a92fda') in 0.013261 seconds 
+  Import took 0.018749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyB_Green.FBX
+  artifactKey: Guid(d0046c5db916b4545b1d810c8ae2af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyB_Green.FBX using Guid(d0046c5db916b4545b1d810c8ae2af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f01c3e386ab6a32cce2e45dac39401') in 0.018476 seconds 
+  Import took 0.024212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyA_Green.FBX
+  artifactKey: Guid(9ef2252686a410942b0c24dae8114d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyA_Green.FBX using Guid(9ef2252686a410942b0c24dae8114d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4bb6134a7de25a24a913e2f5a33869') in 0.013285 seconds 
+  Import took 0.019395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyA_Gray.FBX
+  artifactKey: Guid(9922846fce49b19418ac3472ea659019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_MidBodyA_Gray.FBX using Guid(9922846fce49b19418ac3472ea659019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5137d10e5b7e98809883fb1dfc321bd2') in 0.013184 seconds 
+  Import took 0.017931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyB_Blue.FBX
+  artifactKey: Guid(ef848974f468cb84c8fe8a70e1bca0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyB_Blue.FBX using Guid(ef848974f468cb84c8fe8a70e1bca0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a60aece65d38ee2871a472e2290841e') in 0.014078 seconds 
+  Import took 0.019161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Mid_Top_Green.FBX
+  artifactKey: Guid(1e311457926d3f04a9e53dcec99c4398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Mid_Top_Green.FBX using Guid(1e311457926d3f04a9e53dcec99c4398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffe2c30452612c9be01c89f3753b572') in 0.014557 seconds 
+  Import took 0.019618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038296 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyB_Brown.FBX
+  artifactKey: Guid(ef35884fcd9d4794d8b15f8b8ae6e260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyB_Brown.FBX using Guid(ef35884fcd9d4794d8b15f8b8ae6e260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeea17916ca21cde27a22656260fdbf') in 0.016108 seconds 
+  Import took 0.022273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyA_Blue.FBX
+  artifactKey: Guid(4dcdc7f6fa3df5343bb3bc497e2d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_LowerBodyA_Blue.FBX using Guid(4dcdc7f6fa3df5343bb3bc497e2d814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff0b465ed3b8de4f3edcf18b5af4967') in 0.015648 seconds 
+  Import took 0.021682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Bottom_Gray.FBX
+  artifactKey: Guid(b8cb46e641e24264099172a7d6fc1fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Bottom_Gray.FBX using Guid(b8cb46e641e24264099172a7d6fc1fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28c0cb26621443560c77de15e594c5a') in 0.016765 seconds 
+  Import took 0.022332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Lower_Top_Blue.FBX
+  artifactKey: Guid(6e1f86d7e539b414498d2f07e51e8f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Lower_Top_Blue.FBX using Guid(6e1f86d7e539b414498d2f07e51e8f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d1ed10c97c9494d5bc0e7be01548d3') in 0.014556 seconds 
+  Import took 0.019539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Lower_Top_Gray.FBX
+  artifactKey: Guid(8d8a017a04d5cb84aafa909fc466af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Lower_Top_Gray.FBX using Guid(8d8a017a04d5cb84aafa909fc466af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668c0f50651ea3f5350ce80b2e9393d1') in 0.013202 seconds 
+  Import took 0.017757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Bottom_Green.FBX
+  artifactKey: Guid(3b3438c82ac90884e93d9f978f0949f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Bottom_Green.FBX using Guid(3b3438c82ac90884e93d9f978f0949f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef74e1fdfb5d796274005c03b1b0e803') in 0.014038 seconds 
+  Import took 0.018687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyA_Blue.FBX
+  artifactKey: Guid(2711e2444630144459396ca30326accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyA_Blue.FBX using Guid(2711e2444630144459396ca30326accc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5da55c3004e3c47f0c9e90d761a1af9') in 0.016701 seconds 
+  Import took 0.022506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyB_Gray.FBX
+  artifactKey: Guid(f8404ea4b0977db40873acf74dd95200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyB_Gray.FBX using Guid(f8404ea4b0977db40873acf74dd95200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fc415e419b763208b240554d991c17') in 0.014359 seconds 
+  Import took 0.020547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyB_Blue.FBX
+  artifactKey: Guid(fe7322889c86f3e4f8311a6c79b026d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyB_Blue.FBX using Guid(fe7322889c86f3e4f8311a6c79b026d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c326a976ef3102bb3d1bf44821c468a7') in 0.018440 seconds 
+  Import took 0.023853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyA_Brown.FBX
+  artifactKey: Guid(2649e8868788bbd4f91100de39a5a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyA_Brown.FBX using Guid(2649e8868788bbd4f91100de39a5a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da1c2d57f2577a984480bae3dc476e8') in 0.013673 seconds 
+  Import took 0.018993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Bottom_Blue.FBX
+  artifactKey: Guid(fe9c075868ae79243abe62aff5d05637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Bottom_Blue.FBX using Guid(fe9c075868ae79243abe62aff5d05637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56d33f07b36c5f8fede828cb588af45') in 0.020726 seconds 
+  Import took 0.026580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Lower_Top_Green.FBX
+  artifactKey: Guid(7d27a82a65d1f3540bd0f389c18f1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_R_Lower_Top_Green.FBX using Guid(7d27a82a65d1f3540bd0f389c18f1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995a62934d776a3884ee121be3bebe53') in 0.016664 seconds 
+  Import took 0.022225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyA_Gray.FBX
+  artifactKey: Guid(1f75b3e6908984242b6a4ce8ff433c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_UpperBodyA_Gray.FBX using Guid(1f75b3e6908984242b6a4ce8ff433c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80951accf06dfa2d82229f41a04b05fc') in 0.024810 seconds 
+  Import took 0.029951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.687068 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Top_Brown.FBX
+  artifactKey: Guid(88c1702639dc7874f988f310c657c13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Top_Brown.FBX using Guid(88c1702639dc7874f988f310c657c13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081bed88a9262cd2dc40c19a7198a47f') in 0.026045 seconds 
+  Import took 0.034890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyB_Gray.FBX
+  artifactKey: Guid(9fe02d7fc6022704bb56b04002f04654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyB_Gray.FBX using Guid(9fe02d7fc6022704bb56b04002f04654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524b47d7f40162247f5bf219ef3ec3d3') in 0.019003 seconds 
+  Import took 0.026368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyB_Blue.FBX
+  artifactKey: Guid(ff5e9d75b52843c498abe991fba88a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyB_Blue.FBX using Guid(ff5e9d75b52843c498abe991fba88a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bf8931a3ed0ff499f29ee014524442') in 0.019053 seconds 
+  Import took 0.025109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyB_Blue.FBX
+  artifactKey: Guid(167a1ac7cb694364a9d48af8a04f9a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyB_Blue.FBX using Guid(167a1ac7cb694364a9d48af8a04f9a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b2dc51dfe907a5e0f47956473731de') in 0.013857 seconds 
+  Import took 0.019204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyB_Gray.FBX
+  artifactKey: Guid(cc7cf862c1a622d4eba3ebc04356cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyB_Gray.FBX using Guid(cc7cf862c1a622d4eba3ebc04356cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cffb11e16c6e0512591fdd1c0456803') in 0.012810 seconds 
+  Import took 0.017559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Lower_Top_Gray.FBX
+  artifactKey: Guid(a0441a7ed2f6ffa4bb0d5f79b91d1fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Lower_Top_Gray.FBX using Guid(a0441a7ed2f6ffa4bb0d5f79b91d1fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1cfad7f56a15ffd3038f1f1bc7b1e3') in 0.012970 seconds 
+  Import took 0.017280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyA_Blue.FBX
+  artifactKey: Guid(922542cc82f2887439cdf6b086a94f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyA_Blue.FBX using Guid(922542cc82f2887439cdf6b086a94f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6f36ec6e2089d70a32b5e740f4bac3') in 0.012617 seconds 
+  Import took 0.016853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyB_Gray.FBX
+  artifactKey: Guid(09ca732a6f88afa4bb8382b546e89536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyB_Gray.FBX using Guid(09ca732a6f88afa4bb8382b546e89536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723f94790c4f053bf3d86dcf13a553f4') in 0.013067 seconds 
+  Import took 0.018131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyB_Brown.FBX
+  artifactKey: Guid(093dbb37c195eb64b98f3b50f05926b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyB_Brown.FBX using Guid(093dbb37c195eb64b98f3b50f05926b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd534929f036d345d26e82ca0b5baba8b') in 0.013023 seconds 
+  Import took 0.017918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Mid_Top_Brown.FBX
+  artifactKey: Guid(30088c340e6c97845b6b6318d06d608c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Mid_Top_Brown.FBX using Guid(30088c340e6c97845b6b6318d06d608c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3512e37c2f7c56bd5260b9b7c79b128') in 0.013159 seconds 
+  Import took 0.018605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyA_Blue.FBX
+  artifactKey: Guid(18efa1b3bba52dd4aab70fccba6fc198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyA_Blue.FBX using Guid(18efa1b3bba52dd4aab70fccba6fc198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdf5e2a020748537d2ddc7e6c7a6d49') in 0.017810 seconds 
+  Import took 0.022441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyA_Brown.FBX
+  artifactKey: Guid(709ca61f3c92271419e8347d9779715d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyA_Brown.FBX using Guid(709ca61f3c92271419e8347d9779715d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48002f91bf714ae9451bfb540c84638c') in 0.012952 seconds 
+  Import took 0.017868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Mid_Top_Gray.FBX
+  artifactKey: Guid(5d6b61b7efab79b47bb40e58181590e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Mid_Top_Gray.FBX using Guid(5d6b61b7efab79b47bb40e58181590e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143a5383b4d00d9abd40693a44fda8ad') in 0.014551 seconds 
+  Import took 0.019993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Top_WarmGray.FBX
+  artifactKey: Guid(490a2b0a2bdc4c14584aec1837cb68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Top_WarmGray.FBX using Guid(490a2b0a2bdc4c14584aec1837cb68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b18821dd4b60ebd612f2f82a5e2643') in 0.019449 seconds 
+  Import took 0.025212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Bottom_Gray.FBX
+  artifactKey: Guid(d6a87138942796c478819cefd326feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Bottom_Gray.FBX using Guid(d6a87138942796c478819cefd326feb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47eb98bd83d3f043e381bb26ac22cb6') in 0.012762 seconds 
+  Import took 0.017568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyA_Brown.FBX
+  artifactKey: Guid(dce9ca04de7b3b24c99901847b2f1191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyA_Brown.FBX using Guid(dce9ca04de7b3b24c99901847b2f1191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a88fed042315b412369b5c1be8cf64') in 0.014389 seconds 
+  Import took 0.018804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_Lower_Top_Green.FBX
+  artifactKey: Guid(8bbc8f35421f3584bbd0747b2180f110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_Lower_Top_Green.FBX using Guid(8bbc8f35421f3584bbd0747b2180f110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61a95b2320b97f7584257e65c5881f0') in 0.012965 seconds 
+  Import took 0.016921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_Top_Blue.FBX
+  artifactKey: Guid(da5acde1fa622ae4992d12d98dde698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_Top_Blue.FBX using Guid(da5acde1fa622ae4992d12d98dde698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6c2584e0ffece7ad2d0b84d22413ab') in 0.013690 seconds 
+  Import took 0.018437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Lower_Top_Blue.FBX
+  artifactKey: Guid(a6ed686fb71520241874c5e63ebb98b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Lower_Top_Blue.FBX using Guid(a6ed686fb71520241874c5e63ebb98b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8368e9e20d10d1f44feb55b3b5d4040') in 0.014169 seconds 
+  Import took 0.018887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyB_Brown.FBX
+  artifactKey: Guid(2ce9cc85dcdf42141b64147c4786e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyB_Brown.FBX using Guid(2ce9cc85dcdf42141b64147c4786e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58bc3c0432e379b7a25061e0f55b7df') in 0.014984 seconds 
+  Import took 0.019111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Top_Gray.FBX
+  artifactKey: Guid(8b8dbe7bc4546374d986150ab0933a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Top_Gray.FBX using Guid(8b8dbe7bc4546374d986150ab0933a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62686464d1d5273d8e5d6bf97cd08e3a') in 0.015557 seconds 
+  Import took 0.020015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyA_Gray.FBX
+  artifactKey: Guid(549ed0a3baabdea4391f93527329a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyA_Gray.FBX using Guid(549ed0a3baabdea4391f93527329a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c892a1d4e8672f7d47f3ab840673cee') in 0.012576 seconds 
+  Import took 0.016650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyA_Brown.FBX
+  artifactKey: Guid(cf868078aee739949a2008cb31f4c993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyA_Brown.FBX using Guid(cf868078aee739949a2008cb31f4c993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ea66559fe22fd28d7f6ffd661e52e0') in 0.012336 seconds 
+  Import took 0.016859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyB_Blue.FBX
+  artifactKey: Guid(4481638fc3967764db0e0a0fa281f5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyB_Blue.FBX using Guid(4481638fc3967764db0e0a0fa281f5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27bbf3fc81ff3f2991b0de7da71745b') in 0.013174 seconds 
+  Import took 0.017546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Bottom_Green.FBX
+  artifactKey: Guid(fade60be617d5f243b62d2a55aec47a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Bottom_Green.FBX using Guid(fade60be617d5f243b62d2a55aec47a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32127088348e652577555d2f731f7a00') in 0.015577 seconds 
+  Import took 0.020515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_BodyC_Green.FBX
+  artifactKey: Guid(7b89aecd86000ea4990d12263cc8ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_BodyC_Green.FBX using Guid(7b89aecd86000ea4990d12263cc8ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfd64adbe8757b6d3b9d2e4ea3a9b1c') in 0.013350 seconds 
+  Import took 0.018287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Top_Green.FBX
+  artifactKey: Guid(9fe9e89f59cbfc8489148ea9f501ee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Top_Green.FBX using Guid(9fe9e89f59cbfc8489148ea9f501ee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ac40b5fac2fd706ed78687a5eda374') in 0.014517 seconds 
+  Import took 0.019446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_I_BodyA_Blue.FBX
+  artifactKey: Guid(0030532cbe6c76a4794cd7d294417056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_I_BodyA_Blue.FBX using Guid(0030532cbe6c76a4794cd7d294417056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a927842aff7280ead6ffd0263b9c6db') in 0.012680 seconds 
+  Import took 0.017256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_Top_Brown.FBX
+  artifactKey: Guid(5920eff6c096c5c41a55eb6d86263dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_Top_Brown.FBX using Guid(5920eff6c096c5c41a55eb6d86263dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3516cc68f0b28e216c1316474fb11d') in 0.013684 seconds 
+  Import took 0.018018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_Bottom_Green.FBX
+  artifactKey: Guid(388addae912f33c41b12e981cfb96298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_Bottom_Green.FBX using Guid(388addae912f33c41b12e981cfb96298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a08e896d41ff5cfa719ec34aa86565f') in 0.012566 seconds 
+  Import took 0.016603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_Bottom_Blue.FBX
+  artifactKey: Guid(11e7327521292ef40884dcd734408019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_Bottom_Blue.FBX using Guid(11e7327521292ef40884dcd734408019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0741ccfd9b3ae996dcc6e0a0e23dd7') in 0.013012 seconds 
+  Import took 0.017666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyC_Blue.FBX
+  artifactKey: Guid(9e00937a697df924fadcee839ddc5117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyC_Blue.FBX using Guid(9e00937a697df924fadcee839ddc5117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e122a41e7b32ec86ea4544d630c14c') in 0.013161 seconds 
+  Import took 0.017386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyB_Blue.FBX
+  artifactKey: Guid(649dfde11a346404f81ca974e0de7016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyB_Blue.FBX using Guid(649dfde11a346404f81ca974e0de7016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9b44961c86acb5003b92f9e2628fb2') in 0.015819 seconds 
+  Import took 0.020454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyC_Green.FBX
+  artifactKey: Guid(93ea53254887f2c40bb43e33ada7a55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyC_Green.FBX using Guid(93ea53254887f2c40bb43e33ada7a55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0800a9060b7e6de4c15dd7c69008db7') in 0.012106 seconds 
+  Import took 0.016940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_UpperBodyB_Green.FBX
+  artifactKey: Guid(3838d8369d201874cbd55caee68727cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_UpperBodyB_Green.FBX using Guid(3838d8369d201874cbd55caee68727cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b578503dc58895b22ab5f6c9be5aa1') in 0.012150 seconds 
+  Import took 0.016516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Lower_Top_Gray.FBX
+  artifactKey: Guid(a6c9d3a44d25e1f4e98bb15e722f328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Lower_Top_Gray.FBX using Guid(a6c9d3a44d25e1f4e98bb15e722f328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0b78c99c95f2b1c29723d36055e90d') in 0.013354 seconds 
+  Import took 0.018046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Bottom_Brown.FBX
+  artifactKey: Guid(1bc815e3358b52c48b41e03334a665fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Bottom_Brown.FBX using Guid(1bc815e3358b52c48b41e03334a665fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be7a5100d05c8fbfd0794a4f7d9ccee') in 0.013310 seconds 
+  Import took 0.016916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Bottom_Gray.FBX
+  artifactKey: Guid(e0794a05f3d7e7544b906ffbe62b895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Bottom_Gray.FBX using Guid(e0794a05f3d7e7544b906ffbe62b895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87eac192ede3c7a92d12f0f959487cb') in 0.013953 seconds 
+  Import took 0.018914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Top_Gray.FBX
+  artifactKey: Guid(bde3fec85197a1b4882b77d69c34b17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Top_Gray.FBX using Guid(bde3fec85197a1b4882b77d69c34b17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d7651c652abc962f90fbf10d8eb8b1') in 0.013500 seconds 
+  Import took 0.018334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Top_Blue.FBX
+  artifactKey: Guid(b2b7eb74cd95fee41a75fef21a1aeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Top_Blue.FBX using Guid(b2b7eb74cd95fee41a75fef21a1aeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b37053ec4d0df0dc1b0582065945a8') in 0.013612 seconds 
+  Import took 0.018075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_BodyC_Gray.FBX
+  artifactKey: Guid(47c8703f99604fb43a49afa199a88a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_BodyC_Gray.FBX using Guid(47c8703f99604fb43a49afa199a88a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4daab51b49b0a99b7a47ceda7d840b36') in 0.012711 seconds 
+  Import took 0.016742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Bottom_Brown.FBX
+  artifactKey: Guid(30aab511f0a099844b403b9d5933c80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Bottom_Brown.FBX using Guid(30aab511f0a099844b403b9d5933c80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08dac059ffb0fdd58ac25bda9cd6b45') in 0.012837 seconds 
+  Import took 0.017060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_Bottom_Gray.FBX
+  artifactKey: Guid(7253a2e6151de2a4981739e997491152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_Bottom_Gray.FBX using Guid(7253a2e6151de2a4981739e997491152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8623b3dbde8fe494957916dcd69379e6') in 0.013542 seconds 
+  Import took 0.017833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Bottom_Gray.FBX
+  artifactKey: Guid(5b0aa8b5040bb67459f99a709f30451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Bottom_Gray.FBX using Guid(5b0aa8b5040bb67459f99a709f30451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c724b7de6c59cf7a4e1337ca1b3e02f') in 0.012911 seconds 
+  Import took 0.017472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_BodyC_Blue.FBX
+  artifactKey: Guid(9fcd519985896fe4d991e78dd7c19639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_BodyC_Blue.FBX using Guid(9fcd519985896fe4d991e78dd7c19639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0cedcaa64c6d1a211c8056168f1c8d') in 0.012571 seconds 
+  Import took 0.017269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Top_Brown.FBX
+  artifactKey: Guid(7173634de8a8882448226b7dfaad4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Top_Brown.FBX using Guid(7173634de8a8882448226b7dfaad4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497e8c6c36ee2d48868ab4d8e5796143') in 0.013579 seconds 
+  Import took 0.017633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Top_Blue.FBX
+  artifactKey: Guid(637390b2ab5e81d448eb552a2460195d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Top_Blue.FBX using Guid(637390b2ab5e81d448eb552a2460195d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a79b7d357046b275fef0e430d3ed7ff') in 0.012347 seconds 
+  Import took 0.016617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Bottom_Blue.FBX
+  artifactKey: Guid(df9ad9a684ab5dc429f840617702b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Bottom_Blue.FBX using Guid(df9ad9a684ab5dc429f840617702b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a278bfcad01a783a8b5144e03a31d8') in 0.013297 seconds 
+  Import took 0.018319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Lower_Top_Brown.FBX
+  artifactKey: Guid(ba49bf6565b360246ae29525b491976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Lower_Top_Brown.FBX using Guid(ba49bf6565b360246ae29525b491976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c815e42e16840aa61ba9084fa98d8c8c') in 0.012139 seconds 
+  Import took 0.016490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyB_Green.FBX
+  artifactKey: Guid(a7a4f3ac10b6dab438a2b66475f5ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyB_Green.FBX using Guid(a7a4f3ac10b6dab438a2b66475f5ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dabc678a5382689a9da3bb0efe338f') in 0.012763 seconds 
+  Import took 0.017856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyA_Blue.FBX
+  artifactKey: Guid(efcbe7725ab1de94a99546928189dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyA_Blue.FBX using Guid(efcbe7725ab1de94a99546928189dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935120f724a0c46cbfe857ba6a2cbaa') in 0.013374 seconds 
+  Import took 0.017964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_I_Top_Brown.FBX
+  artifactKey: Guid(09e5de155f5a0db4da7a0d857d93e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_I_Top_Brown.FBX using Guid(09e5de155f5a0db4da7a0d857d93e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c284f8907fd4db1c827a8b9a3eb676') in 0.012823 seconds 
+  Import took 0.017183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyA_Blue.FBX
+  artifactKey: Guid(13efcb8f8ff12264bbf29563da2abab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyA_Blue.FBX using Guid(13efcb8f8ff12264bbf29563da2abab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359dfb36c0ed3fd1b29d3032c34af280') in 0.014130 seconds 
+  Import took 0.018677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyB_Blue.FBX
+  artifactKey: Guid(5e05b58f55d010d44aa101114560a281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyB_Blue.FBX using Guid(5e05b58f55d010d44aa101114560a281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ef6f2361b308448f395f34696d2fdc') in 0.025034 seconds 
+  Import took 0.030149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyC_Blue.FBX
+  artifactKey: Guid(28bf001eefd41b143ae26d379effc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyC_Blue.FBX using Guid(28bf001eefd41b143ae26d379effc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298f0d4d568c24f978f9c646230d688f') in 0.013310 seconds 
+  Import took 0.018421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_L_BodyA_Gray.FBX
+  artifactKey: Guid(ea72ab8549bda154f8c55ceb089736d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_L_BodyA_Gray.FBX using Guid(ea72ab8549bda154f8c55ceb089736d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fc0d239fd14254cc93afac3981d68f') in 0.012594 seconds 
+  Import took 0.016834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Bottom_Blue.FBX
+  artifactKey: Guid(449ab0023545cc74fb95f6e2c7498954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Bottom_Blue.FBX using Guid(449ab0023545cc74fb95f6e2c7498954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f564c78309c758915e0141b4ff623a60') in 0.015505 seconds 
+  Import took 0.020047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Bottom_Blue.FBX
+  artifactKey: Guid(2f82937b61afd564397c099ba857c793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Bottom_Blue.FBX using Guid(2f82937b61afd564397c099ba857c793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f163233d9796307d48fafd852b78eadf') in 0.013824 seconds 
+  Import took 0.018518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Top_Gray.FBX
+  artifactKey: Guid(7e5c711f132aa9c4799fa1920dc8ed93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Top_Gray.FBX using Guid(7e5c711f132aa9c4799fa1920dc8ed93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b920c84d85a82cfda5c1f1d5027cfe76') in 0.013582 seconds 
+  Import took 0.017993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Bottom_Gray.FBX
+  artifactKey: Guid(6b2ed5d354a71244992d391522ecbe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Bottom_Gray.FBX using Guid(6b2ed5d354a71244992d391522ecbe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2228a008cc6414db73058469cbc20c36') in 0.014121 seconds 
+  Import took 0.018368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Lower_Top_Brown.FBX
+  artifactKey: Guid(4a877c5e38b29984db98e5c274e68e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Lower_Top_Brown.FBX using Guid(4a877c5e38b29984db98e5c274e68e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d43e356b3335fab93971ef633960857') in 0.013835 seconds 
+  Import took 0.018286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Top_Brown.FBX
+  artifactKey: Guid(290d53c89678ce94685d035d7d212c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Top_Brown.FBX using Guid(290d53c89678ce94685d035d7d212c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb7a44564fb20e9cc313fc488e96f36') in 0.012587 seconds 
+  Import took 0.017016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_L_BodyA_Brown.FBX
+  artifactKey: Guid(5d1bf877ee5a32c4c835a7d6a105786f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_L_BodyA_Brown.FBX using Guid(5d1bf877ee5a32c4c835a7d6a105786f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db81b0ff9c2a33e51069f65c8bf8e5bc') in 0.012197 seconds 
+  Import took 0.016634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_L_BodyA_Green.FBX
+  artifactKey: Guid(624953535ae3834429c672c75442dc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_L_BodyA_Green.FBX using Guid(624953535ae3834429c672c75442dc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8311f19bead15d3e89dd5babe43ddfdd') in 0.012868 seconds 
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyA_Brown.FBX
+  artifactKey: Guid(dec6903e1ad25764a8b7a926f6343509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyA_Brown.FBX using Guid(dec6903e1ad25764a8b7a926f6343509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db3817dd9acbbf488262541574b965a') in 0.013023 seconds 
+  Import took 0.017425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Mid_Top_Blue.FBX
+  artifactKey: Guid(389733364dd0a664a96ad9391a0fedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Mid_Top_Blue.FBX using Guid(389733364dd0a664a96ad9391a0fedbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28c7aed8084d475e44708129f328aaf') in 0.014119 seconds 
+  Import took 0.018422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyA_Gray.FBX
+  artifactKey: Guid(ce06213b86ace554cb53f349cc3c11e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyA_Gray.FBX using Guid(ce06213b86ace554cb53f349cc3c11e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80438f8b58b69d04edc2a2964b868ae3') in 0.017418 seconds 
+  Import took 0.032391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_I_Top_Gray.FBX
+  artifactKey: Guid(d1c2e40e0f1934044b97c8e291edaabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_I_Top_Gray.FBX using Guid(d1c2e40e0f1934044b97c8e291edaabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae28db9e48b10ce0f7d3e506613c52') in 0.025330 seconds 
+  Import took 0.029832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyA_Blue.FBX
+  artifactKey: Guid(2e5468d13c3bc0d4b80b802beeacd0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_LowerBodyA_Blue.FBX using Guid(2e5468d13c3bc0d4b80b802beeacd0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2f5c26ea6fd9f5efd14fefdf089ee9') in 0.012469 seconds 
+  Import took 0.017102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Bottom_Gray.FBX
+  artifactKey: Guid(56ad038de2790564fb768f7cbe25c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Bottom_Gray.FBX using Guid(56ad038de2790564fb768f7cbe25c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1819602c58f87529d42c3d9fe63ff6ac') in 0.013113 seconds 
+  Import took 0.017540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyC_Gray.FBX
+  artifactKey: Guid(fa49b0f4f3835d7418f8b64ad4aecd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyC_Gray.FBX using Guid(fa49b0f4f3835d7418f8b64ad4aecd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbecd3d11f0907826d6641cc1305d2e7') in 0.014909 seconds 
+  Import took 0.019051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Top_Brown.FBX
+  artifactKey: Guid(3be97029b5633124880c9c52da2186be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_F_Top_Brown.FBX using Guid(3be97029b5633124880c9c52da2186be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469990b9698bcfda89b6aaa126bf5c37') in 0.013816 seconds 
+  Import took 0.018441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Bottom_Brown.FBX
+  artifactKey: Guid(7aee0acfb42be834cbc6a9e7bce4c087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Bottom_Brown.FBX using Guid(7aee0acfb42be834cbc6a9e7bce4c087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac72d339615177df5b9217450aa613ca') in 0.013174 seconds 
+  Import took 0.017635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_BodyC_Brown.FBX
+  artifactKey: Guid(ac6c50175f0970b4197482f264635265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_BodyC_Brown.FBX using Guid(ac6c50175f0970b4197482f264635265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d877cb203053f0dcecda7c6c30a575') in 0.015109 seconds 
+  Import took 0.019590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Bottom_Blue.FBX
+  artifactKey: Guid(76ce6e67d19e4584f97ecfbc1a56461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Bottom_Blue.FBX using Guid(76ce6e67d19e4584f97ecfbc1a56461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c54fb4bd0da257a0a3e0c8781ec7cce') in 0.012525 seconds 
+  Import took 0.016582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyB_Brown.FBX
+  artifactKey: Guid(b3ea79a327245dc4b9bd839cd3e093b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_MidBodyB_Brown.FBX using Guid(b3ea79a327245dc4b9bd839cd3e093b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfae3d8901cc1c26fb7af294ae2240ec') in 0.012524 seconds 
+  Import took 0.016383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Top_Brown.FBX
+  artifactKey: Guid(1d206f8b0318feb4ba54a696ab8e0968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Top_Brown.FBX using Guid(1d206f8b0318feb4ba54a696ab8e0968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6b3f279a960a3c5a77f4c097b5fd7f') in 0.013496 seconds 
+  Import took 0.017586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyA_Gray.FBX
+  artifactKey: Guid(b46408ed9038896488f20df528fdfd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyA_Gray.FBX using Guid(b46408ed9038896488f20df528fdfd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91df64c5d64b6bc306296a4e7a7bfd1') in 0.013579 seconds 
+  Import took 0.018259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_UpperBodyB_Brown.FBX
+  artifactKey: Guid(b80ac463bb2cd764d8a5632cabb80ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_UpperBodyB_Brown.FBX using Guid(b80ac463bb2cd764d8a5632cabb80ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879a2d7f228e6066a5ce122df9dfe258') in 0.013242 seconds 
+  Import took 0.017602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Bottom_WarmGray.FBX
+  artifactKey: Guid(1bcdf661be8826244b04183f734bcca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_K_Bottom_WarmGray.FBX using Guid(1bcdf661be8826244b04183f734bcca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6778eb096cf3a47d894927dde257b335') in 0.013266 seconds 
+  Import took 0.018106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_BodyB_Gray.FBX
+  artifactKey: Guid(9e58e660731474e4fa39e1557b532799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_BodyB_Gray.FBX using Guid(9e58e660731474e4fa39e1557b532799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aa2dd304a36191a7418fb224d5ab30') in 0.012268 seconds 
+  Import took 0.016279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_LowerBodyA_Blue.FBX
+  artifactKey: Guid(cad3ea24a22d7244c827cf33aa1241b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_LowerBodyA_Blue.FBX using Guid(cad3ea24a22d7244c827cf33aa1241b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8490874395a1bca44e3550530664acd3') in 0.016644 seconds 
+  Import took 0.021196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Bottom_Brown.FBX
+  artifactKey: Guid(e8130bf4a30c3554288b5d57b74ad473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_J_Bottom_Brown.FBX using Guid(e8130bf4a30c3554288b5d57b74ad473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f9c518e687eab048069f75bf930c5d') in 0.013470 seconds 
+  Import took 0.018334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Lower_Top_Blue.FBX
+  artifactKey: Guid(7d770a54c2c82bf4ca8deb5f673e00ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Lower_Top_Blue.FBX using Guid(7d770a54c2c82bf4ca8deb5f673e00ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc45d9ec1735471f072759e56f101a8a') in 0.012421 seconds 
+  Import took 0.016545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyB_Green.FBX
+  artifactKey: Guid(a43be583da404f147971d0bbd4111992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyB_Green.FBX using Guid(a43be583da404f147971d0bbd4111992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1361dcae9e669dfe53e33c096a0b7f') in 0.016145 seconds 
+  Import took 0.020078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Top_Blue.FBX
+  artifactKey: Guid(2b9f0e31b434ea448bbb5b566d672123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_H_Top_Blue.FBX using Guid(2b9f0e31b434ea448bbb5b566d672123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b9a249ab5f580812ed8a9ebfd62498') in 0.013001 seconds 
+  Import took 0.016841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_BodyC_Gray.FBX
+  artifactKey: Guid(40f548315e67b8c4d99b5d7e17ad898c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_BodyC_Gray.FBX using Guid(40f548315e67b8c4d99b5d7e17ad898c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d5f92beabd1d2d7d1d5cd8e38030fb') in 0.012408 seconds 
+  Import took 0.016218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyB_Gray.FBX
+  artifactKey: Guid(b95239fc67be5224f891a017449604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_G_BodyB_Gray.FBX using Guid(b95239fc67be5224f891a017449604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321f2a9a9f9d3cc89b44b45872bef8ce') in 0.013209 seconds 
+  Import took 0.017286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_I_BodyA_Brown.FBX
+  artifactKey: Guid(8e065af75ae4fe343a11095c1a97fe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_I_BodyA_Brown.FBX using Guid(8e065af75ae4fe343a11095c1a97fe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0323a9a71e07b202a281a0a76b2b05f') in 0.013494 seconds 
+  Import took 0.017694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyA_Green.FBX
+  artifactKey: Guid(3633897e012b3774e9ae487798783326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_N_LowerBodyA_Green.FBX using Guid(3633897e012b3774e9ae487798783326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e133274627b5adbd2ae83eca3deeb1e') in 0.012477 seconds 
+  Import took 0.016906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Bottom_Brown.FBX
+  artifactKey: Guid(9c2e8d2d56139b046be788ae1b098231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_E_Bottom_Brown.FBX using Guid(9c2e8d2d56139b046be788ae1b098231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f611cb241866f92867ea6db7e694032c') in 0.013237 seconds 
+  Import took 0.017961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Top_Blue.FBX
+  artifactKey: Guid(2e41ef37a4529144482ee9b8128cb20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_Q_Top_Blue.FBX using Guid(2e41ef37a4529144482ee9b8128cb20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0633a9ead70d54a63a4c7355a102a9a5') in 0.012505 seconds 
+  Import took 0.017129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyA_Gray.FBX
+  artifactKey: Guid(a2e007a87c19bef45a26e09ed1936b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyA_Gray.FBX using Guid(a2e007a87c19bef45a26e09ed1936b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e681e2e52cffb85881b09034bc6b59') in 0.012771 seconds 
+  Import took 0.016999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyB_Brown.FBX
+  artifactKey: Guid(f73e616adc4a2af49b897d1aa3d83720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_O_BodyB_Brown.FBX using Guid(f73e616adc4a2af49b897d1aa3d83720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30742ee7476f91879d4a51c54d6ec38') in 0.012138 seconds 
+  Import took 0.016369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157707 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_BodyC_Gray.FBX
+  artifactKey: Guid(138265b903bdd15458fb38b2b1fea736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_BodyC_Gray.FBX using Guid(138265b903bdd15458fb38b2b1fea736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0330576d98b003c27d948d00d2b2cc') in 0.015737 seconds 
+  Import took 0.020518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Bottom_Blue.FBX
+  artifactKey: Guid(578ac1c955b6abe45b41d1cf74151c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Bottom_Blue.FBX using Guid(578ac1c955b6abe45b41d1cf74151c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b148a7c4a29955056a688fe117897e1f') in 0.013210 seconds 
+  Import took 0.017321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Bottom_Gray.FBX
+  artifactKey: Guid(b6129ba25530a9645a723d17c4b8872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Bottom_Gray.FBX using Guid(b6129ba25530a9645a723d17c4b8872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a010c5daa56f6cf27a08594966d147') in 0.013459 seconds 
+  Import took 0.017751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_B_BodyA_Blue.FBX
+  artifactKey: Guid(e968eb41e0ee1a54b987b20618e053a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_B_BodyA_Blue.FBX using Guid(e968eb41e0ee1a54b987b20618e053a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e7b8e1ef16b71b5d603fd5bdd2b8a3') in 0.012455 seconds 
+  Import took 0.016492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Top_Blue.FBX
+  artifactKey: Guid(266a6493ff188a646ae49388f7191a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Top_Blue.FBX using Guid(266a6493ff188a646ae49388f7191a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb46d4ee05ecf7a56dd47c483e7fc98') in 0.012399 seconds 
+  Import took 0.016424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_BodyC_Red.FBX
+  artifactKey: Guid(6aec7065abb2be44bb04820bb2059541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_BodyC_Red.FBX using Guid(6aec7065abb2be44bb04820bb2059541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58263e20f2b99bae6f4af985e8a5beaf') in 0.012568 seconds 
+  Import took 0.017155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Bottom_Red.FBX
+  artifactKey: Guid(3fe2e7b1399706e4883a3c0aa2d9217a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Bottom_Red.FBX using Guid(3fe2e7b1399706e4883a3c0aa2d9217a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804feec823d3e55559376c8adcff4a94') in 0.012538 seconds 
+  Import took 0.016451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Top_Gray.FBX
+  artifactKey: Guid(4037a24604c41704eb060906d33703a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Top_Gray.FBX using Guid(4037a24604c41704eb060906d33703a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39768335501db917e07636cce867d242') in 0.014243 seconds 
+  Import took 0.018438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Top_Red.FBX
+  artifactKey: Guid(48d746bf28497504fb7374be7c78c1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_Top_Red.FBX using Guid(48d746bf28497504fb7374be7c78c1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ec0b5c1c0e72dc8d26867bc2cb98fe') in 0.013401 seconds 
+  Import took 0.017943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240132 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_BodyA_Blue.FBX
+  artifactKey: Guid(e919a3b1d68d24d438a3ba24402b5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_BodyA_Blue.FBX using Guid(e919a3b1d68d24d438a3ba24402b5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93746aefdc8dd4b2b3a60915113e4f2e') in 0.015360 seconds 
+  Import took 0.020681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_BodyA_Gray.FBX
+  artifactKey: Guid(dde81c4e2777a8249b29a5b8a26bd28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tarbo-CITY/Meshes/Skyscrapers/TB_CITY_Skysc_A_BodyA_Gray.FBX using Guid(dde81c4e2777a8249b29a5b8a26bd28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c5c9b620f2b436b5f3e23f9d777c32') in 0.016020 seconds 
+  Import took 0.020959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.966204 seconds.
+  path: Assets/Prefabs/RB-001-HQ.prefab
+  artifactKey: Guid(ebdc6a05c56fe1b4d8ec2c399cd6ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RB-001-HQ.prefab using Guid(ebdc6a05c56fe1b4d8ec2c399cd6ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72419d5bc6a213ba6582b515b3bc1405') in 0.078494 seconds 
+  Import took 0.098476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.101570 seconds.
+  path: Assets/Prefabs/RB-001-HQ.prefab
+  artifactKey: Guid(ebdc6a05c56fe1b4d8ec2c399cd6ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RB-001-HQ.prefab using Guid(ebdc6a05c56fe1b4d8ec2c399cd6ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383729b31dec03d0186a734da0b56833') in 0.016396 seconds 
+  Import took 0.025718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.669542 seconds.
+  path: Assets/Scenes/Norcroft.unity
+  artifactKey: Guid(7f68c2109c6544743ad4a8ac74cd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Norcroft.unity using Guid(7f68c2109c6544743ad4a8ac74cd7c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a65073f996eb5e0489b315678f2c420') in 0.016378 seconds 
+  Import took 0.048083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.166362 seconds.
+  path: Assets/Prefabs/RB-001-HQ.prefab
+  artifactKey: Guid(ebdc6a05c56fe1b4d8ec2c399cd6ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RB-001-HQ.prefab using Guid(ebdc6a05c56fe1b4d8ec2c399cd6ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e8bf3ea99b3d632571bb4e537102e2') in 0.046490 seconds 
+  Import took 0.055835 seconds .
+
