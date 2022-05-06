@@ -7,11 +7,7 @@ public class ScrollViewScript : MonoBehaviour
 {
     [HideInInspector] ScrollRect scrollRect;
     [SerializeField] RectTransform scrollContent;
-    public float pos;
-    public GameObject minPos;
-    public float testPos;
     [SerializeField] GameObject endOject;
-    private Vector3 startPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +22,6 @@ public class ScrollViewScript : MonoBehaviour
 
     public void RestrictScrolling()
     {
-        pos = scrollRect.verticalScrollbar.value;
-        testPos = minPos.GetComponent<RectTransform>().anchoredPosition.y;
         if (scrollRect.verticalScrollbar.value == 1)
         {
             scrollRect.movementType = ScrollRect.MovementType.Elastic;

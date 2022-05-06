@@ -1712,7 +1712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+  m_Color: {r: 0.4509804, g: 0.4509804, b: 0.4509804, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2269,6 +2269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 0}
+  logoutText: {fileID: 0}
 --- !u!114 &2605294019566573917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2287,3 +2288,4 @@ MonoBehaviour:
   bookingSelection: {fileID: 6216336622743376484, guid: 3c74e2b9bdad74110b124997f2e3d48e, type: 3}
   contentBox: {fileID: 2605294018290559218}
   cancelCanvas: {fileID: 0}
+  selectionArray: []

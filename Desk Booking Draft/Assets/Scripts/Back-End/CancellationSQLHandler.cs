@@ -65,6 +65,7 @@ public class CancellationSQLHandler : MonoBehaviour
         CancellationInstance.Instance.mainCanvas = newMainCanvas;
     }
 
+
     IEnumerator BookingSelections()
     {
         WWWForm form = new WWWForm();
@@ -77,17 +78,28 @@ public class CancellationSQLHandler : MonoBehaviour
 
         string bookings = www.text;
         string[] bbookingsArray = bookings.Split('\n');
+        string[] selectionArray = null;
         debugText.text = www.text;
         //Debug.Log(www.text);
 
         for (int i = 0; i <= bbookingsArray.Length - 2; i++)
         {
             debugText.text = bbookingsArray[i];
-            GameObject booking = Instantiate(bookingSelection, Vector3.zero, Quaternion.Euler(Vector3.zero), contentBox);
-            booking.GetComponentsInChildren<Text>()[0].text = bbookingsArray[i];
+            GameObject booking = Instantiate(bookingSelection, Vector3.zero, Quaternion.Euler(Vector3.zero), contentBox);       //Instantiation of bookingSelection Object
+            booking.GetComponentsInChildren<Text>()[0].text = bbookingsArray[i];            //Setting Text of booking selection object
 
-            Debug.Log(bbookingsArray[i]);
+            for (int j = 0; j <= bbookingsArray.Length; j++)
+            {
+                //selectionArray = bbookingsArray[j].Split('|');
+                selectionArray = booking.GetComponentsInChildren<Text>()[0].text.Split('|');
+                //Debug.Log("Selection Array: " + selectionArray[i]);
+                booking.GetComponentsInChildren<Text>()[1].text = "Staff: " + selectionArray[2] + "\n" + "Date: " + selectionArray[4] + "\n" + "Desk Name: " + selectionArray[0];
+
+            }
+            Debug.Log(bbookingsArray.Length);
+            //Debug.Log(bbookingsArray[i]);
         }
+
     }
 
     IEnumerator CancelBooking()

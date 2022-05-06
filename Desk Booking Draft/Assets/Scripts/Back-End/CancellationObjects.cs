@@ -21,6 +21,8 @@ public class CancellationObjects : MonoBehaviour
     [HideInInspector] GameObject background;
     string[] selectionArray;
 
+    [SerializeField] Text infoText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,17 +55,16 @@ public class CancellationObjects : MonoBehaviour
 
     public void FillArray()
     {
-        selectionArray = this.gameObject.GetComponent<Text>().text.Split('|');
+        selectionArray = infoText.text.Split('|');
         staffBookedText.GetComponent<Text>().text = this.gameObject.GetComponent<Text>().text;
         for (int i = 0; i <= selectionArray.Length - 1; i++)
         {
-            Debug.Log(selectionArray[i]);
+            //Debug.Log(selectionArray[i]);
         }
     }
 
     public void SetSelection()
     {
-        //mainCanvas.SetActive(false);
         Destroy(mainCanvas);
         Destroy(CancellationInstance.Instance.mainCanvas);
 
@@ -87,7 +88,7 @@ public class CancellationObjects : MonoBehaviour
         DateTime objectDate = DateTime.Parse(selectionArray[4]);
         if (objectDate <= currentDate)
         {
-            background.GetComponent<Image>().color = Color.red;
+            background.GetComponent<Image>().color = new Color32(255, 166, 166, 255);
         }
     }
 }
