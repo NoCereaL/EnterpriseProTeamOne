@@ -277,7 +277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2605294017611158451
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1384,9 +1384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollContent: {fileID: 2605294018290559218}
-  endOject: {fileID: 0}
   layoutGroup: {fileID: 2605294018290559219}
-  testFloat: 0
 --- !u!1 &2605294018742412280
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,12 +29,12 @@ public class ButtonActionsScript : MonoBehaviour
             }
             else
             {
-                logoutText.text = "Logout";
+                logoutText.text = "Menu";
             }
         }
     }
 
-    public void LogOut()
+    public void Menu()
     {
         if (PlayerPrefs.GetString("Username").Substring(0, 3) == "ADM")
         {
@@ -42,7 +42,7 @@ public class ButtonActionsScript : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MainMenu");
         }
     }
 

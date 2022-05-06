@@ -8490,7 +8490,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7281889976423551972}
         m_TargetAssemblyTypeName: ButtonActionsScript, Assembly-CSharp
-        m_MethodName: LogOut
+        m_MethodName: Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8532,13 +8532,26 @@ GameObject:
   - component: {fileID: 7281889975734716672}
   - component: {fileID: 7281889975734716673}
   - component: {fileID: 7281889975734716674}
+  - component: {fileID: 7281889975734716733}
   m_Layer: 5
-  m_Name: LogoutButton
+  m_Name: MenuButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7281889975734716733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7281889975734716732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae023889764a4b6186d93690c04bf00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &7281889975807658188
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8580,7 +8593,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Logout
+  m_Text: Menu
 --- !u!224 &7281889975807658190
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8741,7 +8754,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
