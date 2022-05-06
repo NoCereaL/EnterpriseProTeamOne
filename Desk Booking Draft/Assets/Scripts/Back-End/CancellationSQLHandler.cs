@@ -92,7 +92,7 @@ public class CancellationSQLHandler : MonoBehaviour
             {
                 //selectionArray = bbookingsArray[j].Split('|');
                 selectionArray = booking.GetComponentsInChildren<Text>()[0].text.Split('|');
-                //Debug.Log("Selection Array: " + selectionArray[i]);
+
                 booking.GetComponentsInChildren<Text>()[1].text = "Staff: " + selectionArray[2] + "\n" + "Date: " + selectionArray[4] + "\n" + "Desk Name: " + selectionArray[0];
 
             }

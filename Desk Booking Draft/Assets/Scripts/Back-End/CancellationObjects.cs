@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CancellationObjects : MonoBehaviour
 {
@@ -70,8 +71,8 @@ public class CancellationObjects : MonoBehaviour
 
         FillArray();
 
-        deskTextTwo.GetComponent<Text>().text = selectionArray[0];
-        deskNameText.GetComponent<Text>().text = selectionArray[0];
+        deskTextTwo.GetComponent<TextMeshProUGUI>().text = selectionArray[0];
+        deskNameText.GetComponent<TextMeshProUGUI>().text = selectionArray[0];
         staffBookedText.GetComponent<Text>().text = "Staff Booked: " + selectionArray[2];
         managerBookedText.GetComponent<Text>().text = "Manageer Booked: " + selectionArray[1];
         adminBookedText.GetComponent<Text>().text = "Admin Booked: " + selectionArray[3];
