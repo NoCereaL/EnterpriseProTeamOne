@@ -7,9 +7,7 @@ public class ViewBookingsScrollRect : MonoBehaviour
 {
     [HideInInspector] ScrollRect scrollRect;
     [SerializeField] RectTransform scrollContent;
-    [SerializeField] GameObject endOject;
     [SerializeField] VerticalLayoutGroup layoutGroup;
-    public float testFloat;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +18,6 @@ public class ViewBookingsScrollRect : MonoBehaviour
     void Update()
     {
         RestrictScrolling();
-        AssignEndObject();
     }
 
     public void RestrictScrolling()
@@ -37,10 +34,5 @@ public class ViewBookingsScrollRect : MonoBehaviour
         {
             scrollRect.movementType = ScrollRect.MovementType.Unrestricted;
         }
-    }
-
-    public void AssignEndObject()
-    {
-        testFloat = layoutGroup.minHeight;
     }
 }

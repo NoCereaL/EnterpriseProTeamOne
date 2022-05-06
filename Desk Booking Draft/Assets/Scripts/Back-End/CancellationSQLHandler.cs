@@ -93,8 +93,30 @@ public class CancellationSQLHandler : MonoBehaviour
                 //selectionArray = bbookingsArray[j].Split('|');
                 selectionArray = booking.GetComponentsInChildren<Text>()[0].text.Split('|');
 
-                booking.GetComponentsInChildren<Text>()[1].text = "Staff: " + selectionArray[2] + "\n" + "Date: " + selectionArray[4] + "\n" + "Desk Name: " + selectionArray[0];
-
+                if(selectionArray[3] != "" && selectionArray[2] != "") //Check if Admin Exists & Staff Exists
+                {
+                    booking.GetComponentsInChildren<Text>()[1].text = "Admin: " + selectionArray[3] + "             " + "Staff: " + selectionArray[2] + "\n" + "Date: " + selectionArray[4] + "\n" + "Desk Name: " + selectionArray[0];
+                }
+                else if (selectionArray[3] != "" && selectionArray[1] != "") //Check if Admin Exists & Manager Exists
+                {
+                    booking.GetComponentsInChildren<Text>()[1].text = "Admin: " + selectionArray[3] + "             " + "Manager: " + selectionArray[1] + "\n" + "Date: " + selectionArray[4] + "\n" + "Desk Name: " + selectionArray[0];
+                }
+                else if (selectionArray[3] != "")        //If Admin Exists
+                {
+                    booking.GetComponentsInChildren<Text>()[1].text = "Admin: " + selectionArray[3] + "\n" + "Date: " + selectionArray[4] + "\n" + "Desk Name: " + selectionArray[0];
+                }
+                else if(selectionArray[1] != "" && selectionArray[2] != "")     //Check if Manager Exists & Staff Exists
+                {
+                    booking.GetComponentsInChildren<Text>()[1].text = "Manager: " + selectionArray[1] + "             " + "Staff: " + selectionArray[2] + "\n" + "Date: " + selectionArray[4] + "\n" + "Desk Name: " + selectionArray[0];
+                }
+                else if (selectionArray[1] != "")        //If Admin Exists
+                {
+                    booking.GetComponentsInChildren<Text>()[1].text = "Manager: " + selectionArray[1] + "\n" + "Date: " + selectionArray[4] + "\n" + "Desk Name: " + selectionArray[0];
+                }
+                else
+                {
+                    booking.GetComponentsInChildren<Text>()[1].text = "Staff: " + selectionArray[2] + "\n" + "Date: " + selectionArray[4] + "\n" + "Desk Name: " + selectionArray[0];
+                }
             }
             Debug.Log(bbookingsArray.Length);
             //Debug.Log(bbookingsArray[i]);
