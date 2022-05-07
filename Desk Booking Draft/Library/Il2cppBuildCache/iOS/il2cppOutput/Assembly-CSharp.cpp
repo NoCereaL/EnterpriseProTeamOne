@@ -186,6 +186,8 @@ struct CancellationSQLHandler_t18B470886EBD75FE024E08BFD79226DFA62E8738;
 struct Canvas_t2B7E56B7BDC287962E092755372E214ACB6393EA;
 // UnityEngine.CanvasRenderer
 struct CanvasRenderer_tCF8ABE659F7C3A6ED0D99A988D0BDFB651310F0E;
+// CheckCameraPos
+struct CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE;
 // UnityEngine.Component
 struct Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684;
 // UnityEngine.Coroutine
@@ -196,6 +198,8 @@ struct DeskInteraction_t847F367F2985662C6974E608BD531E26BC475972;
 struct Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96;
 // UnityEngine.Event
 struct Event_tED49F8EC5A2514F6E877E301B1AB7ABE4647253E;
+// ExitApplication
+struct ExitApplication_tBE2584C115AF6AFF1B9BEA65CCC29C321AAEBBDE;
 // FillDropDowns
 struct FillDropDowns_t2F10E91E42B89FFE78852E45CB44CAFF508B0FDE;
 // UnityEngine.UI.FontData
@@ -8575,6 +8579,44 @@ public:
 };
 
 
+// CheckCameraPos
+struct CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// System.Single CheckCameraPos::xBoarderPos
+	float ___xBoarderPos_4;
+	// System.Single CheckCameraPos::zBoarderPos
+	float ___zBoarderPos_5;
+	// UnityEngine.Vector3 CheckCameraPos::startPos
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___startPos_6;
+
+public:
+	inline static int32_t get_offset_of_xBoarderPos_4() { return static_cast<int32_t>(offsetof(CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE, ___xBoarderPos_4)); }
+	inline float get_xBoarderPos_4() const { return ___xBoarderPos_4; }
+	inline float* get_address_of_xBoarderPos_4() { return &___xBoarderPos_4; }
+	inline void set_xBoarderPos_4(float value)
+	{
+		___xBoarderPos_4 = value;
+	}
+
+	inline static int32_t get_offset_of_zBoarderPos_5() { return static_cast<int32_t>(offsetof(CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE, ___zBoarderPos_5)); }
+	inline float get_zBoarderPos_5() const { return ___zBoarderPos_5; }
+	inline float* get_address_of_zBoarderPos_5() { return &___zBoarderPos_5; }
+	inline void set_zBoarderPos_5(float value)
+	{
+		___zBoarderPos_5 = value;
+	}
+
+	inline static int32_t get_offset_of_startPos_6() { return static_cast<int32_t>(offsetof(CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE, ___startPos_6)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_startPos_6() const { return ___startPos_6; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_startPos_6() { return &___startPos_6; }
+	inline void set_startPos_6(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	{
+		___startPos_6 = value;
+	}
+};
+
+
 // DeskInteraction
 struct DeskInteraction_t847F367F2985662C6974E608BD531E26BC475972  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -8634,6 +8676,15 @@ public:
 		___bookingLimitationURL_8 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___bookingLimitationURL_8), (void*)value);
 	}
+};
+
+
+// ExitApplication
+struct ExitApplication_tBE2584C115AF6AFF1B9BEA65CCC29C321AAEBBDE  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
 };
 
 
@@ -16153,6 +16204,16 @@ inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * Object_Instantiate
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBookingSelectionsU3Ed__20__ctor_mD4272CD19A2DC25AA1CF75DF73A046EC87EAB624 (U3CBookingSelectionsU3Ed__20_t209919A3EF85D28C1AFF8BF2EBB293A8EF5DF9B2 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
 // System.Void CancellationSQLHandler/<CancelBooking>d__21::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelBookingU3Ed__21__ctor_m175E74124001C9F5AF8172F02D9BEBC3DEC00B52 (U3CCancelBookingU3Ed__21_t6DD525C9B84E239820C5D002EC5BBBB0C3806577 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
+// UnityEngine.Transform UnityEngine.GameObject::get_transform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, const RuntimeMethod* method);
+// System.Void CheckCameraPos::CheckCamera()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckCameraPos_CheckCamera_m0C188A65C1777EE00C67F9BC0FFC96A80166FCDA (CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE * __this, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Vector3::Lerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Vector3_Lerp_m8E095584FFA10CF1D3EABCD04F4C83FB82EC5524_inline (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___a0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___b1, float ___t2, const RuntimeMethod* method);
+// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___value0, const RuntimeMethod* method);
 // UnityEngine.Ray UnityEngine.Camera::ScreenPointToRay(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6  Camera_ScreenPointToRay_mD385213935A81030EDC604A39FD64761077CFBAB (Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___pos0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&)
@@ -16165,6 +16226,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_m0C7BC870ED2F0DC5A2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DeskInteraction_CheckPreviousBooking_m352CD0CC4651554C610A423C6DCEB6757F1BA6BB (DeskInteraction_t847F367F2985662C6974E608BD531E26BC475972 * __this, const RuntimeMethod* method);
 // System.Void DeskInteraction/<CheckPreviousBooking>d__7::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckPreviousBookingU3Ed__7__ctor_m4A7A0742BD0A9B057F6B00A3AD74AAF222059569 (U3CCheckPreviousBookingU3Ed__7_tDC3D097EB151F150BE83A6F972C026950C0B77A9 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
+// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_mB22F7F39CDD46667C3EF64507E55BB7DA18F66C4 (const RuntimeMethod* method);
+// System.Void UnityEngine.Application::Quit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_m8D720E5092786C2EE32310D85FE61C253D3B1F2A (const RuntimeMethod* method);
 // System.Void FillDropDowns::FillStartDropdown()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FillDropDowns_FillStartDropdown_mC0355727F3C3439D3D2818FBF40CF444E814E079 (FillDropDowns_t2F10E91E42B89FFE78852E45CB44CAFF508B0FDE * __this, const RuntimeMethod* method);
 // UnityEngine.Material UnityEngine.Renderer::get_material()
@@ -16177,12 +16242,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_mC3C88E2389B7132EBF3E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  Color_get_white_mB21E47D20959C3AEC41AF8BA04F63AC89FAF319E (const RuntimeMethod* method);
 // System.Void InfoBoxScript::CastRay()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfoBoxScript_CastRay_m9D50815914698AA48533E044B8C36F50FAE49212 (InfoBoxScript_t94BDE547AEC8A877D69EA0D7D9120F0D471D5005 * __this, const RuntimeMethod* method);
-// UnityEngine.Transform UnityEngine.GameObject::get_transform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___value0, const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.Transform::get_position()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.PlayerPrefs::SetFloat(System.String,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetFloat_mF660C042621E97A05AD99134DBDD9B1205CDD214 (String_t* ___key0, float ___value1, const RuntimeMethod* method);
 // System.Void LoadingScript::SceneLoader(System.Int32)
@@ -16203,8 +16262,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_orthographic_m38A872FC2D44891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  Quaternion_Euler_m37BF99FFFA09F4B3F83DC066641B82C59B19A9C3 (float ___x0, float ___y1, float ___z2, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m1B5F3D4CE984AB31254615C9C71B0E54978583B4 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  ___value0, const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.Vector3::Lerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Vector3_Lerp_m8E095584FFA10CF1D3EABCD04F4C83FB82EC5524_inline (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___a0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___b1, float ___t2, const RuntimeMethod* method);
 // System.Boolean UnityEngine.PlayerPrefs::HasKey(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerPrefs_HasKey_m48BE5886380B51AB495B91C9A26115B7CB958A92 (String_t* ___key0, const RuntimeMethod* method);
 // System.Single UnityEngine.PlayerPrefs::GetFloat(System.String)
@@ -16455,8 +16512,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  Vector2_op_Implicit_mE407CAF7446E342E059B00AA9EDB301AEC5B7B1A_inline (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___v0, const RuntimeMethod* method);
 // System.Void SwipeTextScript::CheckPlatform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwipeTextScript_CheckPlatform_m7626FE7E6FC3B5CFA4CC170FEA672D66EEDD9C95 (SwipeTextScript_t639FA88A0587528A2704B51AD93871AE3EBC92D8 * __this, const RuntimeMethod* method);
-// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_mB22F7F39CDD46667C3EF64507E55BB7DA18F66C4 (const RuntimeMethod* method);
 // !!0 UnityEngine.GameObject::GetComponent<SwipeTextScript>()
 inline SwipeTextScript_t639FA88A0587528A2704B51AD93871AE3EBC92D8 * GameObject_GetComponent_TisSwipeTextScript_t639FA88A0587528A2704B51AD93871AE3EBC92D8_m84341A45C41874106D9131AC0011B4F43679144B (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method)
 {
@@ -17352,6 +17407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BookingSQLHandler_FillDateDropdown_mCAEB
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OptionData_t5F665DC13C1E4307727D66ECC1100B3A77E3E857_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1171EE63BE0D244BEF29759D40A7FC8CAE6E90B4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3D2EB2B78EAEEF51FB8623C9BB860DA5F87A8398);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A281F9DBD5E103CE9E67E73392C2A3BA578F217);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7BE89227A0BBC17012796DD27BB68B0D5FB2D35E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF39356969801B4F3AEA8EB8CD0AC35B293E21ED0);
@@ -17364,6 +17420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BookingSQLHandler_FillDateDropdown_mCAEB
 	memset((&V_3), 0, sizeof(V_3));
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
+	int32_t V_6 = 0;
 	{
 		// currentDate = DateTime.Now;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var);
@@ -17397,7 +17454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BookingSQLHandler_FillDateDropdown_mCAEB
 		L_8 = String_op_Inequality_mDDA2DDED3E7EF042987EB7180EE3E88105F0AAE2(L_7, _stringLiteral1171EE63BE0D244BEF29759D40A7FC8CAE6E90B4, /*hidden argument*/NULL);
 		if (!L_8)
 		{
-			goto IL_013c;
+			goto IL_01bc;
 		}
 	}
 	{
@@ -17416,7 +17473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BookingSQLHandler_FillDateDropdown_mCAEB
 		L_13 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_12, _stringLiteralF39356969801B4F3AEA8EB8CD0AC35B293E21ED0, /*hidden argument*/NULL);
 		if (!L_13)
 		{
-			goto IL_00dd;
+			goto IL_00d8;
 		}
 	}
 	{
@@ -17467,122 +17524,191 @@ IL_00d3:
 			goto IL_0083;
 		}
 	}
-	{
-		// }
-		goto IL_0199;
-	}
 
-IL_00dd:
+IL_00d8:
+	{
+		// if (userDropdown.captionText.text.Substring(0, 3) == "ADM")
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_26 = __this->get_userDropdown_13();
+		NullCheck(L_26);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_27;
+		L_27 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		String_t* L_28;
+		L_28 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_27);
+		NullCheck(L_28);
+		String_t* L_29;
+		L_29 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_28, 0, 3, /*hidden argument*/NULL);
+		bool L_30;
+		L_30 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_29, _stringLiteral3D2EB2B78EAEEF51FB8623C9BB860DA5F87A8398, /*hidden argument*/NULL);
+		if (!L_30)
+		{
+			goto IL_015d;
+		}
+	}
 	{
 		// for (int i = 0; i < 90; i++)
 		V_4 = 0;
-		goto IL_0134;
+		goto IL_0152;
 	}
 
-IL_00e2:
+IL_0100:
 	{
 		// dropdownObjects.text = currentDate.ToString("yyyy-MM-dd").Substring(0, 10);
-		OptionData_t5F665DC13C1E4307727D66ECC1100B3A77E3E857 * L_26 = V_1;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_27 = __this->get_address_of_currentDate_15();
-		String_t* L_28;
-		L_28 = DateTime_ToString_m19ECEFF7BA22ED4425F7562A82A1C2308E934204((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_27, _stringLiteral7BE89227A0BBC17012796DD27BB68B0D5FB2D35E, /*hidden argument*/NULL);
-		NullCheck(L_28);
-		String_t* L_29;
-		L_29 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_28, 0, ((int32_t)10), /*hidden argument*/NULL);
-		NullCheck(L_26);
-		OptionData_set_text_m23C74889CF93559CD64F90EC8DA69C20C13FC549_inline(L_26, L_29, /*hidden argument*/NULL);
-		// list.Add(dropdownObjects.text);
-		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_30 = V_0;
 		OptionData_t5F665DC13C1E4307727D66ECC1100B3A77E3E857 * L_31 = V_1;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_32 = __this->get_address_of_currentDate_15();
+		String_t* L_33;
+		L_33 = DateTime_ToString_m19ECEFF7BA22ED4425F7562A82A1C2308E934204((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_32, _stringLiteral7BE89227A0BBC17012796DD27BB68B0D5FB2D35E, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		String_t* L_34;
+		L_34 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_33, 0, ((int32_t)10), /*hidden argument*/NULL);
 		NullCheck(L_31);
-		String_t* L_32;
-		L_32 = OptionData_get_text_m8652FE3866405C4C7C3782659009EF2C7E54D232_inline(L_31, /*hidden argument*/NULL);
-		NullCheck(L_30);
-		List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE(L_30, L_32, /*hidden argument*/List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE_RuntimeMethod_var);
+		OptionData_set_text_m23C74889CF93559CD64F90EC8DA69C20C13FC549_inline(L_31, L_34, /*hidden argument*/NULL);
+		// list.Add(dropdownObjects.text);
+		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_35 = V_0;
+		OptionData_t5F665DC13C1E4307727D66ECC1100B3A77E3E857 * L_36 = V_1;
+		NullCheck(L_36);
+		String_t* L_37;
+		L_37 = OptionData_get_text_m8652FE3866405C4C7C3782659009EF2C7E54D232_inline(L_36, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE(L_35, L_37, /*hidden argument*/List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE_RuntimeMethod_var);
 		// currentDate = currentDate.AddDays(1).Date;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_33 = __this->get_address_of_currentDate_15();
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_34;
-		L_34 = DateTime_AddDays_mEB8882A3289F39D7B10E5A1FB36A2ABF80328368((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_33, (1.0), /*hidden argument*/NULL);
-		V_3 = L_34;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_35;
-		L_35 = DateTime_get_Date_m8650BEE59889347B31E204806C88AB51E6F1E325((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_3), /*hidden argument*/NULL);
-		__this->set_currentDate_15(L_35);
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_38 = __this->get_address_of_currentDate_15();
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_39;
+		L_39 = DateTime_AddDays_mEB8882A3289F39D7B10E5A1FB36A2ABF80328368((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_38, (1.0), /*hidden argument*/NULL);
+		V_3 = L_39;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_40;
+		L_40 = DateTime_get_Date_m8650BEE59889347B31E204806C88AB51E6F1E325((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_3), /*hidden argument*/NULL);
+		__this->set_currentDate_15(L_40);
 		// for (int i = 0; i < 90; i++)
-		int32_t L_36 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add((int32_t)L_36, (int32_t)1));
+		int32_t L_41 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add((int32_t)L_41, (int32_t)1));
 	}
 
-IL_0134:
+IL_0152:
 	{
 		// for (int i = 0; i < 90; i++)
-		int32_t L_37 = V_4;
-		if ((((int32_t)L_37) < ((int32_t)((int32_t)90))))
+		int32_t L_42 = V_4;
+		if ((((int32_t)L_42) < ((int32_t)((int32_t)90))))
 		{
-			goto IL_00e2;
+			goto IL_0100;
 		}
 	}
 	{
 		// }
-		goto IL_0199;
+		goto IL_0219;
 	}
 
-IL_013c:
+IL_015d:
 	{
-		// for (int i = 0; i < 30; i++)
+		// for (int i = 0; i < 90; i++)
 		V_5 = 0;
-		goto IL_0193;
+		goto IL_01b4;
 	}
 
-IL_0141:
+IL_0162:
 	{
 		// dropdownObjects.text = currentDate.ToString("yyyy-MM-dd").Substring(0, 10);
-		OptionData_t5F665DC13C1E4307727D66ECC1100B3A77E3E857 * L_38 = V_1;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_39 = __this->get_address_of_currentDate_15();
-		String_t* L_40;
-		L_40 = DateTime_ToString_m19ECEFF7BA22ED4425F7562A82A1C2308E934204((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_39, _stringLiteral7BE89227A0BBC17012796DD27BB68B0D5FB2D35E, /*hidden argument*/NULL);
-		NullCheck(L_40);
-		String_t* L_41;
-		L_41 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_40, 0, ((int32_t)10), /*hidden argument*/NULL);
-		NullCheck(L_38);
-		OptionData_set_text_m23C74889CF93559CD64F90EC8DA69C20C13FC549_inline(L_38, L_41, /*hidden argument*/NULL);
-		// list.Add(dropdownObjects.text);
-		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_42 = V_0;
 		OptionData_t5F665DC13C1E4307727D66ECC1100B3A77E3E857 * L_43 = V_1;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_44 = __this->get_address_of_currentDate_15();
+		String_t* L_45;
+		L_45 = DateTime_ToString_m19ECEFF7BA22ED4425F7562A82A1C2308E934204((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_44, _stringLiteral7BE89227A0BBC17012796DD27BB68B0D5FB2D35E, /*hidden argument*/NULL);
+		NullCheck(L_45);
+		String_t* L_46;
+		L_46 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_45, 0, ((int32_t)10), /*hidden argument*/NULL);
 		NullCheck(L_43);
-		String_t* L_44;
-		L_44 = OptionData_get_text_m8652FE3866405C4C7C3782659009EF2C7E54D232_inline(L_43, /*hidden argument*/NULL);
-		NullCheck(L_42);
-		List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE(L_42, L_44, /*hidden argument*/List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE_RuntimeMethod_var);
+		OptionData_set_text_m23C74889CF93559CD64F90EC8DA69C20C13FC549_inline(L_43, L_46, /*hidden argument*/NULL);
+		// list.Add(dropdownObjects.text);
+		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_47 = V_0;
+		OptionData_t5F665DC13C1E4307727D66ECC1100B3A77E3E857 * L_48 = V_1;
+		NullCheck(L_48);
+		String_t* L_49;
+		L_49 = OptionData_get_text_m8652FE3866405C4C7C3782659009EF2C7E54D232_inline(L_48, /*hidden argument*/NULL);
+		NullCheck(L_47);
+		List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE(L_47, L_49, /*hidden argument*/List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE_RuntimeMethod_var);
 		// currentDate = currentDate.AddDays(1).Date;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_45 = __this->get_address_of_currentDate_15();
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_46;
-		L_46 = DateTime_AddDays_mEB8882A3289F39D7B10E5A1FB36A2ABF80328368((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_45, (1.0), /*hidden argument*/NULL);
-		V_3 = L_46;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_47;
-		L_47 = DateTime_get_Date_m8650BEE59889347B31E204806C88AB51E6F1E325((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_3), /*hidden argument*/NULL);
-		__this->set_currentDate_15(L_47);
-		// for (int i = 0; i < 30; i++)
-		int32_t L_48 = V_5;
-		V_5 = ((int32_t)il2cpp_codegen_add((int32_t)L_48, (int32_t)1));
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_50 = __this->get_address_of_currentDate_15();
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_51;
+		L_51 = DateTime_AddDays_mEB8882A3289F39D7B10E5A1FB36A2ABF80328368((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_50, (1.0), /*hidden argument*/NULL);
+		V_3 = L_51;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_52;
+		L_52 = DateTime_get_Date_m8650BEE59889347B31E204806C88AB51E6F1E325((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_3), /*hidden argument*/NULL);
+		__this->set_currentDate_15(L_52);
+		// for (int i = 0; i < 90; i++)
+		int32_t L_53 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add((int32_t)L_53, (int32_t)1));
 	}
 
-IL_0193:
+IL_01b4:
+	{
+		// for (int i = 0; i < 90; i++)
+		int32_t L_54 = V_5;
+		if ((((int32_t)L_54) < ((int32_t)((int32_t)90))))
+		{
+			goto IL_0162;
+		}
+	}
+	{
+		// }
+		goto IL_0219;
+	}
+
+IL_01bc:
 	{
 		// for (int i = 0; i < 30; i++)
-		int32_t L_49 = V_5;
-		if ((((int32_t)L_49) < ((int32_t)((int32_t)30))))
+		V_6 = 0;
+		goto IL_0213;
+	}
+
+IL_01c1:
+	{
+		// dropdownObjects.text = currentDate.ToString("yyyy-MM-dd").Substring(0, 10);
+		OptionData_t5F665DC13C1E4307727D66ECC1100B3A77E3E857 * L_55 = V_1;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_56 = __this->get_address_of_currentDate_15();
+		String_t* L_57;
+		L_57 = DateTime_ToString_m19ECEFF7BA22ED4425F7562A82A1C2308E934204((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_56, _stringLiteral7BE89227A0BBC17012796DD27BB68B0D5FB2D35E, /*hidden argument*/NULL);
+		NullCheck(L_57);
+		String_t* L_58;
+		L_58 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_57, 0, ((int32_t)10), /*hidden argument*/NULL);
+		NullCheck(L_55);
+		OptionData_set_text_m23C74889CF93559CD64F90EC8DA69C20C13FC549_inline(L_55, L_58, /*hidden argument*/NULL);
+		// list.Add(dropdownObjects.text);
+		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_59 = V_0;
+		OptionData_t5F665DC13C1E4307727D66ECC1100B3A77E3E857 * L_60 = V_1;
+		NullCheck(L_60);
+		String_t* L_61;
+		L_61 = OptionData_get_text_m8652FE3866405C4C7C3782659009EF2C7E54D232_inline(L_60, /*hidden argument*/NULL);
+		NullCheck(L_59);
+		List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE(L_59, L_61, /*hidden argument*/List_1_Add_m627ED3F7C50096BB8934F778CB980E79483BD2AE_RuntimeMethod_var);
+		// currentDate = currentDate.AddDays(1).Date;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * L_62 = __this->get_address_of_currentDate_15();
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_63;
+		L_63 = DateTime_AddDays_mEB8882A3289F39D7B10E5A1FB36A2ABF80328368((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)L_62, (1.0), /*hidden argument*/NULL);
+		V_3 = L_63;
+		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_64;
+		L_64 = DateTime_get_Date_m8650BEE59889347B31E204806C88AB51E6F1E325((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_3), /*hidden argument*/NULL);
+		__this->set_currentDate_15(L_64);
+		// for (int i = 0; i < 30; i++)
+		int32_t L_65 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add((int32_t)L_65, (int32_t)1));
+	}
+
+IL_0213:
+	{
+		// for (int i = 0; i < 30; i++)
+		int32_t L_66 = V_6;
+		if ((((int32_t)L_66) < ((int32_t)((int32_t)30))))
 		{
-			goto IL_0141;
+			goto IL_01c1;
 		}
 	}
 
-IL_0199:
+IL_0219:
 	{
 		// dateDropdown.AddOptions(list);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_50 = __this->get_dateDropdown_8();
-		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_51 = V_0;
-		NullCheck(L_50);
-		Dropdown_AddOptions_m2375327887D29ACE452F157863186FC8D0AA4AF9(L_50, L_51, /*hidden argument*/NULL);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_67 = __this->get_dateDropdown_8();
+		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 * L_68 = V_0;
+		NullCheck(L_67);
+		Dropdown_AddOptions_m2375327887D29ACE452F157863186FC8D0AA4AF9(L_67, L_68, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -18823,6 +18949,294 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CancellationSQLHandler__ctor_m8BE01C6358
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void CheckCameraPos::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckCameraPos_Start_m619DCAFAC07B4E504DE8F5FB8FDBED9D7452A39C (CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE * __this, const RuntimeMethod* method)
+{
+	{
+		// startPos = this.gameObject.transform.position;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0;
+		L_0 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_1;
+		L_1 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_2;
+		L_2 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_1, /*hidden argument*/NULL);
+		__this->set_startPos_6(L_2);
+		// }
+		return;
+	}
+}
+// System.Void CheckCameraPos::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckCameraPos_Update_mAD0B2B6F71D6DECE67F10424560E4EA551BC3C18 (CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE * __this, const RuntimeMethod* method)
+{
+	{
+		// CheckCamera();
+		CheckCameraPos_CheckCamera_m0C188A65C1777EE00C67F9BC0FFC96A80166FCDA(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void CheckCameraPos::CheckCamera()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckCameraPos_CheckCamera_m0C188A65C1777EE00C67F9BC0FFC96A80166FCDA (CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE * __this, const RuntimeMethod* method)
+{
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// Vector3 currentPos = this.gameObject.transform.position;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0;
+		L_0 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_1;
+		L_1 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_2;
+		L_2 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		// if(currentPos.x >= xBoarderPos)     //Check Camera has passed positive x value
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_3 = V_0;
+		float L_4 = L_3.get_x_2();
+		float L_5 = __this->get_xBoarderPos_4();
+		if ((!(((float)L_4) >= ((float)L_5))))
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		// this.gameObject.transform.position = Vector3.Lerp(currentPos, new Vector3(this.gameObject.transform.position.x - 10, this.gameObject.transform.position.y, this.gameObject.transform.position.z), 0.1f);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_6;
+		L_6 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_7;
+		L_7 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_6, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_8 = V_0;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_9;
+		L_9 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_10;
+		L_10 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_11;
+		L_11 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_10, /*hidden argument*/NULL);
+		float L_12 = L_11.get_x_2();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_13;
+		L_13 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_14;
+		L_14 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_15;
+		L_15 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_14, /*hidden argument*/NULL);
+		float L_16 = L_15.get_y_3();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_17;
+		L_17 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_18;
+		L_18 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_17, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_19;
+		L_19 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_18, /*hidden argument*/NULL);
+		float L_20 = L_19.get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_21), ((float)il2cpp_codegen_subtract((float)L_12, (float)(10.0f))), L_16, L_20, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_22;
+		L_22 = Vector3_Lerp_m8E095584FFA10CF1D3EABCD04F4C83FB82EC5524_inline(L_8, L_21, (0.100000001f), /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91(L_7, L_22, /*hidden argument*/NULL);
+		// }
+		goto IL_00fa;
+	}
+
+IL_0086:
+	{
+		// else if(currentPos.x <= -xBoarderPos)       //Check Camera has passed negatice x value
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_23 = V_0;
+		float L_24 = L_23.get_x_2();
+		float L_25 = __this->get_xBoarderPos_4();
+		if ((!(((float)L_24) <= ((float)((-L_25))))))
+		{
+			goto IL_00fa;
+		}
+	}
+	{
+		// this.gameObject.transform.position = Vector3.Lerp(currentPos, new Vector3(this.gameObject.transform.position.x + 10, this.gameObject.transform.position.y, this.gameObject.transform.position.z), 0.1f);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_26;
+		L_26 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_27;
+		L_27 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_26, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_28 = V_0;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_29;
+		L_29 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_30;
+		L_30 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_29, /*hidden argument*/NULL);
+		NullCheck(L_30);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_31;
+		L_31 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_30, /*hidden argument*/NULL);
+		float L_32 = L_31.get_x_2();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_33;
+		L_33 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_34;
+		L_34 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_33, /*hidden argument*/NULL);
+		NullCheck(L_34);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_35;
+		L_35 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_34, /*hidden argument*/NULL);
+		float L_36 = L_35.get_y_3();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_37;
+		L_37 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_38;
+		L_38 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_37, /*hidden argument*/NULL);
+		NullCheck(L_38);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_39;
+		L_39 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_38, /*hidden argument*/NULL);
+		float L_40 = L_39.get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_41;
+		memset((&L_41), 0, sizeof(L_41));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_41), ((float)il2cpp_codegen_add((float)L_32, (float)(10.0f))), L_36, L_40, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_42;
+		L_42 = Vector3_Lerp_m8E095584FFA10CF1D3EABCD04F4C83FB82EC5524_inline(L_28, L_41, (0.100000001f), /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91(L_27, L_42, /*hidden argument*/NULL);
+	}
+
+IL_00fa:
+	{
+		// if (currentPos.z >= zBoarderPos)
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_43 = V_0;
+		float L_44 = L_43.get_z_4();
+		float L_45 = __this->get_zBoarderPos_5();
+		if ((!(((float)L_44) >= ((float)L_45))))
+		{
+			goto IL_016e;
+		}
+	}
+	{
+		// this.gameObject.transform.position = Vector3.Lerp(currentPos, new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z - 10),0.1f);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_46;
+		L_46 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_46);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_47;
+		L_47 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_46, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_48 = V_0;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_49;
+		L_49 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_49);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_50;
+		L_50 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_49, /*hidden argument*/NULL);
+		NullCheck(L_50);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_51;
+		L_51 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_50, /*hidden argument*/NULL);
+		float L_52 = L_51.get_x_2();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_53;
+		L_53 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_53);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_54;
+		L_54 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_53, /*hidden argument*/NULL);
+		NullCheck(L_54);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_55;
+		L_55 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_54, /*hidden argument*/NULL);
+		float L_56 = L_55.get_y_3();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_57;
+		L_57 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_57);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_58;
+		L_58 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_57, /*hidden argument*/NULL);
+		NullCheck(L_58);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_59;
+		L_59 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_58, /*hidden argument*/NULL);
+		float L_60 = L_59.get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_61;
+		memset((&L_61), 0, sizeof(L_61));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_61), L_52, L_56, ((float)il2cpp_codegen_subtract((float)L_60, (float)(10.0f))), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_62;
+		L_62 = Vector3_Lerp_m8E095584FFA10CF1D3EABCD04F4C83FB82EC5524_inline(L_48, L_61, (0.100000001f), /*hidden argument*/NULL);
+		NullCheck(L_47);
+		Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91(L_47, L_62, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+
+IL_016e:
+	{
+		// else if (currentPos.z <= -zBoarderPos)
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_63 = V_0;
+		float L_64 = L_63.get_z_4();
+		float L_65 = __this->get_zBoarderPos_5();
+		if ((!(((float)L_64) <= ((float)((-L_65))))))
+		{
+			goto IL_01e2;
+		}
+	}
+	{
+		// this.gameObject.transform.position = Vector3.Lerp(currentPos, new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z + 10), 0.1f);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_66;
+		L_66 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_66);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_67;
+		L_67 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_66, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_68 = V_0;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_69;
+		L_69 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_69);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_70;
+		L_70 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_69, /*hidden argument*/NULL);
+		NullCheck(L_70);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_71;
+		L_71 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_70, /*hidden argument*/NULL);
+		float L_72 = L_71.get_x_2();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_73;
+		L_73 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_73);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_74;
+		L_74 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_73, /*hidden argument*/NULL);
+		NullCheck(L_74);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_75;
+		L_75 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_74, /*hidden argument*/NULL);
+		float L_76 = L_75.get_y_3();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_77;
+		L_77 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_77);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_78;
+		L_78 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_77, /*hidden argument*/NULL);
+		NullCheck(L_78);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_79;
+		L_79 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_78, /*hidden argument*/NULL);
+		float L_80 = L_79.get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_81;
+		memset((&L_81), 0, sizeof(L_81));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_81), L_72, L_76, ((float)il2cpp_codegen_add((float)L_80, (float)(10.0f))), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_82;
+		L_82 = Vector3_Lerp_m8E095584FFA10CF1D3EABCD04F4C83FB82EC5524_inline(L_68, L_81, (0.100000001f), /*hidden argument*/NULL);
+		NullCheck(L_67);
+		Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91(L_67, L_82, /*hidden argument*/NULL);
+	}
+
+IL_01e2:
+	{
+		// }
+		return;
+	}
+}
+// System.Void CheckCameraPos::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckCameraPos__ctor_m3BFBA9C0C4C0A2B663935D7D70D62AB13106A788 (CheckCameraPos_t97BD3BC97482815471A79CBD750E46D4715637AE * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void DeskInteraction::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeskInteraction_Start_m9BEE05D15FC33495185A5F44B1BAD8D83A575780 (DeskInteraction_t847F367F2985662C6974E608BD531E26BC475972 * __this, const RuntimeMethod* method)
 {
@@ -19020,6 +19434,76 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeskInteraction__ctor_mFCC710C26C32044F2
 	{
 		// string bookingLimitationURL = "https://moyanask.com/EPTeam1/bookingLimitation.php";
 		__this->set_bookingLimitationURL_8(_stringLiteralCA3151EC03FF670E7328104997EA5E99E1E0EB2B);
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void ExitApplication::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExitApplication_Start_m75D49D4F2AFC9B2E2C0576B9CD60C36C13711B3C (ExitApplication_tBE2584C115AF6AFF1B9BEA65CCC29C321AAEBBDE * __this, const RuntimeMethod* method)
+{
+	{
+		// if(Application.platform == RuntimePlatform.Android)
+		int32_t L_0;
+		L_0 = Application_get_platform_mB22F7F39CDD46667C3EF64507E55BB7DA18F66C4(/*hidden argument*/NULL);
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		// this.gameObject.SetActive(false);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_1;
+		L_1 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_1, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0015:
+	{
+		// if(Application.platform == RuntimePlatform.IPhonePlayer)
+		int32_t L_2;
+		L_2 = Application_get_platform_mB22F7F39CDD46667C3EF64507E55BB7DA18F66C4(/*hidden argument*/NULL);
+		if ((!(((uint32_t)L_2) == ((uint32_t)8))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		// this.gameObject.SetActive(false);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_3;
+		L_3 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_3, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		// }
+		return;
+	}
+}
+// System.Void ExitApplication::QuitApplication()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExitApplication_QuitApplication_mD936E1F3E8C70954D7FD98DAE9A600D6D8AEE363 (ExitApplication_tBE2584C115AF6AFF1B9BEA65CCC29C321AAEBBDE * __this, const RuntimeMethod* method)
+{
+	{
+		// Application.Quit();
+		Application_Quit_m8D720E5092786C2EE32310D85FE61C253D3B1F2A(/*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void ExitApplication::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExitApplication__ctor_m3176F367654E252AD107AFD189D53E453E6CD72A (ExitApplication_tBE2584C115AF6AFF1B9BEA65CCC29C321AAEBBDE * __this, const RuntimeMethod* method)
+{
+	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -24428,7 +24912,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAdminBookingU3Ed__33_MoveNext_m658E9C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53FFCC6B4EEE8D1CCD280F42DF539A1AA9ADB6BA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5668FF4C4ABAE6C9DD14C57A01DC7A3E32D6CADD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6476BD65E793CE83BFA46482A2C4CA5975111402);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D4316A45ACDB54F90D25554F680B9AA3393CB8E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral819315030573ACC523C7E51F576C2F2858AD786A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88CE6518E459BFE0A7E725D31DBE58257EA1E590);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8DDB910BC1B1524EE46E14CA6A455E16E2BC01EC);
@@ -24462,7 +24945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAdminBookingU3Ed__33_MoveNext_m658E9C
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) == ((int32_t)1)))
 		{
-			goto IL_01ba;
+			goto IL_01c0;
 		}
 	}
 	{
@@ -24505,154 +24988,161 @@ IL_001a:
 		L_14 = PlayerPrefs_GetString_mE7654C1031622A56CD8F248F53714B105A35A159(_stringLiteral4A281F9DBD5E103CE9E67E73392C2A3BA578F217, /*hidden argument*/NULL);
 		NullCheck(L_13);
 		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_13, _stringLiteralA8C81AFE51215B10E00ED86FA3750852A75C4A4E, L_14, /*hidden argument*/NULL);
-		// form.AddField("date", PlayerPrefs.GetString("CurrentDate"));
+		// form.AddField("date", dateDropdown.captionText.text);
 		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_15 = V_2;
-		String_t* L_16;
-		L_16 = PlayerPrefs_GetString_mE7654C1031622A56CD8F248F53714B105A35A159(_stringLiteral6D4316A45ACDB54F90D25554F680B9AA3393CB8E, /*hidden argument*/NULL);
-		NullCheck(L_15);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_15, _stringLiteral1D7B559D2443B7B91D8C57B59220774176D04300, L_16, /*hidden argument*/NULL);
-		// form.AddField("startTime", startDropdown.captionText.text);
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_17 = V_2;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_18 = V_1;
-		NullCheck(L_18);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_19 = L_18->get_startDropdown_11();
-		NullCheck(L_19);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_20;
-		L_20 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_19, /*hidden argument*/NULL);
-		NullCheck(L_20);
-		String_t* L_21;
-		L_21 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_20);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_16 = V_1;
+		NullCheck(L_16);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_17 = L_16->get_dateDropdown_8();
 		NullCheck(L_17);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_17, _stringLiteral0291659353D7703E088B9DCAA8272442CAC27034, L_21, /*hidden argument*/NULL);
-		// TimeSpan startTime = new TimeSpan(Int32.Parse(startDropdown.captionText.text.Substring(0, 2)), Int32.Parse(startDropdown.captionText.text.Substring(3, 2)), 00);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_22 = V_1;
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_18;
+		L_18 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_17, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		String_t* L_19;
+		L_19 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_18);
+		NullCheck(L_15);
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_15, _stringLiteral1D7B559D2443B7B91D8C57B59220774176D04300, L_19, /*hidden argument*/NULL);
+		// form.AddField("startTime", startDropdown.captionText.text);
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_20 = V_2;
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_21 = V_1;
+		NullCheck(L_21);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_22 = L_21->get_startDropdown_11();
 		NullCheck(L_22);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_23 = L_22->get_startDropdown_11();
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_23;
+		L_23 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_22, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_24;
-		L_24 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_23, /*hidden argument*/NULL);
-		NullCheck(L_24);
-		String_t* L_25;
-		L_25 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_24);
+		String_t* L_24;
+		L_24 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_23);
+		NullCheck(L_20);
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_20, _stringLiteral0291659353D7703E088B9DCAA8272442CAC27034, L_24, /*hidden argument*/NULL);
+		// TimeSpan startTime = new TimeSpan(Int32.Parse(startDropdown.captionText.text.Substring(0, 2)), Int32.Parse(startDropdown.captionText.text.Substring(3, 2)), 00);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_25 = V_1;
 		NullCheck(L_25);
-		String_t* L_26;
-		L_26 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_25, 0, 2, /*hidden argument*/NULL);
-		int32_t L_27;
-		L_27 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_26, /*hidden argument*/NULL);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_28 = V_1;
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_26 = L_25->get_startDropdown_11();
+		NullCheck(L_26);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_27;
+		L_27 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		String_t* L_28;
+		L_28 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_27);
 		NullCheck(L_28);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_29 = L_28->get_startDropdown_11();
-		NullCheck(L_29);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_30;
-		L_30 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_29, /*hidden argument*/NULL);
-		NullCheck(L_30);
-		String_t* L_31;
-		L_31 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_30);
+		String_t* L_29;
+		L_29 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_28, 0, 2, /*hidden argument*/NULL);
+		int32_t L_30;
+		L_30 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_29, /*hidden argument*/NULL);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_31 = V_1;
 		NullCheck(L_31);
-		String_t* L_32;
-		L_32 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_31, 3, 2, /*hidden argument*/NULL);
-		int32_t L_33;
-		L_33 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_32, /*hidden argument*/NULL);
-		TimeSpan__ctor_m809B4E761E68A974DCE454C30595ADE72DCE3A91((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_3), L_27, L_33, 0, /*hidden argument*/NULL);
-		// TimeSpan durationTime = new TimeSpan(Int32.Parse(durationDropdown.captionText.text.Substring(0, 2)), Int32.Parse(durationDropdown.captionText.text.Substring(3, 2)), 00);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_34 = V_1;
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_32 = L_31->get_startDropdown_11();
+		NullCheck(L_32);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_33;
+		L_33 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_32, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		String_t* L_34;
+		L_34 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_33);
 		NullCheck(L_34);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_35 = L_34->get_durationDropdown_12();
-		NullCheck(L_35);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_36;
-		L_36 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_35, /*hidden argument*/NULL);
-		NullCheck(L_36);
-		String_t* L_37;
-		L_37 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_36);
+		String_t* L_35;
+		L_35 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_34, 3, 2, /*hidden argument*/NULL);
+		int32_t L_36;
+		L_36 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_35, /*hidden argument*/NULL);
+		TimeSpan__ctor_m809B4E761E68A974DCE454C30595ADE72DCE3A91((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_3), L_30, L_36, 0, /*hidden argument*/NULL);
+		// TimeSpan durationTime = new TimeSpan(Int32.Parse(durationDropdown.captionText.text.Substring(0, 2)), Int32.Parse(durationDropdown.captionText.text.Substring(3, 2)), 00);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_37 = V_1;
 		NullCheck(L_37);
-		String_t* L_38;
-		L_38 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_37, 0, 2, /*hidden argument*/NULL);
-		int32_t L_39;
-		L_39 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_38, /*hidden argument*/NULL);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_40 = V_1;
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_38 = L_37->get_durationDropdown_12();
+		NullCheck(L_38);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_39;
+		L_39 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_38, /*hidden argument*/NULL);
+		NullCheck(L_39);
+		String_t* L_40;
+		L_40 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_39);
 		NullCheck(L_40);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_41 = L_40->get_durationDropdown_12();
-		NullCheck(L_41);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_42;
-		L_42 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_41, /*hidden argument*/NULL);
-		NullCheck(L_42);
-		String_t* L_43;
-		L_43 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_42);
+		String_t* L_41;
+		L_41 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_40, 0, 2, /*hidden argument*/NULL);
+		int32_t L_42;
+		L_42 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_41, /*hidden argument*/NULL);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_43 = V_1;
 		NullCheck(L_43);
-		String_t* L_44;
-		L_44 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_43, 3, 2, /*hidden argument*/NULL);
-		int32_t L_45;
-		L_45 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_44, /*hidden argument*/NULL);
-		TimeSpan__ctor_m809B4E761E68A974DCE454C30595ADE72DCE3A91((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_4), L_39, L_45, 0, /*hidden argument*/NULL);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_44 = L_43->get_durationDropdown_12();
+		NullCheck(L_44);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_45;
+		L_45 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_44, /*hidden argument*/NULL);
+		NullCheck(L_45);
+		String_t* L_46;
+		L_46 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_45);
+		NullCheck(L_46);
+		String_t* L_47;
+		L_47 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_46, 3, 2, /*hidden argument*/NULL);
+		int32_t L_48;
+		L_48 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_47, /*hidden argument*/NULL);
+		TimeSpan__ctor_m809B4E761E68A974DCE454C30595ADE72DCE3A91((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_4), L_42, L_48, 0, /*hidden argument*/NULL);
 		// TimeSpan endTime = startTime.Add(durationTime);
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_46 = V_4;
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_47;
-		L_47 = TimeSpan_Add_mDCC748CCB5DC086402E7E2FFBB2B2CB9A2BD7471((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_3), L_46, /*hidden argument*/NULL);
-		V_5 = L_47;
+		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_49 = V_4;
+		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_50;
+		L_50 = TimeSpan_Add_mDCC748CCB5DC086402E7E2FFBB2B2CB9A2BD7471((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_3), L_49, /*hidden argument*/NULL);
+		V_5 = L_50;
 		// form.AddField("endTime", endTime.ToString());
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_48 = V_2;
-		String_t* L_49;
-		L_49 = TimeSpan_ToString_mB89DE4C354B8A29F627C22FA7EA31E94B1DA884B((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_5), /*hidden argument*/NULL);
-		NullCheck(L_48);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_48, _stringLiteralF60BBC53AFAB63700D2D6770444756B4490851B0, L_49, /*hidden argument*/NULL);
-		// form.AddField("booking_duration", (durationDropdown.captionText.text + ":00"));
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_50 = V_2;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_51 = V_1;
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_51 = V_2;
+		String_t* L_52;
+		L_52 = TimeSpan_ToString_mB89DE4C354B8A29F627C22FA7EA31E94B1DA884B((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_5), /*hidden argument*/NULL);
 		NullCheck(L_51);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_52 = L_51->get_durationDropdown_12();
-		NullCheck(L_52);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_53;
-		L_53 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_52, /*hidden argument*/NULL);
-		NullCheck(L_53);
-		String_t* L_54;
-		L_54 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_53);
-		String_t* L_55;
-		L_55 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_54, _stringLiteral92031F8EF715F2F78DC436DB7F9E74E86B7E3A63, /*hidden argument*/NULL);
-		NullCheck(L_50);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_50, _stringLiteral53FFCC6B4EEE8D1CCD280F42DF539A1AA9ADB6BA, L_55, /*hidden argument*/NULL);
-		// Debug.Log(durationDropdown.captionText.text + ":00");
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_56 = V_1;
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_51, _stringLiteralF60BBC53AFAB63700D2D6770444756B4490851B0, L_52, /*hidden argument*/NULL);
+		// form.AddField("booking_duration", (durationDropdown.captionText.text + ":00"));
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_53 = V_2;
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_54 = V_1;
+		NullCheck(L_54);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_55 = L_54->get_durationDropdown_12();
+		NullCheck(L_55);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_56;
+		L_56 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_55, /*hidden argument*/NULL);
 		NullCheck(L_56);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_57 = L_56->get_durationDropdown_12();
-		NullCheck(L_57);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_58;
-		L_58 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_57, /*hidden argument*/NULL);
-		NullCheck(L_58);
-		String_t* L_59;
-		L_59 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_58);
-		String_t* L_60;
-		L_60 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_59, _stringLiteral92031F8EF715F2F78DC436DB7F9E74E86B7E3A63, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_60, /*hidden argument*/NULL);
-		// WWW www = new WWW(bookingURL, form);           //We Send the web request form to the php link
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_61 = V_1;
+		String_t* L_57;
+		L_57 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_56);
+		String_t* L_58;
+		L_58 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_57, _stringLiteral92031F8EF715F2F78DC436DB7F9E74E86B7E3A63, /*hidden argument*/NULL);
+		NullCheck(L_53);
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_53, _stringLiteral53FFCC6B4EEE8D1CCD280F42DF539A1AA9ADB6BA, L_58, /*hidden argument*/NULL);
+		// Debug.Log(durationDropdown.captionText.text + ":00");
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_59 = V_1;
+		NullCheck(L_59);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_60 = L_59->get_durationDropdown_12();
+		NullCheck(L_60);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_61;
+		L_61 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_60, /*hidden argument*/NULL);
 		NullCheck(L_61);
-		String_t* L_62 = L_61->get_bookingURL_4();
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_63 = V_2;
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_64 = (WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 *)il2cpp_codegen_object_new(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2_il2cpp_TypeInfo_var);
-		WWW__ctor_m2F58987EB716A6D1B9B2425464E5C42FB6CF7DE6(L_64, L_62, L_63, /*hidden argument*/NULL);
-		__this->set_U3CwwwU3E5__2_3(L_64);
+		String_t* L_62;
+		L_62 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_61);
+		String_t* L_63;
+		L_63 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_62, _stringLiteral92031F8EF715F2F78DC436DB7F9E74E86B7E3A63, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_63, /*hidden argument*/NULL);
+		// WWW www = new WWW(bookingURL, form);           //We Send the web request form to the php link
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_64 = V_1;
+		NullCheck(L_64);
+		String_t* L_65 = L_64->get_bookingURL_4();
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_66 = V_2;
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_67 = (WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 *)il2cpp_codegen_object_new(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2_il2cpp_TypeInfo_var);
+		WWW__ctor_m2F58987EB716A6D1B9B2425464E5C42FB6CF7DE6(L_67, L_65, L_66, /*hidden argument*/NULL);
+		__this->set_U3CwwwU3E5__2_3(L_67);
 		// yield return www;
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_65 = __this->get_U3CwwwU3E5__2_3();
-		__this->set_U3CU3E2__current_1(L_65);
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_68 = __this->get_U3CwwwU3E5__2_3();
+		__this->set_U3CU3E2__current_1(L_68);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
 	}
 
-IL_01ba:
+IL_01c0:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// if (www.text.Contains("Approved"))                  //Checks whether register.php script ran successfully
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_66 = __this->get_U3CwwwU3E5__2_3();
-		NullCheck(L_66);
-		String_t* L_67;
-		L_67 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_66, /*hidden argument*/NULL);
-		NullCheck(L_67);
-		bool L_68;
-		L_68 = String_Contains_mA26BDCCE8F191E8965EB8EEFC18BB4D0F85A075A(L_67, _stringLiteral6476BD65E793CE83BFA46482A2C4CA5975111402, /*hidden argument*/NULL);
-		if (!L_68)
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_69 = __this->get_U3CwwwU3E5__2_3();
+		NullCheck(L_69);
+		String_t* L_70;
+		L_70 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_69, /*hidden argument*/NULL);
+		NullCheck(L_70);
+		bool L_71;
+		L_71 = String_Contains_mA26BDCCE8F191E8965EB8EEFC18BB4D0F85A075A(L_70, _stringLiteral6476BD65E793CE83BFA46482A2C4CA5975111402, /*hidden argument*/NULL);
+		if (!L_71)
 		{
-			goto IL_0222;
+			goto IL_0228;
 		}
 	}
 	{
@@ -24660,92 +25150,92 @@ IL_01ba:
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral819315030573ACC523C7E51F576C2F2858AD786A, /*hidden argument*/NULL);
 		// confirmText.gameObject.SetActive(true);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_69 = V_1;
-		NullCheck(L_69);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_70 = L_69->get_confirmText_14();
-		NullCheck(L_70);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_71;
-		L_71 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_70, /*hidden argument*/NULL);
-		NullCheck(L_71);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_71, (bool)1, /*hidden argument*/NULL);
-		// confirmText.text = "Booking Confirmed Successfully...";
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_72 = V_1;
 		NullCheck(L_72);
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_73 = L_72->get_confirmText_14();
 		NullCheck(L_73);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_73, _stringLiteral8DDB910BC1B1524EE46E14CA6A455E16E2BC01EC);
-		// confirmText.color = Color.green;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_74 = V_1;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_74;
+		L_74 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_73, /*hidden argument*/NULL);
 		NullCheck(L_74);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_75 = L_74->get_confirmText_14();
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_76;
-		L_76 = Color_get_green_mFF9BD42534D385A0717B1EAD083ADF08712984B9(/*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_74, (bool)1, /*hidden argument*/NULL);
+		// confirmText.text = "Booking Confirmed Successfully...";
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_75 = V_1;
 		NullCheck(L_75);
-		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_75, L_76);
-		// StartCoroutine(DestroyAnim());
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_76 = L_75->get_confirmText_14();
+		NullCheck(L_76);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_76, _stringLiteral8DDB910BC1B1524EE46E14CA6A455E16E2BC01EC);
+		// confirmText.color = Color.green;
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_77 = V_1;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_78 = V_1;
-		NullCheck(L_78);
-		RuntimeObject* L_79;
-		L_79 = BookingSQLHandler_DestroyAnim_mDC5CB0FEB72468E7122A13F8DDF7B91C32799D43(L_78, /*hidden argument*/NULL);
 		NullCheck(L_77);
-		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_80;
-		L_80 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_77, L_79, /*hidden argument*/NULL);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_78 = L_77->get_confirmText_14();
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_79;
+		L_79 = Color_get_green_mFF9BD42534D385A0717B1EAD083ADF08712984B9(/*hidden argument*/NULL);
+		NullCheck(L_78);
+		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_78, L_79);
+		// StartCoroutine(DestroyAnim());
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_80 = V_1;
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_81 = V_1;
+		NullCheck(L_81);
+		RuntimeObject* L_82;
+		L_82 = BookingSQLHandler_DestroyAnim_mDC5CB0FEB72468E7122A13F8DDF7B91C32799D43(L_81, /*hidden argument*/NULL);
+		NullCheck(L_80);
+		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_83;
+		L_83 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_80, L_82, /*hidden argument*/NULL);
 		// }
-		goto IL_027a;
+		goto IL_0280;
 	}
 
-IL_0222:
+IL_0228:
 	{
 		// Debug.Log("Unsuccessfull Result: " + www.text);        //print out php/sql error
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_81 = __this->get_U3CwwwU3E5__2_3();
-		NullCheck(L_81);
-		String_t* L_82;
-		L_82 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_81, /*hidden argument*/NULL);
-		String_t* L_83;
-		L_83 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral131132A57391325AA7965D54DB6FDFBC82AB780F, L_82, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_83, /*hidden argument*/NULL);
-		// confirmText.gameObject.SetActive(true);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_84 = V_1;
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_84 = __this->get_U3CwwwU3E5__2_3();
 		NullCheck(L_84);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_85 = L_84->get_confirmText_14();
-		NullCheck(L_85);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_86;
-		L_86 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_85, /*hidden argument*/NULL);
-		NullCheck(L_86);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_86, (bool)1, /*hidden argument*/NULL);
-		// confirmText.text = "Booking Unccessfully...";
+		String_t* L_85;
+		L_85 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_84, /*hidden argument*/NULL);
+		String_t* L_86;
+		L_86 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral131132A57391325AA7965D54DB6FDFBC82AB780F, L_85, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_86, /*hidden argument*/NULL);
+		// confirmText.gameObject.SetActive(true);
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_87 = V_1;
 		NullCheck(L_87);
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_88 = L_87->get_confirmText_14();
 		NullCheck(L_88);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_88, _stringLiteral478A00A62DECAA6665D767A417283573CD2DC522);
-		// confirmText.color = Color.red;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_89 = V_1;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_89;
+		L_89 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_88, /*hidden argument*/NULL);
 		NullCheck(L_89);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_90 = L_89->get_confirmText_14();
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_91;
-		L_91 = Color_get_red_m9BD55EBF7A74A515330FA5F7AC7A67C8A8913DD8(/*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_89, (bool)1, /*hidden argument*/NULL);
+		// confirmText.text = "Booking Unccessfully...";
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_90 = V_1;
 		NullCheck(L_90);
-		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_90, L_91);
-		// StartCoroutine(DestroyAnim());
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_91 = L_90->get_confirmText_14();
+		NullCheck(L_91);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_91, _stringLiteral478A00A62DECAA6665D767A417283573CD2DC522);
+		// confirmText.color = Color.red;
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_92 = V_1;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_93 = V_1;
-		NullCheck(L_93);
-		RuntimeObject* L_94;
-		L_94 = BookingSQLHandler_DestroyAnim_mDC5CB0FEB72468E7122A13F8DDF7B91C32799D43(L_93, /*hidden argument*/NULL);
 		NullCheck(L_92);
-		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_95;
-		L_95 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_92, L_94, /*hidden argument*/NULL);
-	}
-
-IL_027a:
-	{
-		// CallUserSelected();
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_93 = L_92->get_confirmText_14();
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_94;
+		L_94 = Color_get_red_m9BD55EBF7A74A515330FA5F7AC7A67C8A8913DD8(/*hidden argument*/NULL);
+		NullCheck(L_93);
+		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_93, L_94);
+		// StartCoroutine(DestroyAnim());
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_95 = V_1;
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_96 = V_1;
 		NullCheck(L_96);
-		BookingSQLHandler_CallUserSelected_mE225129B923832FCE4ADA5EE98C8B265F0EA4D28(L_96, /*hidden argument*/NULL);
+		RuntimeObject* L_97;
+		L_97 = BookingSQLHandler_DestroyAnim_mDC5CB0FEB72468E7122A13F8DDF7B91C32799D43(L_96, /*hidden argument*/NULL);
+		NullCheck(L_95);
+		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_98;
+		L_98 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_95, L_97, /*hidden argument*/NULL);
+	}
+
+IL_0280:
+	{
+		// CallUserSelected();
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_99 = V_1;
+		NullCheck(L_99);
+		BookingSQLHandler_CallUserSelected_mE225129B923832FCE4ADA5EE98C8B265F0EA4D28(L_99, /*hidden argument*/NULL);
 		// }
 		return (bool)0;
 	}
@@ -25517,7 +26007,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CManagerBookingU3Ed__32_MoveNext_m24D4
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53FFCC6B4EEE8D1CCD280F42DF539A1AA9ADB6BA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5668FF4C4ABAE6C9DD14C57A01DC7A3E32D6CADD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6476BD65E793CE83BFA46482A2C4CA5975111402);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D4316A45ACDB54F90D25554F680B9AA3393CB8E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral819315030573ACC523C7E51F576C2F2858AD786A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88CE6518E459BFE0A7E725D31DBE58257EA1E590);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8DDB910BC1B1524EE46E14CA6A455E16E2BC01EC);
@@ -25551,7 +26040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CManagerBookingU3Ed__32_MoveNext_m24D4
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) == ((int32_t)1)))
 		{
-			goto IL_01ba;
+			goto IL_01c0;
 		}
 	}
 	{
@@ -25594,154 +26083,161 @@ IL_001a:
 		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_14 = V_2;
 		NullCheck(L_14);
 		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_14, _stringLiteralA8C81AFE51215B10E00ED86FA3750852A75C4A4E, _stringLiteral900D858FE9ABCD2ED2B25CD27110A78ADCC6EC6B, /*hidden argument*/NULL);
-		// form.AddField("date", PlayerPrefs.GetString("CurrentDate"));
+		// form.AddField("date", dateDropdown.captionText.text);
 		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_15 = V_2;
-		String_t* L_16;
-		L_16 = PlayerPrefs_GetString_mE7654C1031622A56CD8F248F53714B105A35A159(_stringLiteral6D4316A45ACDB54F90D25554F680B9AA3393CB8E, /*hidden argument*/NULL);
-		NullCheck(L_15);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_15, _stringLiteral1D7B559D2443B7B91D8C57B59220774176D04300, L_16, /*hidden argument*/NULL);
-		// form.AddField("startTime", startDropdown.captionText.text);
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_17 = V_2;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_18 = V_1;
-		NullCheck(L_18);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_19 = L_18->get_startDropdown_11();
-		NullCheck(L_19);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_20;
-		L_20 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_19, /*hidden argument*/NULL);
-		NullCheck(L_20);
-		String_t* L_21;
-		L_21 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_20);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_16 = V_1;
+		NullCheck(L_16);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_17 = L_16->get_dateDropdown_8();
 		NullCheck(L_17);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_17, _stringLiteral0291659353D7703E088B9DCAA8272442CAC27034, L_21, /*hidden argument*/NULL);
-		// TimeSpan startTime = new TimeSpan(Int32.Parse(startDropdown.captionText.text.Substring(0, 2)), Int32.Parse(startDropdown.captionText.text.Substring(3, 2)), 00);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_22 = V_1;
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_18;
+		L_18 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_17, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		String_t* L_19;
+		L_19 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_18);
+		NullCheck(L_15);
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_15, _stringLiteral1D7B559D2443B7B91D8C57B59220774176D04300, L_19, /*hidden argument*/NULL);
+		// form.AddField("startTime", startDropdown.captionText.text);
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_20 = V_2;
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_21 = V_1;
+		NullCheck(L_21);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_22 = L_21->get_startDropdown_11();
 		NullCheck(L_22);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_23 = L_22->get_startDropdown_11();
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_23;
+		L_23 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_22, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_24;
-		L_24 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_23, /*hidden argument*/NULL);
-		NullCheck(L_24);
-		String_t* L_25;
-		L_25 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_24);
+		String_t* L_24;
+		L_24 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_23);
+		NullCheck(L_20);
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_20, _stringLiteral0291659353D7703E088B9DCAA8272442CAC27034, L_24, /*hidden argument*/NULL);
+		// TimeSpan startTime = new TimeSpan(Int32.Parse(startDropdown.captionText.text.Substring(0, 2)), Int32.Parse(startDropdown.captionText.text.Substring(3, 2)), 00);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_25 = V_1;
 		NullCheck(L_25);
-		String_t* L_26;
-		L_26 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_25, 0, 2, /*hidden argument*/NULL);
-		int32_t L_27;
-		L_27 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_26, /*hidden argument*/NULL);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_28 = V_1;
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_26 = L_25->get_startDropdown_11();
+		NullCheck(L_26);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_27;
+		L_27 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		String_t* L_28;
+		L_28 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_27);
 		NullCheck(L_28);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_29 = L_28->get_startDropdown_11();
-		NullCheck(L_29);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_30;
-		L_30 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_29, /*hidden argument*/NULL);
-		NullCheck(L_30);
-		String_t* L_31;
-		L_31 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_30);
+		String_t* L_29;
+		L_29 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_28, 0, 2, /*hidden argument*/NULL);
+		int32_t L_30;
+		L_30 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_29, /*hidden argument*/NULL);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_31 = V_1;
 		NullCheck(L_31);
-		String_t* L_32;
-		L_32 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_31, 3, 2, /*hidden argument*/NULL);
-		int32_t L_33;
-		L_33 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_32, /*hidden argument*/NULL);
-		TimeSpan__ctor_m809B4E761E68A974DCE454C30595ADE72DCE3A91((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_3), L_27, L_33, 0, /*hidden argument*/NULL);
-		// TimeSpan durationTime = new TimeSpan(Int32.Parse(durationDropdown.captionText.text.Substring(0, 2)), Int32.Parse(durationDropdown.captionText.text.Substring(3, 2)), 00);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_34 = V_1;
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_32 = L_31->get_startDropdown_11();
+		NullCheck(L_32);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_33;
+		L_33 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_32, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		String_t* L_34;
+		L_34 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_33);
 		NullCheck(L_34);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_35 = L_34->get_durationDropdown_12();
-		NullCheck(L_35);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_36;
-		L_36 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_35, /*hidden argument*/NULL);
-		NullCheck(L_36);
-		String_t* L_37;
-		L_37 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_36);
+		String_t* L_35;
+		L_35 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_34, 3, 2, /*hidden argument*/NULL);
+		int32_t L_36;
+		L_36 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_35, /*hidden argument*/NULL);
+		TimeSpan__ctor_m809B4E761E68A974DCE454C30595ADE72DCE3A91((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_3), L_30, L_36, 0, /*hidden argument*/NULL);
+		// TimeSpan durationTime = new TimeSpan(Int32.Parse(durationDropdown.captionText.text.Substring(0, 2)), Int32.Parse(durationDropdown.captionText.text.Substring(3, 2)), 00);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_37 = V_1;
 		NullCheck(L_37);
-		String_t* L_38;
-		L_38 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_37, 0, 2, /*hidden argument*/NULL);
-		int32_t L_39;
-		L_39 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_38, /*hidden argument*/NULL);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_40 = V_1;
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_38 = L_37->get_durationDropdown_12();
+		NullCheck(L_38);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_39;
+		L_39 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_38, /*hidden argument*/NULL);
+		NullCheck(L_39);
+		String_t* L_40;
+		L_40 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_39);
 		NullCheck(L_40);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_41 = L_40->get_durationDropdown_12();
-		NullCheck(L_41);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_42;
-		L_42 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_41, /*hidden argument*/NULL);
-		NullCheck(L_42);
-		String_t* L_43;
-		L_43 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_42);
+		String_t* L_41;
+		L_41 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_40, 0, 2, /*hidden argument*/NULL);
+		int32_t L_42;
+		L_42 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_41, /*hidden argument*/NULL);
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_43 = V_1;
 		NullCheck(L_43);
-		String_t* L_44;
-		L_44 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_43, 3, 2, /*hidden argument*/NULL);
-		int32_t L_45;
-		L_45 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_44, /*hidden argument*/NULL);
-		TimeSpan__ctor_m809B4E761E68A974DCE454C30595ADE72DCE3A91((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_4), L_39, L_45, 0, /*hidden argument*/NULL);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_44 = L_43->get_durationDropdown_12();
+		NullCheck(L_44);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_45;
+		L_45 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_44, /*hidden argument*/NULL);
+		NullCheck(L_45);
+		String_t* L_46;
+		L_46 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_45);
+		NullCheck(L_46);
+		String_t* L_47;
+		L_47 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_46, 3, 2, /*hidden argument*/NULL);
+		int32_t L_48;
+		L_48 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_47, /*hidden argument*/NULL);
+		TimeSpan__ctor_m809B4E761E68A974DCE454C30595ADE72DCE3A91((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_4), L_42, L_48, 0, /*hidden argument*/NULL);
 		// TimeSpan endTime = startTime.Add(durationTime);
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_46 = V_4;
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_47;
-		L_47 = TimeSpan_Add_mDCC748CCB5DC086402E7E2FFBB2B2CB9A2BD7471((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_3), L_46, /*hidden argument*/NULL);
-		V_5 = L_47;
+		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_49 = V_4;
+		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_50;
+		L_50 = TimeSpan_Add_mDCC748CCB5DC086402E7E2FFBB2B2CB9A2BD7471((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_3), L_49, /*hidden argument*/NULL);
+		V_5 = L_50;
 		// form.AddField("endTime", endTime.ToString());
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_48 = V_2;
-		String_t* L_49;
-		L_49 = TimeSpan_ToString_mB89DE4C354B8A29F627C22FA7EA31E94B1DA884B((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_5), /*hidden argument*/NULL);
-		NullCheck(L_48);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_48, _stringLiteralF60BBC53AFAB63700D2D6770444756B4490851B0, L_49, /*hidden argument*/NULL);
-		// form.AddField("booking_duration", (durationDropdown.captionText.text + ":00"));
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_50 = V_2;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_51 = V_1;
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_51 = V_2;
+		String_t* L_52;
+		L_52 = TimeSpan_ToString_mB89DE4C354B8A29F627C22FA7EA31E94B1DA884B((TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 *)(&V_5), /*hidden argument*/NULL);
 		NullCheck(L_51);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_52 = L_51->get_durationDropdown_12();
-		NullCheck(L_52);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_53;
-		L_53 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_52, /*hidden argument*/NULL);
-		NullCheck(L_53);
-		String_t* L_54;
-		L_54 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_53);
-		String_t* L_55;
-		L_55 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_54, _stringLiteral92031F8EF715F2F78DC436DB7F9E74E86B7E3A63, /*hidden argument*/NULL);
-		NullCheck(L_50);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_50, _stringLiteral53FFCC6B4EEE8D1CCD280F42DF539A1AA9ADB6BA, L_55, /*hidden argument*/NULL);
-		// Debug.Log(durationDropdown.captionText.text + ":00");
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_56 = V_1;
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_51, _stringLiteralF60BBC53AFAB63700D2D6770444756B4490851B0, L_52, /*hidden argument*/NULL);
+		// form.AddField("booking_duration", (durationDropdown.captionText.text + ":00"));
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_53 = V_2;
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_54 = V_1;
+		NullCheck(L_54);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_55 = L_54->get_durationDropdown_12();
+		NullCheck(L_55);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_56;
+		L_56 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_55, /*hidden argument*/NULL);
 		NullCheck(L_56);
-		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_57 = L_56->get_durationDropdown_12();
-		NullCheck(L_57);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_58;
-		L_58 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_57, /*hidden argument*/NULL);
-		NullCheck(L_58);
-		String_t* L_59;
-		L_59 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_58);
-		String_t* L_60;
-		L_60 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_59, _stringLiteral92031F8EF715F2F78DC436DB7F9E74E86B7E3A63, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_60, /*hidden argument*/NULL);
-		// WWW www = new WWW(bookingURL, form);           //We Send the web request form to the php link
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_61 = V_1;
+		String_t* L_57;
+		L_57 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_56);
+		String_t* L_58;
+		L_58 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_57, _stringLiteral92031F8EF715F2F78DC436DB7F9E74E86B7E3A63, /*hidden argument*/NULL);
+		NullCheck(L_53);
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_53, _stringLiteral53FFCC6B4EEE8D1CCD280F42DF539A1AA9ADB6BA, L_58, /*hidden argument*/NULL);
+		// Debug.Log(durationDropdown.captionText.text + ":00");
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_59 = V_1;
+		NullCheck(L_59);
+		Dropdown_t099F5232BB75810BC79EED6E27DDCED46C3BCD96 * L_60 = L_59->get_durationDropdown_12();
+		NullCheck(L_60);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_61;
+		L_61 = Dropdown_get_captionText_mB90FCAF70EDDAD19CFD8EBCDF2EB88E4D2C55376_inline(L_60, /*hidden argument*/NULL);
 		NullCheck(L_61);
-		String_t* L_62 = L_61->get_bookingURL_4();
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_63 = V_2;
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_64 = (WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 *)il2cpp_codegen_object_new(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2_il2cpp_TypeInfo_var);
-		WWW__ctor_m2F58987EB716A6D1B9B2425464E5C42FB6CF7DE6(L_64, L_62, L_63, /*hidden argument*/NULL);
-		__this->set_U3CwwwU3E5__2_3(L_64);
+		String_t* L_62;
+		L_62 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_61);
+		String_t* L_63;
+		L_63 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_62, _stringLiteral92031F8EF715F2F78DC436DB7F9E74E86B7E3A63, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_63, /*hidden argument*/NULL);
+		// WWW www = new WWW(bookingURL, form);           //We Send the web request form to the php link
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_64 = V_1;
+		NullCheck(L_64);
+		String_t* L_65 = L_64->get_bookingURL_4();
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_66 = V_2;
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_67 = (WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 *)il2cpp_codegen_object_new(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2_il2cpp_TypeInfo_var);
+		WWW__ctor_m2F58987EB716A6D1B9B2425464E5C42FB6CF7DE6(L_67, L_65, L_66, /*hidden argument*/NULL);
+		__this->set_U3CwwwU3E5__2_3(L_67);
 		// yield return www;
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_65 = __this->get_U3CwwwU3E5__2_3();
-		__this->set_U3CU3E2__current_1(L_65);
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_68 = __this->get_U3CwwwU3E5__2_3();
+		__this->set_U3CU3E2__current_1(L_68);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
 	}
 
-IL_01ba:
+IL_01c0:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// if (www.text.Contains("Approved"))                  //Checks whether register.php script ran successfully
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_66 = __this->get_U3CwwwU3E5__2_3();
-		NullCheck(L_66);
-		String_t* L_67;
-		L_67 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_66, /*hidden argument*/NULL);
-		NullCheck(L_67);
-		bool L_68;
-		L_68 = String_Contains_mA26BDCCE8F191E8965EB8EEFC18BB4D0F85A075A(L_67, _stringLiteral6476BD65E793CE83BFA46482A2C4CA5975111402, /*hidden argument*/NULL);
-		if (!L_68)
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_69 = __this->get_U3CwwwU3E5__2_3();
+		NullCheck(L_69);
+		String_t* L_70;
+		L_70 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_69, /*hidden argument*/NULL);
+		NullCheck(L_70);
+		bool L_71;
+		L_71 = String_Contains_mA26BDCCE8F191E8965EB8EEFC18BB4D0F85A075A(L_70, _stringLiteral6476BD65E793CE83BFA46482A2C4CA5975111402, /*hidden argument*/NULL);
+		if (!L_71)
 		{
-			goto IL_0222;
+			goto IL_0228;
 		}
 	}
 	{
@@ -25749,92 +26245,92 @@ IL_01ba:
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral819315030573ACC523C7E51F576C2F2858AD786A, /*hidden argument*/NULL);
 		// confirmText.gameObject.SetActive(true);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_69 = V_1;
-		NullCheck(L_69);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_70 = L_69->get_confirmText_14();
-		NullCheck(L_70);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_71;
-		L_71 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_70, /*hidden argument*/NULL);
-		NullCheck(L_71);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_71, (bool)1, /*hidden argument*/NULL);
-		// confirmText.text = "Booking Confirmed Successfully...";
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_72 = V_1;
 		NullCheck(L_72);
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_73 = L_72->get_confirmText_14();
 		NullCheck(L_73);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_73, _stringLiteral8DDB910BC1B1524EE46E14CA6A455E16E2BC01EC);
-		// confirmText.color = Color.green;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_74 = V_1;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_74;
+		L_74 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_73, /*hidden argument*/NULL);
 		NullCheck(L_74);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_75 = L_74->get_confirmText_14();
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_76;
-		L_76 = Color_get_green_mFF9BD42534D385A0717B1EAD083ADF08712984B9(/*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_74, (bool)1, /*hidden argument*/NULL);
+		// confirmText.text = "Booking Confirmed Successfully...";
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_75 = V_1;
 		NullCheck(L_75);
-		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_75, L_76);
-		// StartCoroutine(DestroyAnim());
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_76 = L_75->get_confirmText_14();
+		NullCheck(L_76);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_76, _stringLiteral8DDB910BC1B1524EE46E14CA6A455E16E2BC01EC);
+		// confirmText.color = Color.green;
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_77 = V_1;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_78 = V_1;
-		NullCheck(L_78);
-		RuntimeObject* L_79;
-		L_79 = BookingSQLHandler_DestroyAnim_mDC5CB0FEB72468E7122A13F8DDF7B91C32799D43(L_78, /*hidden argument*/NULL);
 		NullCheck(L_77);
-		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_80;
-		L_80 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_77, L_79, /*hidden argument*/NULL);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_78 = L_77->get_confirmText_14();
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_79;
+		L_79 = Color_get_green_mFF9BD42534D385A0717B1EAD083ADF08712984B9(/*hidden argument*/NULL);
+		NullCheck(L_78);
+		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_78, L_79);
+		// StartCoroutine(DestroyAnim());
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_80 = V_1;
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_81 = V_1;
+		NullCheck(L_81);
+		RuntimeObject* L_82;
+		L_82 = BookingSQLHandler_DestroyAnim_mDC5CB0FEB72468E7122A13F8DDF7B91C32799D43(L_81, /*hidden argument*/NULL);
+		NullCheck(L_80);
+		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_83;
+		L_83 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_80, L_82, /*hidden argument*/NULL);
 		// }
-		goto IL_027a;
+		goto IL_0280;
 	}
 
-IL_0222:
+IL_0228:
 	{
 		// Debug.Log("Unsuccessfull Result: " + www.text);        //print out php/sql error
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_81 = __this->get_U3CwwwU3E5__2_3();
-		NullCheck(L_81);
-		String_t* L_82;
-		L_82 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_81, /*hidden argument*/NULL);
-		String_t* L_83;
-		L_83 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral131132A57391325AA7965D54DB6FDFBC82AB780F, L_82, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_83, /*hidden argument*/NULL);
-		// confirmText.gameObject.SetActive(true);
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_84 = V_1;
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_84 = __this->get_U3CwwwU3E5__2_3();
 		NullCheck(L_84);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_85 = L_84->get_confirmText_14();
-		NullCheck(L_85);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_86;
-		L_86 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_85, /*hidden argument*/NULL);
-		NullCheck(L_86);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_86, (bool)1, /*hidden argument*/NULL);
-		// confirmText.text = "Booking Unccessfully...";
+		String_t* L_85;
+		L_85 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_84, /*hidden argument*/NULL);
+		String_t* L_86;
+		L_86 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral131132A57391325AA7965D54DB6FDFBC82AB780F, L_85, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_86, /*hidden argument*/NULL);
+		// confirmText.gameObject.SetActive(true);
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_87 = V_1;
 		NullCheck(L_87);
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_88 = L_87->get_confirmText_14();
 		NullCheck(L_88);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_88, _stringLiteral478A00A62DECAA6665D767A417283573CD2DC522);
-		// confirmText.color = Color.red;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_89 = V_1;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_89;
+		L_89 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_88, /*hidden argument*/NULL);
 		NullCheck(L_89);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_90 = L_89->get_confirmText_14();
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_91;
-		L_91 = Color_get_red_m9BD55EBF7A74A515330FA5F7AC7A67C8A8913DD8(/*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_89, (bool)1, /*hidden argument*/NULL);
+		// confirmText.text = "Booking Unccessfully...";
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_90 = V_1;
 		NullCheck(L_90);
-		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_90, L_91);
-		// StartCoroutine(DestroyAnim());
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_91 = L_90->get_confirmText_14();
+		NullCheck(L_91);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_91, _stringLiteral478A00A62DECAA6665D767A417283573CD2DC522);
+		// confirmText.color = Color.red;
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_92 = V_1;
-		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_93 = V_1;
-		NullCheck(L_93);
-		RuntimeObject* L_94;
-		L_94 = BookingSQLHandler_DestroyAnim_mDC5CB0FEB72468E7122A13F8DDF7B91C32799D43(L_93, /*hidden argument*/NULL);
 		NullCheck(L_92);
-		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_95;
-		L_95 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_92, L_94, /*hidden argument*/NULL);
-	}
-
-IL_027a:
-	{
-		// CallUserSelected();
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_93 = L_92->get_confirmText_14();
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_94;
+		L_94 = Color_get_red_m9BD55EBF7A74A515330FA5F7AC7A67C8A8913DD8(/*hidden argument*/NULL);
+		NullCheck(L_93);
+		VirtActionInvoker1< Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_93, L_94);
+		// StartCoroutine(DestroyAnim());
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_95 = V_1;
 		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_96 = V_1;
 		NullCheck(L_96);
-		BookingSQLHandler_CallUserSelected_mE225129B923832FCE4ADA5EE98C8B265F0EA4D28(L_96, /*hidden argument*/NULL);
+		RuntimeObject* L_97;
+		L_97 = BookingSQLHandler_DestroyAnim_mDC5CB0FEB72468E7122A13F8DDF7B91C32799D43(L_96, /*hidden argument*/NULL);
+		NullCheck(L_95);
+		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_98;
+		L_98 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_95, L_97, /*hidden argument*/NULL);
+	}
+
+IL_0280:
+	{
+		// CallUserSelected();
+		BookingSQLHandler_t9263BC15E61565A709040B77D178B5C12B09D488 * L_99 = V_1;
+		NullCheck(L_99);
+		BookingSQLHandler_CallUserSelected_mE225129B923832FCE4ADA5EE98C8B265F0EA4D28(L_99, /*hidden argument*/NULL);
 		// }
 		return (bool)0;
 	}
@@ -28344,6 +28840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoginUserU3Ed__16_MoveNext_m01DE92119
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSecondsRealtime_t04F2884A9814C3E4E415E788AFE56B5928577C40_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral131132A57391325AA7965D54DB6FDFBC82AB780F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2687B859C52DBDD7EA54FE527B1981F4F4B67B0E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2E6BB780BF5EA1F08DFA8811B2D7554AD65BDFD0);
@@ -28364,87 +28861,91 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoginUserU3Ed__16_MoveNext_m01DE92119
 		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_1 = __this->get_U3CU3E4__this_2();
 		V_1 = L_1;
 		int32_t L_2 = V_0;
-		if (!L_2)
+		switch (L_2)
 		{
-			goto IL_0017;
-		}
-	}
-	{
-		int32_t L_3 = V_0;
-		if ((((int32_t)L_3) == ((int32_t)1)))
-		{
-			goto IL_0084;
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_008f;
+			}
+			case 2:
+			{
+				goto IL_0165;
+			}
 		}
 	}
 	{
 		return (bool)0;
 	}
 
-IL_0017:
+IL_0022:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// StartCoroutine(WaitForResponse());
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_3 = V_1;
 		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_4 = V_1;
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_5 = V_1;
-		NullCheck(L_5);
-		RuntimeObject* L_6;
-		L_6 = SQLHandler_WaitForResponse_mF978BBC1B3C8FE589AB3646F3B99A8938CEA646E(L_5, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_7;
-		L_7 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_4, L_6, /*hidden argument*/NULL);
+		RuntimeObject* L_5;
+		L_5 = SQLHandler_WaitForResponse_mF978BBC1B3C8FE589AB3646F3B99A8938CEA646E(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_6;
+		L_6 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(L_3, L_5, /*hidden argument*/NULL);
 		// WWWForm form = new WWWForm();
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_8 = (WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB *)il2cpp_codegen_object_new(WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB_il2cpp_TypeInfo_var);
-		WWWForm__ctor_mA0987933892AF6FA9E01603B214E86EC52F6B055(L_8, /*hidden argument*/NULL);
-		V_2 = L_8;
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_7 = (WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB *)il2cpp_codegen_object_new(WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB_il2cpp_TypeInfo_var);
+		WWWForm__ctor_mA0987933892AF6FA9E01603B214E86EC52F6B055(L_7, /*hidden argument*/NULL);
+		V_2 = L_7;
 		// form.AddField("user", usernameField.text);
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_9 = V_2;
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_10 = V_1;
-		NullCheck(L_10);
-		InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * L_11 = L_10->get_usernameField_10();
-		NullCheck(L_11);
-		String_t* L_12;
-		L_12 = InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline(L_11, /*hidden argument*/NULL);
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_8 = V_2;
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_9 = V_1;
 		NullCheck(L_9);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_9, _stringLiteralD3992DF679A3EF8B96232992FF89A2B1F1DB5534, L_12, /*hidden argument*/NULL);
+		InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * L_10 = L_9->get_usernameField_10();
+		NullCheck(L_10);
+		String_t* L_11;
+		L_11 = InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline(L_10, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_8, _stringLiteralD3992DF679A3EF8B96232992FF89A2B1F1DB5534, L_11, /*hidden argument*/NULL);
 		// form.AddField("pass", passwordField.text);
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_13 = V_2;
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_14 = V_1;
-		NullCheck(L_14);
-		InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * L_15 = L_14->get_passwordField_11();
-		NullCheck(L_15);
-		String_t* L_16;
-		L_16 = InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline(L_15, /*hidden argument*/NULL);
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_12 = V_2;
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_13 = V_1;
 		NullCheck(L_13);
-		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_13, _stringLiteral3E3E2C4B66DB6B3A06FE6C4CBD32853713E7CB70, L_16, /*hidden argument*/NULL);
+		InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * L_14 = L_13->get_passwordField_11();
+		NullCheck(L_14);
+		String_t* L_15;
+		L_15 = InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline(L_14, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		WWWForm_AddField_m8ACDB7B2124FA6EAD7FC120BB469C6352C7B7696(L_12, _stringLiteral3E3E2C4B66DB6B3A06FE6C4CBD32853713E7CB70, L_15, /*hidden argument*/NULL);
 		// WWW www = new WWW(loginURL, form);
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_17 = V_1;
-		NullCheck(L_17);
-		String_t* L_18 = L_17->get_loginURL_4();
-		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_19 = V_2;
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_20 = (WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 *)il2cpp_codegen_object_new(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2_il2cpp_TypeInfo_var);
-		WWW__ctor_m2F58987EB716A6D1B9B2425464E5C42FB6CF7DE6(L_20, L_18, L_19, /*hidden argument*/NULL);
-		__this->set_U3CwwwU3E5__2_3(L_20);
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_16 = V_1;
+		NullCheck(L_16);
+		String_t* L_17 = L_16->get_loginURL_4();
+		WWWForm_t078274293DA1BDA9AB5689AF8BCBF0EE17A2BABB * L_18 = V_2;
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_19 = (WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 *)il2cpp_codegen_object_new(WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2_il2cpp_TypeInfo_var);
+		WWW__ctor_m2F58987EB716A6D1B9B2425464E5C42FB6CF7DE6(L_19, L_17, L_18, /*hidden argument*/NULL);
+		__this->set_U3CwwwU3E5__2_3(L_19);
 		// yield return www;
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_21 = __this->get_U3CwwwU3E5__2_3();
-		__this->set_U3CU3E2__current_1(L_21);
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_20 = __this->get_U3CwwwU3E5__2_3();
+		__this->set_U3CU3E2__current_1(L_20);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
 	}
 
-IL_0084:
+IL_008f:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// if (www.text.Contains("Approved"))      //Checks weather login.php script ran successfully
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_22 = __this->get_U3CwwwU3E5__2_3();
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_21 = __this->get_U3CwwwU3E5__2_3();
+		NullCheck(L_21);
+		String_t* L_22;
+		L_22 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_21, /*hidden argument*/NULL);
 		NullCheck(L_22);
-		String_t* L_23;
-		L_23 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_22, /*hidden argument*/NULL);
-		NullCheck(L_23);
-		bool L_24;
-		L_24 = String_Contains_mA26BDCCE8F191E8965EB8EEFC18BB4D0F85A075A(L_23, _stringLiteral6476BD65E793CE83BFA46482A2C4CA5975111402, /*hidden argument*/NULL);
-		if (!L_24)
+		bool L_23;
+		L_23 = String_Contains_mA26BDCCE8F191E8965EB8EEFC18BB4D0F85A075A(L_22, _stringLiteral6476BD65E793CE83BFA46482A2C4CA5975111402, /*hidden argument*/NULL);
+		if (!L_23)
 		{
-			goto IL_0104;
+			goto IL_010f;
 		}
 	}
 	{
@@ -28452,34 +28953,34 @@ IL_0084:
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral2E6BB780BF5EA1F08DFA8811B2D7554AD65BDFD0, /*hidden argument*/NULL);
 		// incorrectText.SetActive(false);
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_25 = V_1;
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_24 = V_1;
+		NullCheck(L_24);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_25 = L_24->get_incorrectText_7();
 		NullCheck(L_25);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_26 = L_25->get_incorrectText_7();
-		NullCheck(L_26);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_26, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_25, (bool)0, /*hidden argument*/NULL);
 		// UserScript.StoreUsername(usernameField.text);
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_27 = V_1;
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_26 = V_1;
+		NullCheck(L_26);
+		InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * L_27 = L_26->get_usernameField_10();
 		NullCheck(L_27);
-		InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * L_28 = L_27->get_usernameField_10();
-		NullCheck(L_28);
-		String_t* L_29;
-		L_29 = InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline(L_28, /*hidden argument*/NULL);
-		UserScript_StoreUsername_m235C83C2A95F93591A3E50DF1F52D2007F3651EE(L_29, /*hidden argument*/NULL);
+		String_t* L_28;
+		L_28 = InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline(L_27, /*hidden argument*/NULL);
+		UserScript_StoreUsername_m235C83C2A95F93591A3E50DF1F52D2007F3651EE(L_28, /*hidden argument*/NULL);
 		// if (usernameField.text.Substring(0, 3) == "ADM")
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_30 = V_1;
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_29 = V_1;
+		NullCheck(L_29);
+		InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * L_30 = L_29->get_usernameField_10();
 		NullCheck(L_30);
-		InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * L_31 = L_30->get_usernameField_10();
+		String_t* L_31;
+		L_31 = InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline(L_30, /*hidden argument*/NULL);
 		NullCheck(L_31);
 		String_t* L_32;
-		L_32 = InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline(L_31, /*hidden argument*/NULL);
-		NullCheck(L_32);
-		String_t* L_33;
-		L_33 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_32, 0, 3, /*hidden argument*/NULL);
-		bool L_34;
-		L_34 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_33, _stringLiteral3D2EB2B78EAEEF51FB8623C9BB860DA5F87A8398, /*hidden argument*/NULL);
-		if (!L_34)
+		L_32 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_31, 0, 3, /*hidden argument*/NULL);
+		bool L_33;
+		L_33 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_32, _stringLiteral3D2EB2B78EAEEF51FB8623C9BB860DA5F87A8398, /*hidden argument*/NULL);
+		if (!L_33)
 		{
-			goto IL_00f2;
+			goto IL_00fd;
 		}
 	}
 	{
@@ -28487,68 +28988,85 @@ IL_0084:
 		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(_stringLiteral6CA10FE96F5D84264232F2F181B7090825F69850, /*hidden argument*/NULL);
 		// }
-		goto IL_00f8;
+		goto IL_0103;
 	}
 
-IL_00f2:
+IL_00fd:
 	{
 		// SceneManager.LoadScene(1);          //Signs you into the system by loading the index scene
 		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(1, /*hidden argument*/NULL);
 	}
 
-IL_00f8:
+IL_0103:
 	{
 		// statusText.SetActive(false);
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_35 = V_1;
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_34 = V_1;
+		NullCheck(L_34);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_35 = L_34->get_statusText_8();
 		NullCheck(L_35);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_36 = L_35->get_statusText_8();
-		NullCheck(L_36);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_36, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_35, (bool)0, /*hidden argument*/NULL);
 	}
 
-IL_0104:
+IL_010f:
 	{
 		// if (www.text.Contains("-1"))             //Failed login response
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_37 = __this->get_U3CwwwU3E5__2_3();
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_36 = __this->get_U3CwwwU3E5__2_3();
+		NullCheck(L_36);
+		String_t* L_37;
+		L_37 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_36, /*hidden argument*/NULL);
 		NullCheck(L_37);
-		String_t* L_38;
-		L_38 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_37, /*hidden argument*/NULL);
-		NullCheck(L_38);
-		bool L_39;
-		L_39 = String_Contains_mA26BDCCE8F191E8965EB8EEFC18BB4D0F85A075A(L_38, _stringLiteral2687B859C52DBDD7EA54FE527B1981F4F4B67B0E, /*hidden argument*/NULL);
-		if (!L_39)
+		bool L_38;
+		L_38 = String_Contains_mA26BDCCE8F191E8965EB8EEFC18BB4D0F85A075A(L_37, _stringLiteral2687B859C52DBDD7EA54FE527B1981F4F4B67B0E, /*hidden argument*/NULL);
+		if (!L_38)
 		{
-			goto IL_0157;
+			goto IL_018e;
 		}
 	}
 	{
 		// Debug.Log("Unsuccessfull Result: " + www.text);
-		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_40 = __this->get_U3CwwwU3E5__2_3();
-		NullCheck(L_40);
+		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_39 = __this->get_U3CwwwU3E5__2_3();
+		NullCheck(L_39);
+		String_t* L_40;
+		L_40 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_39, /*hidden argument*/NULL);
 		String_t* L_41;
-		L_41 = WWW_get_text_m0D2EF7BBFB58E37FE30A665389355ACA65804138(L_40, /*hidden argument*/NULL);
-		String_t* L_42;
-		L_42 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral131132A57391325AA7965D54DB6FDFBC82AB780F, L_41, /*hidden argument*/NULL);
+		L_41 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral131132A57391325AA7965D54DB6FDFBC82AB780F, L_40, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_42, /*hidden argument*/NULL);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_41, /*hidden argument*/NULL);
 		// incorrectText.SetActive(true);
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_43 = V_1;
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_42 = V_1;
+		NullCheck(L_42);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_43 = L_42->get_incorrectText_7();
 		NullCheck(L_43);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_44 = L_43->get_incorrectText_7();
-		NullCheck(L_44);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_44, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_43, (bool)1, /*hidden argument*/NULL);
+		// yield return new WaitForSecondsRealtime(2);
+		WaitForSecondsRealtime_t04F2884A9814C3E4E415E788AFE56B5928577C40 * L_44 = (WaitForSecondsRealtime_t04F2884A9814C3E4E415E788AFE56B5928577C40 *)il2cpp_codegen_object_new(WaitForSecondsRealtime_t04F2884A9814C3E4E415E788AFE56B5928577C40_il2cpp_TypeInfo_var);
+		WaitForSecondsRealtime__ctor_m7A69DE38F96121145BE8108B5AA62C789059F225(L_44, (2.0f), /*hidden argument*/NULL);
+		__this->set_U3CU3E2__current_1(L_44);
+		__this->set_U3CU3E1__state_0(2);
+		return (bool)1;
+	}
+
+IL_0165:
+	{
+		__this->set_U3CU3E1__state_0((-1));
+		// incorrectText.SetActive(false);
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_45 = V_1;
+		NullCheck(L_45);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_46 = L_45->get_incorrectText_7();
+		NullCheck(L_46);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_46, (bool)0, /*hidden argument*/NULL);
 		// UserScript.StoreUsername("");
 		UserScript_StoreUsername_m235C83C2A95F93591A3E50DF1F52D2007F3651EE(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, /*hidden argument*/NULL);
 		// statusText.SetActive(false);
-		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_45 = V_1;
-		NullCheck(L_45);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_46 = L_45->get_statusText_8();
-		NullCheck(L_46);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_46, (bool)0, /*hidden argument*/NULL);
+		SQLHandler_tBE33B4F4F7124BC895FE82A673843D0FB7CF825B * L_47 = V_1;
+		NullCheck(L_47);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_48 = L_47->get_statusText_8();
+		NullCheck(L_48);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_48, (bool)0, /*hidden argument*/NULL);
 	}
 
-IL_0157:
+IL_018e:
 	{
 		// }
 		return (bool)0;

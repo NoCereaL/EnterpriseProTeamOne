@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - CancellationInstance
     - CancellationObjects
     - CancellationSQLHandler
+    - CheckCameraPos
     - DeskInteraction
     - ExitApplication
     - FillDropDowns
@@ -627,6 +628,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7526}
     - Class: 114
       Script: {instanceID: 8010}
+    - Class: 114
+      Script: {instanceID: 209144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -667,6 +670,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -712,6 +717,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6810}
     - Class: 114
       Script: {instanceID: 8010}
+    - Class: 114
+      Script: {instanceID: 209144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1128,6 +1135,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7526}
     - Class: 114
       Script: {instanceID: 8010}
+    - Class: 114
+      Script: {instanceID: 209144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1241,6 +1250,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7526}
     - Class: 114
       Script: {instanceID: 8010}
+    - Class: 114
+      Script: {instanceID: 209144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2432,6 +2443,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ExitApplication
+  - hash:
+      serializedVersion: 2
+      Hash: 22baf767d6388593831585338c879e19
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CheckCameraPos
   platform: 2
   scenePathNames:
   - Assets/Scenes/Login.unity
