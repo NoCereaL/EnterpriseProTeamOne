@@ -90,6 +90,8 @@ public class SQLHandler : MonoBehaviour
         {
             Debug.Log("Unsuccessfull Result: " + www.text);
             incorrectText.SetActive(true);
+            yield return new WaitForSecondsRealtime(2);
+            incorrectText.SetActive(false);
             UserScript.StoreUsername("");
             statusText.SetActive(false);
         }
