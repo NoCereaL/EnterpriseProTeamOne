@@ -287,9 +287,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollContent: {fileID: 7366075787856986009}
-  pos: 0
-  minPos: {fileID: 7366075787856986014}
-  testPos: 0
   endOject: {fileID: 0}
 --- !u!1 &7366075787240047839
 GameObject:
@@ -447,7 +444,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7366075786611467061}
   m_HandleRect: {fileID: 7366075786611467066}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

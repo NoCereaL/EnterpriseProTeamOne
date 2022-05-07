@@ -121,7 +121,7 @@ public class BookingSQLHandler : MonoBehaviour
         form.AddField("managerID", PlayerPrefs.GetString("Username"));
         form.AddField("staffID", userDropdown.captionText.text);
         form.AddField("adminID", "NULL");
-        form.AddField("date", PlayerPrefs.GetString("CurrentDate"));
+        form.AddField("date", dateDropdown.captionText.text);
         form.AddField("startTime", startDropdown.captionText.text);
         //form.AddField("endTime", endDropdown.captionText.text);
         TimeSpan startTime = new TimeSpan(Int32.Parse(startDropdown.captionText.text.Substring(0, 2)), Int32.Parse(startDropdown.captionText.text.Substring(3, 2)), 00);
@@ -159,7 +159,7 @@ public class BookingSQLHandler : MonoBehaviour
         form.AddField("managerID", "NULL");
         form.AddField("staffID", userDropdown.captionText.text);
         form.AddField("adminID", PlayerPrefs.GetString("Username"));
-        form.AddField("date", PlayerPrefs.GetString("CurrentDate"));
+        form.AddField("date", dateDropdown.captionText.text);
         form.AddField("startTime", startDropdown.captionText.text);
         //form.AddField("endTime", endDropdown.captionText.text);
         TimeSpan startTime = new TimeSpan(Int32.Parse(startDropdown.captionText.text.Substring(0, 2)), Int32.Parse(startDropdown.captionText.text.Substring(3, 2)), 00);
@@ -283,6 +283,15 @@ public class BookingSQLHandler : MonoBehaviour
             if (userDropdown.captionText.text.Substring(0,3) == "MAN")
             {
                 for (int i = 0; i < 30; i++)
+                {
+                    dropdownObjects.text = currentDate.ToString("yyyy-MM-dd").Substring(0, 10);
+                    list.Add(dropdownObjects.text);
+                    currentDate = currentDate.AddDays(1).Date;
+                }
+            }
+            if (userDropdown.captionText.text.Substring(0, 3) == "ADM")
+            {
+                for (int i = 0; i < 90; i++)
                 {
                     dropdownObjects.text = currentDate.ToString("yyyy-MM-dd").Substring(0, 10);
                     list.Add(dropdownObjects.text);
