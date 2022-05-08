@@ -31,9 +31,10 @@ public class MapToggleScript : MonoBehaviour
         if (PlayerPrefs.GetInt("3DMapToggle") == 1)
         {
             camera.orthographic = false;
-            camera.transform.rotation = Quaternion.Euler(50, 0, 0);
+            //camera.transform.rotation = Quaternion.Euler(50, 0, 0);
+            camera.transform.rotation = Quaternion.Euler(90, 0, 0);
             Vector3 defaultPos = Vector3.Lerp(transform.position, new Vector3(0, 160, -160), 0.5f);
-            camera.transform.position = new Vector3(0, 100, -50);
+            camera.transform.position = new Vector3(0, 170, -50);
             _3DButton.SetActive(false);
             _2DButton.SetActive(true);
             if (PlayerPrefs.HasKey("CameraPosX"))
@@ -50,9 +51,9 @@ public class MapToggleScript : MonoBehaviour
     public void ToggleCamera3D()
     {
         camera.orthographic = false;
-        camera.transform.rotation = Quaternion.Euler(50,0,0);
+        camera.transform.rotation = Quaternion.Euler(90,0,0);
         Vector3 defaultPos = Vector3.Lerp(transform.position, new Vector3(0, 160, -160), 0.5f);
-        camera.transform.position = new Vector3(0, 100, -50);
+        camera.transform.position = new Vector3(0, 170, -50);
         _3DButton.SetActive(false);
         _2DButton.SetActive(true);
         PlayerPrefs.SetInt("3DMapToggle", 1);

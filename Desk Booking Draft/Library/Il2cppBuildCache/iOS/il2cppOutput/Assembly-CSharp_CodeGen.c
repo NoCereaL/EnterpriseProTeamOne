@@ -392,205 +392,225 @@ extern void CheckCameraPos_Update_mAD0B2B6F71D6DECE67F10424560E4EA551BC3C18 (voi
 extern void CheckCameraPos_CheckCamera_m0C188A65C1777EE00C67F9BC0FFC96A80166FCDA (void);
 // 0x000000BE System.Void CheckCameraPos::.ctor()
 extern void CheckCameraPos__ctor_m3BFBA9C0C4C0A2B663935D7D70D62AB13106A788 (void);
-// 0x000000BF System.Void DeskInteraction::Start()
+// 0x000000BF System.Void DeactivateOnClick::Start()
+extern void DeactivateOnClick_Start_mCF502CCA021C8263ACE26D1C82F4C5631A4B781E (void);
+// 0x000000C0 System.Void DeactivateOnClick::CallDeactivateButton()
+extern void DeactivateOnClick_CallDeactivateButton_mA154C76FBE67163FF982FA4EE5DC7344025A330E (void);
+// 0x000000C1 System.Collections.IEnumerator DeactivateOnClick::DeactivateButton()
+extern void DeactivateOnClick_DeactivateButton_m532FA149596D4B7F706503CA1345B885C2AA84DC (void);
+// 0x000000C2 System.Void DeactivateOnClick::.ctor()
+extern void DeactivateOnClick__ctor_m05D5438D18184BB4ABD2DA2D9D6FDF30FF8264C3 (void);
+// 0x000000C3 System.Void DeactivateOnClick/<DeactivateButton>d__3::.ctor(System.Int32)
+extern void U3CDeactivateButtonU3Ed__3__ctor_mA31D980D2C2F9C0D13F5CFEB68B9503750244EE3 (void);
+// 0x000000C4 System.Void DeactivateOnClick/<DeactivateButton>d__3::System.IDisposable.Dispose()
+extern void U3CDeactivateButtonU3Ed__3_System_IDisposable_Dispose_mAD722662B422433D0B6B394E046C1895C3A3BDD7 (void);
+// 0x000000C5 System.Boolean DeactivateOnClick/<DeactivateButton>d__3::MoveNext()
+extern void U3CDeactivateButtonU3Ed__3_MoveNext_mC90ED5007B13FFFE7F54CEDF6DFDEC855BA0AE6F (void);
+// 0x000000C6 System.Object DeactivateOnClick/<DeactivateButton>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CDeactivateButtonU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1464EE7C2C4308FEF34EFF84C1A3C36764612247 (void);
+// 0x000000C7 System.Void DeactivateOnClick/<DeactivateButton>d__3::System.Collections.IEnumerator.Reset()
+extern void U3CDeactivateButtonU3Ed__3_System_Collections_IEnumerator_Reset_mF34B22401EAF2A397AF8082444EF091E8A6F3E26 (void);
+// 0x000000C8 System.Object DeactivateOnClick/<DeactivateButton>d__3::System.Collections.IEnumerator.get_Current()
+extern void U3CDeactivateButtonU3Ed__3_System_Collections_IEnumerator_get_Current_mF6798CCF97364DA3B31B58306673DDB81EF0919A (void);
+// 0x000000C9 System.Void DeskInteraction::Start()
 extern void DeskInteraction_Start_m9BEE05D15FC33495185A5F44B1BAD8D83A575780 (void);
-// 0x000000C0 System.Void DeskInteraction::Update()
+// 0x000000CA System.Void DeskInteraction::Update()
 extern void DeskInteraction_Update_mF26A368FA7F1B4E1B6D424F603F59D981234FE81 (void);
-// 0x000000C1 System.Collections.IEnumerator DeskInteraction::CheckPreviousBooking()
+// 0x000000CB System.Collections.IEnumerator DeskInteraction::CheckPreviousBooking()
 extern void DeskInteraction_CheckPreviousBooking_m352CD0CC4651554C610A423C6DCEB6757F1BA6BB (void);
-// 0x000000C2 System.Void DeskInteraction::.ctor()
+// 0x000000CC System.Void DeskInteraction::.ctor()
 extern void DeskInteraction__ctor_mFCC710C26C32044F22BDB057790DF681DD4DC440 (void);
-// 0x000000C3 System.Void DeskInteraction/<CheckPreviousBooking>d__7::.ctor(System.Int32)
+// 0x000000CD System.Void DeskInteraction/<CheckPreviousBooking>d__7::.ctor(System.Int32)
 extern void U3CCheckPreviousBookingU3Ed__7__ctor_m4A7A0742BD0A9B057F6B00A3AD74AAF222059569 (void);
-// 0x000000C4 System.Void DeskInteraction/<CheckPreviousBooking>d__7::System.IDisposable.Dispose()
+// 0x000000CE System.Void DeskInteraction/<CheckPreviousBooking>d__7::System.IDisposable.Dispose()
 extern void U3CCheckPreviousBookingU3Ed__7_System_IDisposable_Dispose_mF971A467CF6BD8934BDEC810CF6E81AB1248EAA4 (void);
-// 0x000000C5 System.Boolean DeskInteraction/<CheckPreviousBooking>d__7::MoveNext()
+// 0x000000CF System.Boolean DeskInteraction/<CheckPreviousBooking>d__7::MoveNext()
 extern void U3CCheckPreviousBookingU3Ed__7_MoveNext_mB493AF47019491F73F5D3B5831AAA3966DFE2DE3 (void);
-// 0x000000C6 System.Object DeskInteraction/<CheckPreviousBooking>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000000D0 System.Object DeskInteraction/<CheckPreviousBooking>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CCheckPreviousBookingU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD0FC54F5F52D80B58A42965CF1DFFF8ED73A54C0 (void);
-// 0x000000C7 System.Void DeskInteraction/<CheckPreviousBooking>d__7::System.Collections.IEnumerator.Reset()
+// 0x000000D1 System.Void DeskInteraction/<CheckPreviousBooking>d__7::System.Collections.IEnumerator.Reset()
 extern void U3CCheckPreviousBookingU3Ed__7_System_Collections_IEnumerator_Reset_m7B1D54B286CD6C63BDE63837136E8AD30A201CE3 (void);
-// 0x000000C8 System.Object DeskInteraction/<CheckPreviousBooking>d__7::System.Collections.IEnumerator.get_Current()
+// 0x000000D2 System.Object DeskInteraction/<CheckPreviousBooking>d__7::System.Collections.IEnumerator.get_Current()
 extern void U3CCheckPreviousBookingU3Ed__7_System_Collections_IEnumerator_get_Current_m2DC195CDCF90727A3EB274B212ED7CDBF164EB9D (void);
-// 0x000000C9 System.Void DeskNameScript::Start()
+// 0x000000D3 System.Void DeskNameScript::Start()
 extern void DeskNameScript_Start_m258D10242DC064828A2A3EC96F660072CD034CD4 (void);
-// 0x000000CA System.Void DeskNameScript::.ctor()
+// 0x000000D4 System.Void DeskNameScript::.ctor()
 extern void DeskNameScript__ctor_m7C0303A6E7843DC7B6ACC5487852A4E56EC55C54 (void);
-// 0x000000CB System.Void ExitApplication::Start()
+// 0x000000D5 System.Void ExitApplication::Start()
 extern void ExitApplication_Start_m75D49D4F2AFC9B2E2C0576B9CD60C36C13711B3C (void);
-// 0x000000CC System.Void ExitApplication::QuitApplication()
+// 0x000000D6 System.Void ExitApplication::QuitApplication()
 extern void ExitApplication_QuitApplication_mD936E1F3E8C70954D7FD98DAE9A600D6D8AEE363 (void);
-// 0x000000CD System.Void ExitApplication::.ctor()
+// 0x000000D7 System.Void ExitApplication::.ctor()
 extern void ExitApplication__ctor_m3176F367654E252AD107AFD189D53E453E6CD72A (void);
-// 0x000000CE System.Void HighlightScript::Start()
+// 0x000000D8 System.Void HighlightScript::Start()
 extern void HighlightScript_Start_mDD283C32E38DCFFB1841546CAADCAD727E035BBF (void);
-// 0x000000CF System.Void HighlightScript::Update()
+// 0x000000D9 System.Void HighlightScript::Update()
 extern void HighlightScript_Update_mBD00BFF72EEFEEB07FFA5323627806AB4DB3656F (void);
-// 0x000000D0 System.Void HighlightScript::.ctor()
+// 0x000000DA System.Void HighlightScript::.ctor()
 extern void HighlightScript__ctor_m5445D2F1A227526A7D018CD8C1AEE347DFC70F57 (void);
-// 0x000000D1 System.Void InfoBoxScript::Start()
+// 0x000000DB System.Void InfoBoxScript::Start()
 extern void InfoBoxScript_Start_m5F3C117921B062FFEDB9532B8F96274944886A50 (void);
-// 0x000000D2 System.Void InfoBoxScript::Update()
+// 0x000000DC System.Void InfoBoxScript::Update()
 extern void InfoBoxScript_Update_m9E97EA24FD990C6EEC2090F63EA8CD3D83880E5D (void);
-// 0x000000D3 System.Void InfoBoxScript::CastRay()
+// 0x000000DD System.Void InfoBoxScript::CastRay()
 extern void InfoBoxScript_CastRay_m9D50815914698AA48533E044B8C36F50FAE49212 (void);
-// 0x000000D4 System.Void InfoBoxScript::.ctor()
+// 0x000000DE System.Void InfoBoxScript::.ctor()
 extern void InfoBoxScript__ctor_m416C96C9E45A983E7B28AD1167F58F7369B9F070 (void);
-// 0x000000D5 System.Void InteractScript::Start()
+// 0x000000DF System.Void InteractScript::Start()
 extern void InteractScript_Start_m26D15ADA6D732C4FDFBA121EB3ADC121EB085B37 (void);
-// 0x000000D6 System.Void InteractScript::Update()
+// 0x000000E0 System.Void InteractScript::Update()
 extern void InteractScript_Update_mEF78BF25613C052382428FC39719DC654E13C556 (void);
-// 0x000000D7 System.Void InteractScript::CastRay()
+// 0x000000E1 System.Void InteractScript::CastRay()
 extern void InteractScript_CastRay_mC11720CFE7669CAF8D4306AD376C8F6A108BD6EF (void);
-// 0x000000D8 System.Void InteractScript::.ctor()
+// 0x000000E2 System.Void InteractScript::.ctor()
 extern void InteractScript__ctor_m6062DC955AF97881E4AA4B530506A21DFD580911 (void);
-// 0x000000D9 System.Void MapToggleScript::Start()
+// 0x000000E3 System.Void MapToggleScript::Start()
 extern void MapToggleScript_Start_mFAAEFCDD741F00FF229F65AE2242C1D6B6C5935A (void);
-// 0x000000DA System.Void MapToggleScript::CheckLastToggle()
+// 0x000000E4 System.Void MapToggleScript::CheckLastToggle()
 extern void MapToggleScript_CheckLastToggle_m25906BEF383753BD99CCC3869C06C283DB9886E3 (void);
-// 0x000000DB System.Void MapToggleScript::ToggleCamera3D()
+// 0x000000E5 System.Void MapToggleScript::ToggleCamera3D()
 extern void MapToggleScript_ToggleCamera3D_mDF856B5CB52CD2AE048B4C5A2AAB6DE341EA73AC (void);
-// 0x000000DC System.Void MapToggleScript::ToggleCamera2D()
+// 0x000000E6 System.Void MapToggleScript::ToggleCamera2D()
 extern void MapToggleScript_ToggleCamera2D_m925444A90D86EFA911ED81F9FB57E71069311C72 (void);
-// 0x000000DD System.Void MapToggleScript::.ctor()
+// 0x000000E7 System.Void MapToggleScript::.ctor()
 extern void MapToggleScript__ctor_mFCA5528D3E12C629D732F6133677E06430989E6E (void);
-// 0x000000DE System.Void MenuButtonScript::Start()
+// 0x000000E8 System.Void MenuButtonScript::Start()
 extern void MenuButtonScript_Start_m391E81561054652A513CD4770A8B85E7313635D9 (void);
-// 0x000000DF System.Void MenuButtonScript::.ctor()
+// 0x000000E9 System.Void MenuButtonScript::.ctor()
 extern void MenuButtonScript__ctor_mF861C0339224F90BDE443872F24555228BC3190E (void);
-// 0x000000E0 System.Void ScrollViewScript::Start()
+// 0x000000EA System.Void ScrollViewScript::Start()
 extern void ScrollViewScript_Start_mA17DEB54BCF9860C9721D95B076E8A47A9A917DC (void);
-// 0x000000E1 System.Void ScrollViewScript::Update()
+// 0x000000EB System.Void ScrollViewScript::Update()
 extern void ScrollViewScript_Update_m8CAF796A81165FBF93EFFD64685083DA625D675F (void);
-// 0x000000E2 System.Void ScrollViewScript::RestrictScrolling()
+// 0x000000EC System.Void ScrollViewScript::RestrictScrolling()
 extern void ScrollViewScript_RestrictScrolling_mB9F7450CCA2B91266B279CF5C6A5313835C15F83 (void);
-// 0x000000E3 System.Void ScrollViewScript::.ctor()
+// 0x000000ED System.Void ScrollViewScript::.ctor()
 extern void ScrollViewScript__ctor_m2369C92607295A1C24C8FA356F93DA5360ECCCB6 (void);
-// 0x000000E4 System.Void SwipeTextScript::Start()
+// 0x000000EE System.Void SwipeTextScript::Start()
 extern void SwipeTextScript_Start_mF408928FBFEEA2EBC3D8319EE4361ACD50244D54 (void);
-// 0x000000E5 System.Void SwipeTextScript::Update()
+// 0x000000EF System.Void SwipeTextScript::Update()
 extern void SwipeTextScript_Update_m41BC200740E284DB2F07069AE35AE03378AE4C2B (void);
-// 0x000000E6 System.Void SwipeTextScript::CheckPlatform()
+// 0x000000F0 System.Void SwipeTextScript::CheckPlatform()
 extern void SwipeTextScript_CheckPlatform_m7626FE7E6FC3B5CFA4CC170FEA672D66EEDD9C95 (void);
-// 0x000000E7 System.Void SwipeTextScript::.ctor()
+// 0x000000F1 System.Void SwipeTextScript::.ctor()
 extern void SwipeTextScript__ctor_mCA8C22E2D2A428D8166D904DD8249869AE663A14 (void);
-// 0x000000E8 System.Void UserScript::Start()
+// 0x000000F2 System.Void UserScript::Start()
 extern void UserScript_Start_m445AD40F0F8C60C010CBE5E9D2FFF5F75D75426F (void);
-// 0x000000E9 System.Void UserScript::Update()
+// 0x000000F3 System.Void UserScript::Update()
 extern void UserScript_Update_m808A339CD96E063844F26373B74E6C8BDFB65577 (void);
-// 0x000000EA System.Void UserScript::StoreUsername(System.String)
+// 0x000000F4 System.Void UserScript::StoreUsername(System.String)
 extern void UserScript_StoreUsername_m235C83C2A95F93591A3E50DF1F52D2007F3651EE (void);
-// 0x000000EB System.Void UserScript::GetUsername()
+// 0x000000F5 System.Void UserScript::GetUsername()
 extern void UserScript_GetUsername_m081F7C7F110843B5B2256914A1B362A15BB6A34F (void);
-// 0x000000EC System.Void UserScript::.ctor()
+// 0x000000F6 System.Void UserScript::.ctor()
 extern void UserScript__ctor_m79BD787DFB854094E1D6EFB86A3D534EB546D0ED (void);
-// 0x000000ED System.Void ViewBookingsScrollRect::Start()
+// 0x000000F7 System.Void ViewBookingsScrollRect::Start()
 extern void ViewBookingsScrollRect_Start_mBF51DA94ABCE95C99E3B8906BC61EBD2D4CDEA12 (void);
-// 0x000000EE System.Void ViewBookingsScrollRect::Update()
+// 0x000000F8 System.Void ViewBookingsScrollRect::Update()
 extern void ViewBookingsScrollRect_Update_m0AD2386C7157FBCAF8937CCC83BC1F2DF461A94F (void);
-// 0x000000EF System.Void ViewBookingsScrollRect::RestrictScrolling()
+// 0x000000F9 System.Void ViewBookingsScrollRect::RestrictScrolling()
 extern void ViewBookingsScrollRect_RestrictScrolling_m0CCAE4524E5B25C43158A888B6E68C0A2B5EE18E (void);
-// 0x000000F0 System.Void ViewBookingsScrollRect::.ctor()
+// 0x000000FA System.Void ViewBookingsScrollRect::.ctor()
 extern void ViewBookingsScrollRect__ctor_m9ECEEA5F9BD136E3C83B575F23CF752FDE551413 (void);
-// 0x000000F1 System.Void QuantumTek.QuantumUI.QUI_Bar::Start()
+// 0x000000FB System.Void QuantumTek.QuantumUI.QUI_Bar::Start()
 extern void QUI_Bar_Start_mDD362A82A6CF3985FECBEC5201DD421922C76BF2 (void);
-// 0x000000F2 System.Void QuantumTek.QuantumUI.QUI_Bar::SetFill(System.Single)
+// 0x000000FC System.Void QuantumTek.QuantumUI.QUI_Bar::SetFill(System.Single)
 extern void QUI_Bar_SetFill_m785C4363BD983E33EDCFF0A2794479E33FF7E953 (void);
-// 0x000000F3 System.Void QuantumTek.QuantumUI.QUI_Bar::.ctor()
+// 0x000000FD System.Void QuantumTek.QuantumUI.QUI_Bar::.ctor()
 extern void QUI_Bar__ctor_mE9F505ED8BF1D2C16484A12DA303B5BB79F8F8DD (void);
-// 0x000000F4 System.Void QuantumTek.QuantumUI.QUI_Element::Start()
+// 0x000000FE System.Void QuantumTek.QuantumUI.QUI_Element::Start()
 extern void QUI_Element_Start_mFB6E8F6C679C0C3DFB3BA909E66D11BD262B76DF (void);
-// 0x000000F5 System.Void QuantumTek.QuantumUI.QUI_Element::SetActive(System.Boolean)
+// 0x000000FF System.Void QuantumTek.QuantumUI.QUI_Element::SetActive(System.Boolean)
 extern void QUI_Element_SetActive_m69EDD16D6CEC4E4F11AAFB1872EF70CC957B79A1 (void);
-// 0x000000F6 System.Void QuantumTek.QuantumUI.QUI_Element::PlayAudio(System.String)
+// 0x00000100 System.Void QuantumTek.QuantumUI.QUI_Element::PlayAudio(System.String)
 extern void QUI_Element_PlayAudio_m172874EE77DFCE26E5E536446208F68CA7C4BF35 (void);
-// 0x000000F7 System.Void QuantumTek.QuantumUI.QUI_Element::.ctor()
+// 0x00000101 System.Void QuantumTek.QuantumUI.QUI_Element::.ctor()
 extern void QUI_Element__ctor_m17C568718309BB02E03522578E5CB31AC24DBDE7 (void);
-// 0x000000F8 System.Void QuantumTek.QuantumUI.QUI_ElementAnimation::Play(UnityEngine.Animator,System.Single)
+// 0x00000102 System.Void QuantumTek.QuantumUI.QUI_ElementAnimation::Play(UnityEngine.Animator,System.Single)
 extern void QUI_ElementAnimation_Play_mF0BE53389B38C050E065FF5FFCDE44EFA7E54367 (void);
-// 0x000000F9 System.Void QuantumTek.QuantumUI.QUI_ElementAnimation::Play(UnityEngine.Animator)
+// 0x00000103 System.Void QuantumTek.QuantumUI.QUI_ElementAnimation::Play(UnityEngine.Animator)
 extern void QUI_ElementAnimation_Play_m99B695F115BEA0903705FE99420C41395680D1D4 (void);
-// 0x000000FA System.Void QuantumTek.QuantumUI.QUI_ElementAnimation::.ctor()
+// 0x00000104 System.Void QuantumTek.QuantumUI.QUI_ElementAnimation::.ctor()
 extern void QUI_ElementAnimation__ctor_mF66E3B51F8B0D18A2397D85EB8A5A16896BF7C1B (void);
-// 0x000000FB System.Void QuantumTek.QuantumUI.QUI_ElementAnimationPreset::.ctor()
+// 0x00000105 System.Void QuantumTek.QuantumUI.QUI_ElementAnimationPreset::.ctor()
 extern void QUI_ElementAnimationPreset__ctor_mFDE56BB7C0F1E349380E4CD0172E721E681A62E5 (void);
-// 0x000000FC System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::PlayAnimation(QuantumTek.QuantumUI.QUI_ElementAnimation,System.Single)
+// 0x00000106 System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::PlayAnimation(QuantumTek.QuantumUI.QUI_ElementAnimation,System.Single)
 extern void QUI_ElementAnimator_PlayAnimation_m20314A5472C5F554C3A20FE9D41F6F8FD1221DF5 (void);
-// 0x000000FD System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::PlayAnimation(QuantumTek.QuantumUI.QUI_ElementAnimation)
+// 0x00000107 System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::PlayAnimation(QuantumTek.QuantumUI.QUI_ElementAnimation)
 extern void QUI_ElementAnimator_PlayAnimation_m33741BF7B44BCF72433EB62BA767B5DB3AC2F7DF (void);
-// 0x000000FE System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::PlayAnimation(System.String,System.Single)
+// 0x00000108 System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::PlayAnimation(System.String,System.Single)
 extern void QUI_ElementAnimator_PlayAnimation_m3592EA2EE2CBCC7054E84E98530D95D201D072BB (void);
-// 0x000000FF System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::PlayAnimation(System.String)
+// 0x00000109 System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::PlayAnimation(System.String)
 extern void QUI_ElementAnimator_PlayAnimation_mF6704299735CAA18FFE8D599E1DA6699057BF478 (void);
-// 0x00000100 System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::.ctor()
+// 0x0000010A System.Void QuantumTek.QuantumUI.QUI_ElementAnimator::.ctor()
 extern void QUI_ElementAnimator__ctor_m1A2D42004C178AF2DBFCD33D29C45FDB865D1B24 (void);
-// 0x00000101 System.Void QuantumTek.QuantumUI.QUI_ElementAudio::Play(System.String)
+// 0x0000010B System.Void QuantumTek.QuantumUI.QUI_ElementAudio::Play(System.String)
 extern void QUI_ElementAudio_Play_m2EBC2C1FB5DEAC73D9DA073EFF03AFDEDAD68244 (void);
-// 0x00000102 System.Void QuantumTek.QuantumUI.QUI_ElementAudio::.ctor()
+// 0x0000010C System.Void QuantumTek.QuantumUI.QUI_ElementAudio::.ctor()
 extern void QUI_ElementAudio__ctor_m2B94169605F0072E4AC95A7E5673FBE820B42278 (void);
-// 0x00000103 System.Void QuantumTek.QuantumUI.QUI_ElementAudioClip::.ctor()
+// 0x0000010D System.Void QuantumTek.QuantumUI.QUI_ElementAudioClip::.ctor()
 extern void QUI_ElementAudioClip__ctor_m8A4E592BFF603343145638450EEB84003850F75D (void);
-// 0x00000104 System.Void QuantumTek.QuantumUI.QUI_ElementAudioPreset::.ctor()
+// 0x0000010E System.Void QuantumTek.QuantumUI.QUI_ElementAudioPreset::.ctor()
 extern void QUI_ElementAudioPreset__ctor_m00989F8246624048DA8F521347D3F47DB6D5875B (void);
-// 0x00000105 System.Void QuantumTek.QuantumUI.QUI_Menu::.ctor()
+// 0x0000010F System.Void QuantumTek.QuantumUI.QUI_Menu::.ctor()
 extern void QUI_Menu__ctor_m1DA0F199B949561D3CD918DF734C20D615C51160 (void);
-// 0x00000106 System.Void QuantumTek.QuantumUI.QUI_OptionList::Awake()
+// 0x00000110 System.Void QuantumTek.QuantumUI.QUI_OptionList::Awake()
 extern void QUI_OptionList_Awake_mABCE217DD6C67735E22CF9EB63A04E36FF25BC96 (void);
-// 0x00000107 System.Void QuantumTek.QuantumUI.QUI_OptionList::SetOption(System.Int32)
+// 0x00000111 System.Void QuantumTek.QuantumUI.QUI_OptionList::SetOption(System.Int32)
 extern void QUI_OptionList_SetOption_mA4C6F2E8F394D115F60343E8F4FF9BDBED3133DE (void);
-// 0x00000108 System.Void QuantumTek.QuantumUI.QUI_OptionList::ChangeOption(System.Int32)
+// 0x00000112 System.Void QuantumTek.QuantumUI.QUI_OptionList::ChangeOption(System.Int32)
 extern void QUI_OptionList_ChangeOption_m0F5DD145EE760D5FA1EFEC2691A3AEB03AAAA084 (void);
-// 0x00000109 System.Void QuantumTek.QuantumUI.QUI_OptionList::.ctor()
+// 0x00000113 System.Void QuantumTek.QuantumUI.QUI_OptionList::.ctor()
 extern void QUI_OptionList__ctor_m3A7C966E94C3D75755FFBF70CA7CF2A32CC3010A (void);
-// 0x0000010A System.Void QuantumTek.QuantumUI.QUI_SceneTransition::Awake()
+// 0x00000114 System.Void QuantumTek.QuantumUI.QUI_SceneTransition::Awake()
 extern void QUI_SceneTransition_Awake_m7268737998EE980877A8F0371E8644DC512584B2 (void);
-// 0x0000010B System.Void QuantumTek.QuantumUI.QUI_SceneTransition::StartLoad()
+// 0x00000115 System.Void QuantumTek.QuantumUI.QUI_SceneTransition::StartLoad()
 extern void QUI_SceneTransition_StartLoad_mDD1319454768C141F379A620D086D668BB9A41CE (void);
-// 0x0000010C System.Void QuantumTek.QuantumUI.QUI_SceneTransition::LoadScene(System.String)
+// 0x00000116 System.Void QuantumTek.QuantumUI.QUI_SceneTransition::LoadScene(System.String)
 extern void QUI_SceneTransition_LoadScene_mB2AF4D354CD336AD159CEBE58FDBDE70C2315438 (void);
-// 0x0000010D System.Collections.IEnumerator QuantumTek.QuantumUI.QUI_SceneTransition::LoadSceneAsync(System.String)
+// 0x00000117 System.Collections.IEnumerator QuantumTek.QuantumUI.QUI_SceneTransition::LoadSceneAsync(System.String)
 extern void QUI_SceneTransition_LoadSceneAsync_m3C387DF9FB2522215704A61B5CFE1E995366D063 (void);
-// 0x0000010E System.Void QuantumTek.QuantumUI.QUI_SceneTransition::.ctor()
+// 0x00000118 System.Void QuantumTek.QuantumUI.QUI_SceneTransition::.ctor()
 extern void QUI_SceneTransition__ctor_mA2028263F34DAF1BA9714781CC822A58A0A36DDC (void);
-// 0x0000010F System.Void QuantumTek.QuantumUI.QUI_SceneTransition::.cctor()
+// 0x00000119 System.Void QuantumTek.QuantumUI.QUI_SceneTransition::.cctor()
 extern void QUI_SceneTransition__cctor_m963EA794261D3A362B7B489ED66D80B35EFEE351 (void);
-// 0x00000110 System.Void QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::.ctor(System.Int32)
+// 0x0000011A System.Void QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::.ctor(System.Int32)
 extern void U3CLoadSceneAsyncU3Ed__11__ctor_m2A1B6F6D42DF6CF2887623CF7641F7AEC5D5B396 (void);
-// 0x00000111 System.Void QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::System.IDisposable.Dispose()
+// 0x0000011B System.Void QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::System.IDisposable.Dispose()
 extern void U3CLoadSceneAsyncU3Ed__11_System_IDisposable_Dispose_m0947C33803A0510C0A3D34D07246B62EB7965825 (void);
-// 0x00000112 System.Boolean QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::MoveNext()
+// 0x0000011C System.Boolean QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::MoveNext()
 extern void U3CLoadSceneAsyncU3Ed__11_MoveNext_mAA59F2E1CD4BF0745BBAA8FB44E9D010BC2CF8EB (void);
-// 0x00000113 System.Object QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000011D System.Object QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CLoadSceneAsyncU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m34F0E6C3B6FF5B99009E17E069DE715F20E04A88 (void);
-// 0x00000114 System.Void QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::System.Collections.IEnumerator.Reset()
+// 0x0000011E System.Void QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::System.Collections.IEnumerator.Reset()
 extern void U3CLoadSceneAsyncU3Ed__11_System_Collections_IEnumerator_Reset_m5F5E2CC25FFF7440DBD996DEC6F29D32BE64CF3E (void);
-// 0x00000115 System.Object QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::System.Collections.IEnumerator.get_Current()
+// 0x0000011F System.Object QuantumTek.QuantumUI.QUI_SceneTransition/<LoadSceneAsync>d__11::System.Collections.IEnumerator.get_Current()
 extern void U3CLoadSceneAsyncU3Ed__11_System_Collections_IEnumerator_get_Current_mA972EE6BD93ADA6368B8C4D6B929B6B8EB948C94 (void);
-// 0x00000116 System.Void QuantumTek.QuantumUI.QUI_SwitchToggle::SetToggleGraphic()
+// 0x00000120 System.Void QuantumTek.QuantumUI.QUI_SwitchToggle::SetToggleGraphic()
 extern void QUI_SwitchToggle_SetToggleGraphic_m6D776F656D0A0937F6FE5425DD9299A06857BA6A (void);
-// 0x00000117 System.Void QuantumTek.QuantumUI.QUI_SwitchToggle::.ctor()
+// 0x00000121 System.Void QuantumTek.QuantumUI.QUI_SwitchToggle::.ctor()
 extern void QUI_SwitchToggle__ctor_mA0631C56F1910D3B03E155700C6880BBA7E7AFE9 (void);
-// 0x00000118 System.Void QuantumTek.QuantumUI.QUI_Tab::SetActive(System.Boolean)
+// 0x00000122 System.Void QuantumTek.QuantumUI.QUI_Tab::SetActive(System.Boolean)
 extern void QUI_Tab_SetActive_m9CE8EF32C1C15F2CD79BB12B56DFF1886D74E177 (void);
-// 0x00000119 System.Void QuantumTek.QuantumUI.QUI_Tab::.ctor()
+// 0x00000123 System.Void QuantumTek.QuantumUI.QUI_Tab::.ctor()
 extern void QUI_Tab__ctor_m176168A12B8377BCBC490B3CC1358657594ED7BE (void);
-// 0x0000011A System.Void QuantumTek.QuantumUI.QUI_TabGroup::Awake()
+// 0x00000124 System.Void QuantumTek.QuantumUI.QUI_TabGroup::Awake()
 extern void QUI_TabGroup_Awake_m9D15FF161A45A8902B17F88EFBBBE2E6AC56878B (void);
-// 0x0000011B System.Void QuantumTek.QuantumUI.QUI_TabGroup::Update()
+// 0x00000125 System.Void QuantumTek.QuantumUI.QUI_TabGroup::Update()
 extern void QUI_TabGroup_Update_m4460344691D70CA952D2576BAC5CE8C0869BB1A2 (void);
-// 0x0000011C System.Void QuantumTek.QuantumUI.QUI_TabGroup::SetWindow(QuantumTek.QuantumUI.QUI_TabWindow)
+// 0x00000126 System.Void QuantumTek.QuantumUI.QUI_TabGroup::SetWindow(QuantumTek.QuantumUI.QUI_TabWindow)
 extern void QUI_TabGroup_SetWindow_mC589C9DE927339D731FB01DF1EB3073904A20591 (void);
-// 0x0000011D System.Void QuantumTek.QuantumUI.QUI_TabGroup::AlignTabs(QuantumTek.QuantumUI.QUI_TabAlign)
+// 0x00000127 System.Void QuantumTek.QuantumUI.QUI_TabGroup::AlignTabs(QuantumTek.QuantumUI.QUI_TabAlign)
 extern void QUI_TabGroup_AlignTabs_m1395185EE71B8775B3D9ED0A68A73EF3D3D53047 (void);
-// 0x0000011E System.Void QuantumTek.QuantumUI.QUI_TabGroup::.ctor()
+// 0x00000128 System.Void QuantumTek.QuantumUI.QUI_TabGroup::.ctor()
 extern void QUI_TabGroup__ctor_m03B7FB50B728121F2C7A0B30E89EC8FAB7688AA6 (void);
-// 0x0000011F System.Void QuantumTek.QuantumUI.QUI_TabWindow::SetActive(System.Boolean)
+// 0x00000129 System.Void QuantumTek.QuantumUI.QUI_TabWindow::SetActive(System.Boolean)
 extern void QUI_TabWindow_SetActive_m7D7121BEA72EC2A7E0D5B12A0224984C7047EB94 (void);
-// 0x00000120 System.Void QuantumTek.QuantumUI.QUI_TabWindow::.ctor()
+// 0x0000012A System.Void QuantumTek.QuantumUI.QUI_TabWindow::.ctor()
 extern void QUI_TabWindow__ctor_m52326671E24DF98EB2C6CD9D9B013BC57E3D0E76 (void);
-// 0x00000121 System.Void QuantumTek.QuantumUI.QUI_Window::.ctor()
+// 0x0000012B System.Void QuantumTek.QuantumUI.QUI_Window::.ctor()
 extern void QUI_Window__ctor_m5C75F4632EC0504576373C0A1BCD9098CEE2C8F8 (void);
-static Il2CppMethodPointer s_methodPointers[289] = 
+static Il2CppMethodPointer s_methodPointers[299] = 
 {
 	AdminMenuScript_Registration_m45AE2AD1C5F860D7025C87CE7A73539C4FD280FE,
 	AdminMenuScript_Map_mECB5ABC32FAC08B2FC708D253D1984B9ED2CB42A,
@@ -782,6 +802,16 @@ static Il2CppMethodPointer s_methodPointers[289] =
 	CheckCameraPos_Update_mAD0B2B6F71D6DECE67F10424560E4EA551BC3C18,
 	CheckCameraPos_CheckCamera_m0C188A65C1777EE00C67F9BC0FFC96A80166FCDA,
 	CheckCameraPos__ctor_m3BFBA9C0C4C0A2B663935D7D70D62AB13106A788,
+	DeactivateOnClick_Start_mCF502CCA021C8263ACE26D1C82F4C5631A4B781E,
+	DeactivateOnClick_CallDeactivateButton_mA154C76FBE67163FF982FA4EE5DC7344025A330E,
+	DeactivateOnClick_DeactivateButton_m532FA149596D4B7F706503CA1345B885C2AA84DC,
+	DeactivateOnClick__ctor_m05D5438D18184BB4ABD2DA2D9D6FDF30FF8264C3,
+	U3CDeactivateButtonU3Ed__3__ctor_mA31D980D2C2F9C0D13F5CFEB68B9503750244EE3,
+	U3CDeactivateButtonU3Ed__3_System_IDisposable_Dispose_mAD722662B422433D0B6B394E046C1895C3A3BDD7,
+	U3CDeactivateButtonU3Ed__3_MoveNext_mC90ED5007B13FFFE7F54CEDF6DFDEC855BA0AE6F,
+	U3CDeactivateButtonU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1464EE7C2C4308FEF34EFF84C1A3C36764612247,
+	U3CDeactivateButtonU3Ed__3_System_Collections_IEnumerator_Reset_mF34B22401EAF2A397AF8082444EF091E8A6F3E26,
+	U3CDeactivateButtonU3Ed__3_System_Collections_IEnumerator_get_Current_mF6798CCF97364DA3B31B58306673DDB81EF0919A,
 	DeskInteraction_Start_m9BEE05D15FC33495185A5F44B1BAD8D83A575780,
 	DeskInteraction_Update_mF26A368FA7F1B4E1B6D424F603F59D981234FE81,
 	DeskInteraction_CheckPreviousBooking_m352CD0CC4651554C610A423C6DCEB6757F1BA6BB,
@@ -882,7 +912,7 @@ static Il2CppMethodPointer s_methodPointers[289] =
 	QUI_TabWindow__ctor_m52326671E24DF98EB2C6CD9D9B013BC57E3D0E76,
 	QUI_Window__ctor_m5C75F4632EC0504576373C0A1BCD9098CEE2C8F8,
 };
-static const int32_t s_InvokerIndices[289] = 
+static const int32_t s_InvokerIndices[299] = 
 {
 	2293,
 	2293,
@@ -1086,6 +1116,16 @@ static const int32_t s_InvokerIndices[289] =
 	2230,
 	2293,
 	2293,
+	2230,
+	2293,
+	1880,
+	2293,
+	2259,
+	2230,
+	2293,
+	2230,
+	2293,
+	2293,
 	2293,
 	2293,
 	2293,
@@ -1179,7 +1219,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	289,
+	299,
 	s_methodPointers,
 	0,
 	NULL,
