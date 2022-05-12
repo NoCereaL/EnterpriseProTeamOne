@@ -69,6 +69,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector3
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
@@ -2493,4 +2495,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/AdminRegistration.unity
   - Assets/Scenes/AdminMenu.unity
   - Assets/Scenes/MainMenu.unity
-  playerPath: /Users/simonkm/Documents/Unity Builds 2022/EPTeam1iOSFinal
+  playerPath: /Users/simonkm/Documents/Unity Builds 2022/EPTeam1iOSFinalV2
